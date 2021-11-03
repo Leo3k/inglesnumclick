@@ -111,7 +111,7 @@ include('verifica_login.php');
                             </div> <!-- navbar collapse -->
                             
                             <div class="navbar-btn d-none d-sm-inline-block">
-                               <p><a class="main-btn" data-scroll-nav="0" href="#pricing"><?php echo $_SESSION['usuario']; ?></a><a href="logout.php">Exit</a></p>
+                               <p><a class="main-btn" data-scroll-nav="0" href="#pricing"><?php echo $_SESSION['usuario']; ?></a><a class="btn" style="color:aqua" href="logout.php">Sair</a></p>
                             </div>
                         </nav> <!-- navbar -->
                     </div>
@@ -124,10 +124,11 @@ include('verifica_login.php');
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="header-hero-content text-center">
-                            <h3 class="header-sub-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Teacher Leo</h3>
-                            <h2 class="header-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">Novo Site Para Alunos</h2>
+                            <h3 class="header-sub-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s" style="color:yellow">Teacher Leo</h3><br>
+                            <h5 class="header-sub-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">Novo Site Para Alunos</h5><br>
+                            <h2 class="header-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.6s" style="color:aqua">Welcome <?php echo $_SESSION['usuario']; ?>!</h2>
                             <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">Faça o download do PDF das aulas, resolva exercícios extras, e controle suas aulas.</p>
-                            <!-- <a href="#" class="main-btn wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">Get Started</a> -->
+                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.0s"><a style="color:aqua" href="logout.php">Sair</a></p>
                         </div> <!-- header hero content -->
                     </div>
                 </div> <!-- row -->
@@ -189,46 +190,43 @@ include('verifica_login.php');
             </div> <!-- row -->
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-7 col-sm-8">
-                    <div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <!--<div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                         <div class="services-icon">
-                            <img class="shape" src="assets/images/services-shape.svg" alt="shape">
-                            <img class="shape-1" src="assets/images/services-shape-1.svg" alt="shape">
-                            <i class="lni-baloon"></i>
+                            <img class="shape" src="assets/images/triangle.png" style="width:120px" alt="shape">
+                            <img class="shape-1" src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="shape">
                         </div>
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a href="#">Aula Anterior</a></h4>
-                            <p class="text">Descrição da aula e data.</p>
-                            <a class="more" href="#">Download <i class="lni-chevron-right"></i></a>
+                            <p class="text">When bad means good</p>
+                            <a class="more" href="assets/classes/When-bad-means-good.pdf">Download <i class="lni-chevron-right"></i></a>
                         </div>
-                    </div> <!-- single services -->
+                    </div> -->
                 </div>
                 <div class="col-lg-4 col-md-7 col-sm-8">
                     <div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                         <div class="services-icon">
-                            <img class="shape" src="assets/images/services-shape.svg" alt="shape">
-                            <img class="shape-1" src="assets/images/services-shape-2.svg" alt="shape">
-                            <i class="lni-cog"></i>
+                            <img class="shape" src="assets/images/triangle.png" style="width:120px" alt="shape">
+                            <img class="shape-1" src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="shape">
                         </div>
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a href="#">Aula Atual</a></h4>
-                            <p class="text">Descrição da aula e data.</p>
-                            <a class="more" href="#">Download <i class="lni-chevron-right"></i></a>
+                            <p class="text">When bad means good</p>
+                            <a class="more" href="assets/classes/When-bad-means-good.pdf">Download <i class="lni-chevron-right"></i></a>
                         </div>
-                    </div> <!-- single services -->
+                    </div> 
                 </div>
                 <div class="col-lg-4 col-md-7 col-sm-8">
-                    <div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
+                    <!--<div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
                         <div class="services-icon">
-                            <img class="shape" src="assets/images/services-shape.svg" alt="shape">
-                            <img class="shape-1" src="assets/images/services-shape-3.svg" alt="shape">
-                            <i class="lni-bolt-alt"></i>
+                            <img class="shape" src="assets/images/triangle.png" style="width:120px" alt="shape">
+                            <img class="shape-1" src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="shape">
                         </div>
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a href="#">Próxima Aula</a></h4>
-                            <p class="text">Descrição da aula e data.</p>
-                            <a class="more" href="#">Download <i class="lni-chevron-right"></i></a>
+                            <p class="text">When bad means good.</p>
+                            <a class="more" href="assets/classes/When-bad-means-good.pdf">Download <i class="lni-chevron-right"></i></a>
                         </div>
-                    </div> <!-- single services -->
+                    </div> -->
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
@@ -253,7 +251,7 @@ include('verifica_login.php');
                 </div>
                 <div class="col-lg-6">
                     <div class="about-image text-center mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="assets/images/about1.svg" alt="about">
+                        <img src="assets/images/extra.jpg" alt="about" style="border-radius:5px">
                     </div> <!-- about image -->
                 </div>
             </div> <!-- row -->
@@ -335,7 +333,7 @@ include('verifica_login.php');
                         <img class="dots" src="assets/images/dots.svg" alt="dots">
                         <div class="video-wrapper">
                             <div class="video-image">
-                                <img src="assets/images/video.png" alt="video">
+                                <img src="assets/images/video.jpg" alt="video">
                             </div>
                             <div class="video-icon">
                                 <a href="https://www.youtube.com/watch?v=r44RKWyfcFw" class="video-popup"><i class="lni-play"></i></a>
@@ -398,6 +396,37 @@ include('verifica_login.php');
                         <div class="line m-auto"></div>
                         <h3 class="title"><span>Aulas <br></span> Acompanhe suas aulas.</h3>
                         <br><br><br><h4>Inserir tabela com aulas aqui.</h4>
+                        <table class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                <th>*</th>
+                                <th>Dia</th>
+                                <th>Data</th>
+                                <th>Assunto</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <th>Penúltima aula</th>
+                                <td>Wednesday</td>
+                                <td>October 27th</td>
+                                <td>Present Continuous page 3</td>
+                                </tr>
+                                <tr>
+                                <th>Última aula</th>
+                                <td>Friday</td>
+                                <td>October 29th</td>
+                                <td>Present Continuous page 4</td>
+                                </tr>
+                                <tr style="color:red;">
+                                <th>Próxima aula</th>
+                                <td>Monday</td>
+                                <td>November 1st</td>
+                                <td>Present Continuous page 5</td>
+                                </tr>
+                            </tbody>
+                            </table>
+                            <a class="main-btn" data-scroll-nav="0" href="#">Clique aqui para ver todas as aulas</a>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
