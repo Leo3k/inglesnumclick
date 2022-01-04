@@ -100,7 +100,7 @@ include('verifica_login.php');
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="logout.php">Sair</a>
-                                    </li>
+                                    </li> 
                                 </ul>
                             </div> <!-- navbar collapse -->
                             

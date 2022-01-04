@@ -167,7 +167,7 @@ include('verifica_login.php');
                             <a class="more" href="assets/classes/3-25.pdf">Download <i class="lni-chevron-right"></i></a>
                             <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank;" style="text-decoration:none; font-size:12px; color:black" href="https://us05web.zoom.us/j/82729843453?pwd=U0pHOWloeXAwQjBtT0w2ek93UHhyZz09">Seu link da aula</a></p>
                         </div>
-                    </div> 
+                    </div>  
                 </div>
                 <div class="col-lg-4 col-md-7 col-sm-8">
                     

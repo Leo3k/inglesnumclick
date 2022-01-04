@@ -106,7 +106,7 @@ include('verifica_login.php');
                             
                             <div class="navbar-btn d-none d-sm-inline-block">
                                <p><a class="main-btn" data-scroll-nav="0" href="gui.php"><?php echo $_SESSION['usuario']; ?></a></p>
-                            </div>
+                            </div> 
                         </nav> <!-- navbar -->
                     </div>
                 </div> <!-- row -->
