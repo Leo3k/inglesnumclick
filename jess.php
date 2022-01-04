@@ -147,7 +147,7 @@ include('verifica_login.php');
                 <div class="col-lg-10">
                     <div class="section-title text-center pb-40">
                         <div class="line m-auto"></div>
-                        <h3 class="title">Material para a próxima aula. <span> Faça o download!</span></h3>
+                        <h3 class="title">Material para next class. <span> Faça o download!</span></h3>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
