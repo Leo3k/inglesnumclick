@@ -79,7 +79,7 @@ include('verifica_login.php');
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-bran" href="gui.php">
+                            <a class="navbar-bran" href="vini.php">
                                 <img src="assets/images/logo1.png" alt="Logo">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -97,10 +97,10 @@ include('verifica_login.php');
                                         <a class="page-scroll" href="#features">Next Class</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="gui_class.php">All Classes</a>
+                                        <a class="page-scroll" href="vini_class.php">All Classes</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="gui_pay.php">Pagamento</a>
+                                        <a class="page-scroll" href="vini_pay.php">Pagamento</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="logout.php">Sair</a>
@@ -163,11 +163,11 @@ include('verifica_login.php');
                         </div>
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a href="#">Aula Atual</a></h4>
-                            <p class="text">Things I have done</p>
-                            <a class="more" href="assets/classes/3-25.pdf">Download <i class="lni-chevron-right"></i></a>
-                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank;" style="text-decoration:none; font-size:12px; color:black" href="https://us05web.zoom.us/j/86035479418?pwd=Y1Y3MEt3TEcxYWg1R0FuWXk2WGoyQT09">Seu link da aula</a></p>
+                            <p class="text">Where Things Are Part 2 06/01</p>
+                            <a class="more" href="assets/classes/3-3.pdf">Download <i class="lni-chevron-right"></i></a>
+                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank" style="text-decoration:none; font-size:12px; color:black" href="https://us05web.zoom.us/j/85688101960?pwd=WWEyQ2xDbmxYam1qaVZGMEc1cWNWQT09">Seu link da aula</a></p>
                         </div>
-                    </div>  
+                    </div> 
                 </div>
                 <div class="col-lg-4 col-md-7 col-sm-8">
                     

@@ -162,10 +162,10 @@ include('verifica_login.php');
                             <img class="shape-1" src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="shape">
                         </div>
                         <div class="services-content mt-30">
-                            <h4 class="services-title"><a href="#">Aula Atual</a></h4>
-                            <p class="text">Where Things Are</p>
-                            <a class="more" href="assets/classes/3-3.pdf">Download <i class="lni-chevron-right"></i></a>
-                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank" style="text-decoration:none; font-size:12px; color:black" href="https://us05web.zoom.us/j/81598884867?pwd=MXoreVA4bDRwZjlUL3E1U0pmTVVnZz09">Seu link da aula</a></p>
+                            <h4 class="services-title"><a href="#">Aula Atual 06/01</a></h4>
+                            <p class="text">Numbers and Statistics</p>
+                            <a class="more" href="assets/classes/3-4.pdf">Download <i class="lni-chevron-right"></i></a>
+                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank" style="text-decoration:none; font-size:12px; color:black" href="https://us05web.zoom.us/j/82080264937?pwd=TEU4VGRuNnc2L2UwQ1pnYzJ4U0Fodz09">Seu link da aula</a></p>
                         </div>
                     </div> 
                 </div>

@@ -147,7 +147,7 @@ include('verifica_login.php');
                 <div class="col-lg-10">
                     <div class="section-title text-center pb-40">
                         <div class="line m-auto"></div>
-                        <h3 class="title">Material para next class. <span> Faça o download!</span></h3>
+                        <h3 class="title">Material para a próxima aula. <span> Faça o download!</span></h3>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
@@ -162,10 +162,10 @@ include('verifica_login.php');
                             <img class="shape-1" src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="shape">
                         </div>
                         <div class="services-content mt-30">
-                            <h4 class="services-title"><a href="#">Aula Atual</a></h4>
-                            <p class="text">Telling the time</p>
-                            <a class="more" href="assets/classes/1-11_12.pdf">Download <i class="lni-chevron-right"></i></a>
-                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank;" style="text-decoration:none; font-size:12px; color:black" href="https://us05web.zoom.us/j/82479699623?pwd=OEt0RDgycHAzN1U0Q2RyejdyMU8zQT09">Seu link da aula</a></p>
+                            <h4 class="services-title"><a href="#">Aula Atual 06/01</a></h4>
+                            <p class="text">Vocabulary</p>
+                            <a class="more" href="assets/classes/1-12.pdf">Download <i class="lni-chevron-right"></i></a>
+                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank;" style="text-decoration:none; font-size:12px; color:black" href="https://us05web.zoom.us/j/84596937741?pwd=M3hQVk80YWhsTVBOSlFjd3ZXK0tPUT09">Seu link da aula</a></p>
                         </div>
                     </div> 
                 </div>

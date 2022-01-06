@@ -96,7 +96,7 @@ include('verifica_login.php');
                                         <a class="page-scroll" href="jess_class.php">All classes</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="jess_pay.php">Pagamento</a>
+                                        <a class="page-scroll" href="jess_pay.php">Payment</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="logout.php">Sair</a>
@@ -134,13 +134,13 @@ include('verifica_login.php');
                                 <tr>
                                 <th>04/01</th>
                                 <td>Telling the Time</td>
-                                <td><a class="more" href="assets/classes/1-11_12.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/1-11.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a class="more" href="quiz_time.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a>&nbsp;&nbsp;<a class="more" href="vide.php"><img src="https://i.ibb.co/v4bzb7F/botao-play.png" alt="video" height="25px" width="25px"></a></td>
                                 </tr>
                                 <tr>
                                 <th>06/01</th>
-                                <td>.</td>
-                                <td><a class="more" href="assets/classes/1-11_12.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td>Vocabulary</td>
+                                <td><a class="more" href="assets/classes/1-12.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a class="more" href="qui.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a>&nbsp;&nbsp;<a class="more" href="vide.php"><img src="https://i.ibb.co/v4bzb7F/botao-play.png" alt="video" height="25px" width="25px"></td>
                                 </tr>
                                 <th>11/01</th>

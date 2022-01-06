@@ -27,11 +27,11 @@ switch ($usuario) {
       
     break;
   case 'Allan':
-      header('Location: home.php');
+      header('Location: allan.php');
       
     break;
   case "Tamires":
-      header('Location: home.php');
+      header('Location: tamires.php');
       
     break;
   case "Jessica":
@@ -43,43 +43,43 @@ switch ($usuario) {
       
     break;
   case "Kainan":
-      header('Location: home.php');
+      header('Location: kainan.php');
       
     break;
   case "Romulo":
-    header('Location: home.php');
+    header('Location: romulo.php');
     
     break;
   case "Cesar":
-      header('Location: home.php');
+      header('Location: cesar.php');
       
     break;
   case "Edicarlos":
-      header('Location: home.php');
+      header('Location: edi.php');
       
     break;
   case "Adilson":
-      header('Location: home.php');
+      header('Location: adilson.php');
       
     break;
   case "Eli":
-      header('Location: home.php');
+      header('Location: eli.php');
       
     break;
   case "Allife":
-      header('Location: home.php');
+      header('Location: allife.php');
       
     break;
   case "Gi":
-      header('Location: home.php');
+      header('Location: gi.php');
       
     break;
   case "Raoni":
-      header('Location: home.php');
+      header('Location: raoni.php');
       
     break;
   case "Vini":
-      header('Location: home.php');
+      header('Location: vini.php');
       
     break;
   default:
