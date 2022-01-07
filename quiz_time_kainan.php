@@ -121,9 +121,9 @@ include('verifica_login.php');
                             <h3 class="header-sub-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s" style="color:yellow"><?php echo $_SESSION['usuario']; ?></h3>             
         <div class="container">
                         <h3 class="title" style="color:aliceblue">Quiz</h3><br><br>
-                        <iframe scrolling="no" src="http://www.quiz-maker.com/QC5FWGXSQ" width="98%" height="600vw" style="border:1px solid black;">
+                        <iframe scrolling="no" src="https://www.quiz-maker.com/QC5FWGXSQ" width="98%" height="600vw" style="border:1px solid black;">
             </iframe>
-            <p> Não abriu? Então, é só clicar <a href="http://www.quiz-maker.com/QC5FWGXSQ" target="_blank">AQUI</a>
+            <p> Não abriu? Então, é só clicar <a href="https://www.quiz-maker.com/QC5FWGXSQ" target="_blank">AQUI</a>
         </div>
       
                         </div> <!-- header hero content -->
