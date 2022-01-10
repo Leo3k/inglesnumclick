@@ -134,18 +134,31 @@ include('verifica_login.php');
                                 <tr>
                                 <th>04/01</th>
                                 <td>Telling the Time</td>
-                                <td><a class="more" href="assets/classes/1-11.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td><a class="more" target="_blank" href="assets/classes/1-11.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a class="more" href="quiz_time.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a>&nbsp;&nbsp;<a class="more" href="vide.php"><img src="https://i.ibb.co/v4bzb7F/botao-play.png" alt="video" height="25px" width="25px"></a></td>
                                 </tr>
                                 <tr>
                                 <th>06/01</th>
                                 <td>Vocabulary</td>
-                                <td><a class="more" href="assets/classes/1-12.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td><a class="more" target="_blank" href="assets/classes/1-12.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="quiz_vocab_jess.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a>&nbsp;&nbsp;<a class="more" href="vide.php"><img src="https://i.ibb.co/v4bzb7F/botao-play.png" alt="video" height="25px" width="25px"></td>
+                                </tr>
+                                <tr>
+                                <th>11/01</th>
+                                <td>Describing your day</td>
+                                <td><a class="more" target="_blank" href="assets/classes/1-13.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a class="more" href="qui.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a>&nbsp;&nbsp;<a class="more" href="vide.php"><img src="https://i.ibb.co/v4bzb7F/botao-play.png" alt="video" height="25px" width="25px"></td>
                                 </tr>
-                                <th>11/01</th>
+                                <tr>
+                                <th>13/01</th>
                                 <td>.</td>
-                                <td><a class="more" href="assets/classes/1-11_12.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td><a class="more" target="_blank" href="assets/classes/1-14.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="qui.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a>&nbsp;&nbsp;<a class="more" href="vide.php"><img src="https://i.ibb.co/v4bzb7F/botao-play.png" alt="video" height="25px" width="25px"></td>
+                                </tr>
+                                <tr>
+                                <th>18/01</th>
+                                <td>.</td>
+                                <td><a class="more" target="_blank" href="assets/classes/1-15.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a class="more" href="qui.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a>&nbsp;&nbsp;<a class="more" href="vide.php"><img src="https://i.ibb.co/v4bzb7F/botao-play.png" alt="video" height="25px" width="25px"></td>
                                 </tr>
                             </tbody>
