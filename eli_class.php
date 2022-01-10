@@ -78,7 +78,7 @@ include('verifica_login.php');
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-bran" href="tamires.php">
+                            <a class="navbar-bran" href="eli.php">
                                 <img src="assets/images/logo1.png" alt="Logo">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,13 +90,13 @@ include('verifica_login.php');
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" class="navbar-nav ml-auto">
                                     <li class="nav-item active">
-                                        <a class="page-scroll" href="tamires.php">Home</a>
+                                        <a class="page-scroll" href="eli.php">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="tamires_class.php">All classes</a>
+                                        <a class="page-scroll" href="eli_class.php">All classes</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="tamires_pay.php">Pagamento</a>
+                                        <a class="page-scroll" href="eli_pay.php">Pagamento</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="logout.php">Sair</a>
@@ -105,7 +105,7 @@ include('verifica_login.php');
                             </div> <!-- navbar collapse -->
                             
                             <div class="navbar-btn d-none d-sm-inline-block">
-                               <p><a class="main-btn" data-scroll-nav="0" href="tamires.php"><?php echo $_SESSION['usuario']; ?></a></p>
+                               <p><a class="main-btn" data-scroll-nav="0" href="eli.php"><?php echo $_SESSION['usuario']; ?></a></p>
                             </div>
                         </nav> <!-- navbar -->
                     </div>
@@ -132,20 +132,20 @@ include('verifica_login.php');
                             </thead>
                             <tbody>
                                 <tr>
-                                <th>05/01</th>
-                                <td>Introducing Yourself</td>
-                                <td><a class="more" href="assets/classes/1-1_2.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_name_t.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a>&nbsp;&nbsp;<a class="more" href="vide.php"><img src="https://i.ibb.co/v4bzb7F/botao-play.png" alt="video" height="25px" width="25px"></a></td>
+                                <th>10/01</th>
+                                <td>Vocabulary</td>
+                                <td><a class="more" href="assets/classes/3-12_13.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="qui.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a>&nbsp;&nbsp;<a class="more" href="vide.php"><img src="https://i.ibb.co/v4bzb7F/botao-play.png" alt="video" height="25px" width="25px"></a></td>
                                 </tr>
                                 <tr>
-                                <th>10/01</th>
-                                <td>Talking about yourself</td>
-                                <td><a class="more" href="assets/classes/1-3.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <th>11/01</th>
+                                <td></td>
+                                <td><a class="more" href="assets/classes/.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a class="more" href="qui.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a>&nbsp;&nbsp;<a class="more" href="vide.php"><img src="https://i.ibb.co/v4bzb7F/botao-play.png" alt="video" height="25px" width="25px"></td>
                                 </tr>
                                 <th>12/01</th>
                                 <td>.</td>
-                                <td><a class="more" href="assets/classes/1-1_2.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a class="more" href="qui.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a>&nbsp;&nbsp;<a class="more" href="vide.php"><img src="https://i.ibb.co/v4bzb7F/botao-play.png" alt="video" height="25px" width="25px"></td>
                                 </tr>
                             </tbody>
