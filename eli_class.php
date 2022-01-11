@@ -134,13 +134,13 @@ include('verifica_login.php');
                                 <tr>
                                 <th>10/01</th>
                                 <td>Vocabulary</td>
-                                <td><a class="more" href="assets/classes/3-12_13.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-12.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a class="more" href="qui.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a>&nbsp;&nbsp;<a class="more" href="vide.php"><img src="https://i.ibb.co/v4bzb7F/botao-play.png" alt="video" height="25px" width="25px"></a></td>
                                 </tr>
                                 <tr>
                                 <th>11/01</th>
-                                <td>.</td>
-                                <td><a class="more" href="assets/classes/.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td>What I'm wearing</td>
+                                <td><a class="more" href="assets/classes/3-13.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a class="more" href="qui.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a>&nbsp;&nbsp;<a class="more" href="vide.php"><img src="https://i.ibb.co/v4bzb7F/botao-play.png" alt="video" height="25px" width="25px"></td>
                                 </tr>
                                 <tr>
