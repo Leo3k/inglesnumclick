@@ -93,7 +93,7 @@ include('verifica_login.php');
                                         <a class="page-scroll" onclick="history.go(-1)">Go back</a>
                                     </li>
                                 </ul>
-                            </div> <!-- navbar collapse -->
+                            </div> <!--<a class="page-scroll" onclick="window.location.href='google.com'">Go back</a> -->
                             
                             <div class="navbar-btn d-none d-sm-inline-block">
                                <p><a class="main-btn" data-scroll-nav="0" href=""><?php echo $_SESSION['usuario']; ?></a></p>

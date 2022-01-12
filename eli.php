@@ -100,7 +100,7 @@ include('verifica_login.php');
                                         <a class="page-scroll" href="eli_class.php">All Classes</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="eli_pay.php">Pagamento</a>
+                                        <a class="page-scroll" href="eli_pay.php">Payment</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="logout.php">Sair</a>
@@ -163,8 +163,8 @@ include('verifica_login.php');
                         </div>
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a href="#">Aula Atual</a></h4>
-                            <p class="text">What I'm wearing - <b>11/01</b></p>
-                            <a class="more" href="assets/classes/3-13.pdf">Download <i class="lni-chevron-right"></i></a>
+                            <p class="text">Rooms and Furniture - <b>12/01</b></p>
+                            <a class="more" href="assets/classes/3-14.pdf">Download <i class="lni-chevron-right"></i></a>
                             <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank;" style="text-decoration:none; font-size:12px; color:black" href="https://join.skype.com/p3XeBVHvSRUY">Seu link da aula</a></p>
                         </div>
                     </div> 

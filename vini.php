@@ -100,7 +100,7 @@ include('verifica_login.php');
                                         <a class="page-scroll" href="vini_class.php">All Classes</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="vini_pay.php">Pagamento</a>
+                                        <a class="page-scroll" href="vini_pay.php">Payment</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="logout.php">Sair</a>
@@ -163,9 +163,9 @@ include('verifica_login.php');
                         </div>
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a href="#">Aula Atual</a></h4>
-                            <p class="text">Where Things Are Part 2 06/01</p>
-                            <a class="more" href="assets/classes/3-3.pdf">Download <i class="lni-chevron-right"></i></a>
-                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank" style="text-decoration:none; font-size:12px; color:black" href="https://us05web.zoom.us/j/85688101960?pwd=WWEyQ2xDbmxYam1qaVZGMEc1cWNWQT09">Seu link da aula</a></p>
+                            <p class="text">Numbers and Statistics <b>12/01</b></p>
+                            <a class="more" target="_blank" href="assets/classes/3-4.pdf">Download <i class="lni-chevron-right"></i></a>
+                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank" style="text-decoration:none; font-size:12px; color:black" href="https://us05web.zoom.us/j/81446260189?pwd=MXBESlNEb2dCYmFtTFFZVjh5MVBJZz09">Seu link da aula</a></p>
                         </div>
                     </div> 
                 </div>

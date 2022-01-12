@@ -96,7 +96,7 @@ include('verifica_login.php');
                                         <a class="page-scroll" href="eli_class.php">All classes</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="eli_pay.php">Pagamento</a>
+                                        <a class="page-scroll" href="eli_pay.php">Payment</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="logout.php">Sair</a>
