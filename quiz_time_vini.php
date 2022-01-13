@@ -78,7 +78,7 @@ include('verifica_login.php');
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-bran" href="allife.php">
+                            <a class="navbar-bran" href="vini.php">
                                 <img src="assets/images/logo1.png" alt="Logo">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,13 +90,13 @@ include('verifica_login.php');
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" class="navbar-nav ml-auto">
                                     <li class="nav-item active">
-                                        <a class="page-scroll" href="allife.php">Home</a>
+                                        <a class="page-scroll" href="vini.php">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="allife_class.php">All classes</a>
+                                        <a class="page-scroll" href="vini_class.php">All classes</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="allife_pay.php">Payment</a>
+                                        <a class="page-scroll" href="vini_pay.php">Payment</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="logout.php">Sair</a>
@@ -105,7 +105,7 @@ include('verifica_login.php');
                             </div> <!-- navbar collapse -->
                             
                             <div class="navbar-btn d-none d-sm-inline-block">
-                               <p><a class="main-btn" data-scroll-nav="0" href="allife.php"><?php echo $_SESSION['usuario']; ?></a></p>
+                               <p><a class="main-btn" data-scroll-nav="0" href="vini.php"><?php echo $_SESSION['usuario']; ?></a></p>
                             </div>
                         </nav> <!-- navbar -->
                     </div>
@@ -120,36 +120,10 @@ include('verifica_login.php');
                         <div class="header-hero-content text-center">
                             <h3 class="header-sub-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s" style="color:yellow"><?php echo $_SESSION['usuario']; ?></h3>             
         <div class="container">
-                        <h3 class="title" style="color:aliceblue">Acompanhe suas aulas.</h3><br><br>
-                        <table class="table table-bordered table-hover" style="background-color: white;">
-                            <thead>
-                                <tr>
-                                <th>Dia</th>
-                                <th>Tema</th>
-                                <th>Arquivo</th>
-                                <th>Exercícios</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                <th>06/01</th>
-                                <td>Where Things Are</td>
-                                <td><a class="more" href="assets/classes/3-3.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_al.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></a></td>
-                                </tr>
-                                <tr>
-                                <th>13/01</th>
-                                <td>Numbers, time, and dates</td>
-                                <td><a class="more" href="assets/classes/3-4_5.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_numb_allife.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="more" href="quiz_time_allife.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
-                                </tr>
-                                <th>20/01</th>
-                                <td>.</td>
-                                <td><a class="more" href="assets/classes/3-3.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <h3 class="title" style="color:aliceblue">Quiz</h3><br><br>
+                        <iframe src="https://www.quiz-maker.com/QC5FWGXSQ" width="98%" height="600vw" style="border:1px solid black;">
+            </iframe>
+            <p> Não abriu? Então, é só clicar <a href="https://www.quiz-maker.com/QC5FWGXSQ" target="_blank">AQUI</a>
         </div>
       
                         </div> <!-- header hero content -->
@@ -159,13 +133,8 @@ include('verifica_login.php');
         </div> <!-- header hero -->
     </header>
     
-    
         </div> 
     </section>
-    
-   
-    
-  
     
     <footer id="footer" class="footer-area pt-120">
         <div class="container">
@@ -184,8 +153,7 @@ include('verifica_login.php');
                                 <li style="color: white;">leonardosantunes@yahoo.com</li>
                                
                     </div>
-                    
-                           
+                  
             <div class="footer-copyright">
                 <div class="row">
                     <div class="col-lg-12">
@@ -207,9 +175,8 @@ include('verifica_login.php');
 
     <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
 
-   
-
-
+    <!--====== BACK TOP TOP PART ENDS ======-->   
+    
     <!--====== Jquery js ======-->
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>

@@ -120,36 +120,10 @@ include('verifica_login.php');
                         <div class="header-hero-content text-center">
                             <h3 class="header-sub-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s" style="color:yellow"><?php echo $_SESSION['usuario']; ?></h3>             
         <div class="container">
-                        <h3 class="title" style="color:aliceblue">Acompanhe suas aulas.</h3><br><br>
-                        <table class="table table-bordered table-hover" style="background-color: white;">
-                            <thead>
-                                <tr>
-                                <th>Dia</th>
-                                <th>Tema</th>
-                                <th>Arquivo</th>
-                                <th>Exercícios</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                <th>06/01</th>
-                                <td>Where Things Are</td>
-                                <td><a class="more" href="assets/classes/3-3.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_al.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></a></td>
-                                </tr>
-                                <tr>
-                                <th>13/01</th>
-                                <td>Numbers, time, and dates</td>
-                                <td><a class="more" href="assets/classes/3-4_5.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_numb_allife.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="more" href="quiz_time_allife.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
-                                </tr>
-                                <th>20/01</th>
-                                <td>.</td>
-                                <td><a class="more" href="assets/classes/3-3.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <h3 class="title" style="color:aliceblue">Quiz</h3><br><br>
+                        <iframe src="https://www.quiz-maker.com/QZB59WU72" width="98%" height="600vw" style="border:1px solid black;">
+            </iframe>
+            <p> Não abriu? Então, é só clicar <a href="https://www.quiz-maker.com/QZB59WU72" target="_blank">AQUI</a>
         </div>
       
                         </div> <!-- header hero content -->
@@ -159,13 +133,8 @@ include('verifica_login.php');
         </div> <!-- header hero -->
     </header>
     
-    
         </div> 
     </section>
-    
-   
-    
-  
     
     <footer id="footer" class="footer-area pt-120">
         <div class="container">
@@ -184,8 +153,7 @@ include('verifica_login.php');
                                 <li style="color: white;">leonardosantunes@yahoo.com</li>
                                
                     </div>
-                    
-                           
+                  
             <div class="footer-copyright">
                 <div class="row">
                     <div class="col-lg-12">
@@ -207,9 +175,8 @@ include('verifica_login.php');
 
     <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
 
-   
-
-
+    <!--====== BACK TOP TOP PART ENDS ======-->   
+    
     <!--====== Jquery js ======-->
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>

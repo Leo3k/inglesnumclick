@@ -78,7 +78,7 @@ include('verifica_login.php');
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-bran" href="allife.php">
+                            <a class="navbar-bran" href="edi.php">
                                 <img src="assets/images/logo1.png" alt="Logo">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,13 +90,13 @@ include('verifica_login.php');
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" class="navbar-nav ml-auto">
                                     <li class="nav-item active">
-                                        <a class="page-scroll" href="allife.php">Home</a>
+                                        <a class="page-scroll" href="edi.php">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="allife_class.php">All classes</a>
+                                        <a class="page-scroll" href="edi_class.php">All classes</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="allife_pay.php">Payment</a>
+                                        <a class="page-scroll" href="edi_pay.php">Payment</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="logout.php">Sair</a>
@@ -105,7 +105,7 @@ include('verifica_login.php');
                             </div> <!-- navbar collapse -->
                             
                             <div class="navbar-btn d-none d-sm-inline-block">
-                               <p><a class="main-btn" data-scroll-nav="0" href="allife.php"><?php echo $_SESSION['usuario']; ?></a></p>
+                               <p><a class="main-btn" data-scroll-nav="0" href="edi.php"><?php echo $_SESSION['usuario']; ?></a></p>
                             </div>
                         </nav> <!-- navbar -->
                     </div>
@@ -132,20 +132,33 @@ include('verifica_login.php');
                             </thead>
                             <tbody>
                                 <tr>
-                                <th>06/01</th>
-                                <td>Where Things Are</td>
-                                <td><a class="more" href="assets/classes/3-3.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_al.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></a></td>
+                                <th>13/01</th>
+                                <td>.</td>
+                                <td><a class="more" target="_blank" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
                                 </tr>
                                 <tr>
-                                <th>13/01</th>
-                                <td>Numbers, time, and dates</td>
-                                <td><a class="more" href="assets/classes/3-4_5.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_numb_allife.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="more" href="quiz_time_allife.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
-                                </tr>
-                                <th>20/01</th>
+                                <th>.</th>
                                 <td>.</td>
-                                <td><a class="more" href="assets/classes/3-3.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td><a class="more" target="_blank" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                </tr>
+                                <tr>
+                                <th>.</th>
+                                <td>.</td>
+                                <td><a class="more" target="_blank" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                </tr>
+                                <tr>
+                                <th>.</th>
+                                <td>.</td>
+                                <td><a class="more" target="_blank" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                </tr>
+                                <tr>
+                                <th>.</th>
+                                <td>.</td>
+                                <td><a class="more" target="_blank" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
                                 </tr>
                             </tbody>
