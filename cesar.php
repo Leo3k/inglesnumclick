@@ -79,7 +79,7 @@ include('verifica_login.php');
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-bran" href="tadeu.php">
+                            <a class="navbar-bran" href="cesar.php">
                                 <img src="assets/images/logo1.png" alt="Logo">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -97,10 +97,10 @@ include('verifica_login.php');
                                         <a class="page-scroll" href="#features">Next Class</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="tadeu_class.php">All Classes</a>
+                                        <a class="page-scroll" href="cesar_class.php">All Classes</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="tadeu_pay.php">Pagamento</a>
+                                        <a class="page-scroll" href="cesar_pay.php">Pagamento</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="logout.php">Sair</a>
@@ -163,9 +163,9 @@ include('verifica_login.php');
                         </div>
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a href="#">Aula Atual</a></h4>
-                            <p class="text">Talking about jobs <b>18/01</b></p>
-                            <a class="more" target="_blank;" href="assets/classes/3-7.pdf">Download <i class="lni-chevron-right"></i></a>
-                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank" style="text-decoration:none; font-size:12px; color:black" href="https://us05web.zoom.us/j/84832996792?pwd=eVg2RG9qMDJkbHlwZ2JkY1hSdFNMUT09">Seu link da aula</a></p>
+                            <p class="text">Question Tags <b>Jan 17th</b></p>
+                            <a class="more" href="assets/classes/3-1.pdf">Download <i class="lni-chevron-right"></i></a>
+                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank;" style="text-decoration:none; font-size:12px; color:black" href="https://join.skype.com/qvh40Emb2vae">Seu link da aula</a></p>
                         </div>
                     </div> 
                 </div>

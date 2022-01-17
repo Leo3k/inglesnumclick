@@ -153,12 +153,18 @@ include('verifica_login.php');
                                 <th>13/01</th>
                                 <td>Describing your day Part 2</td>
                                 <td><a class="more" target="_blank" href="assets/classes/1-13.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="quiz_simplepresent_jess.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
                                 </tr>
                                 <tr>
                                 <th>18/01</th>
-                                <td>.</td>
+                                <td>Describing your week</td>
                                 <td><a class="more" target="_blank" href="assets/classes/1-14.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                </tr>
+                                <tr>
+                                <th>20/01</th>
+                                <td>.</td>
+                                <td><a class="more" target="_blank" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
                                 </tr>
                             </tbody>
