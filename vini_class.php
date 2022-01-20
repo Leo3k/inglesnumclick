@@ -163,7 +163,7 @@ include('verifica_login.php');
                                 </tr>
                                 <tr>
                                 <th>20/01</th>
-                                <td>Taliking about Jobs</td>
+                                <td>Talking about Jobs</td>
                                 <td><a class="more" target="_blank" href="assets/classes/3-7.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
                                 </tr>
