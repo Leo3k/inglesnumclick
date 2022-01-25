@@ -78,7 +78,7 @@ include('verifica_login.php');
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-bran" href="jess.php">
+                            <a class="navbar-bran" href="">
                                 <img src="assets/images/logo1.png" alt="Logo">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,22 +90,13 @@ include('verifica_login.php');
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" class="navbar-nav ml-auto">
                                     <li class="nav-item active">
-                                        <a class="page-scroll" href="jess.php">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="page-scroll" href="jess_class.php">All classes</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="page-scroll" href="jess_pay.php">Payment</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="page-scroll" href="logout.php">Sair</a>
+                                        <a class="page-scroll" onclick="history.go(-1)">Go back</a>
                                     </li>
                                 </ul>
-                            </div> <!-- navbar collapse -->
+                            </div> <!--<a class="page-scroll" onclick="window.location.href='google.com'">Go back</a> -->
                             
                             <div class="navbar-btn d-none d-sm-inline-block">
-                               <p><a class="main-btn" data-scroll-nav="0" href="jess.php"><?php echo $_SESSION['usuario']; ?></a></p>
+                               <p><a class="main-btn" data-scroll-nav="0" href=""><?php echo $_SESSION['usuario']; ?></a></p>
                             </div>
                         </nav> <!-- navbar -->
                     </div>
@@ -120,61 +111,10 @@ include('verifica_login.php');
                         <div class="header-hero-content text-center">
                             <h3 class="header-sub-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s" style="color:yellow"><?php echo $_SESSION['usuario']; ?></h3>             
         <div class="container">
-                        <h3 class="title" style="color:aliceblue">Acompanhe suas aulas.</h3><br><br>
-                        <table class="table table-bordered table-hover" style="background-color: white;">
-                            <thead>
-                                <tr>
-                                <th>Dia</th>
-                                <th>Tema</th>
-                                <th>Arquivo</th>
-                                <th>Exercícios</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                <th>04/01</th>
-                                <td>Telling the Time</td>
-                                <td><a class="more" target="_blank" href="assets/classes/1-11.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_time.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
-                                </tr>
-                                <tr>
-                                <th>06/01</th>
-                                <td>Vocabulary</td>
-                                <td><a class="more" target="_blank" href="assets/classes/1-12.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_vocab_jess.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
-                                </tr>
-                                <tr>
-                                <th>11/01</th>
-                                <td>Describing your day</td>
-                                <td><a class="more" target="_blank" href="assets/classes/1-13.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_present_jess.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
-                                </tr>
-                                <tr>
-                                <th>13/01</th>
-                                <td>Describing your day - Part 2</td>
-                                <td><a class="more" target="_blank" href="assets/classes/1-13.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_simplepresent_jess.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
-                                </tr>
-                                <tr>
-                                <th>18/01</th>
-                                <td>Describing your week</td>
-                                <td><a class="more" target="_blank" href="assets/classes/1-14.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="q_week_1-14.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
-                                </tr>
-                                <tr>
-                                <th>20/01</th>
-                                <td>Describing your week - Part 2</td>
-                                <td><a class="more" target="_blank" href="assets/classes/1-14.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="q_once_1-14.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
-                                </tr>
-                                <tr>
-                                <th>25/01</th>
-                                <td>Negatives with to be</td>
-                                <td><a class="more" target="_blank" href="assets/classes/1-15.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <h3 class="title" style="color:aliceblue">Quiz</h3><br><br>
+                        <iframe src="https://www.quiz-maker.com/Q7204X3BS" width="98%" height="600vw" style="border:1px solid black;">
+            </iframe>
+            <p> Não abriu? Então, é só clicar <a href="https://www.quiz-maker.com/Q7204X3BS" target="_blank">AQUI</a>
         </div>
       
                         </div> <!-- header hero content -->
@@ -184,13 +124,8 @@ include('verifica_login.php');
         </div> <!-- header hero -->
     </header>
     
-    
         </div> 
     </section>
-    
-   
-    
-  
     
     <footer id="footer" class="footer-area pt-120">
         <div class="container">
@@ -209,8 +144,7 @@ include('verifica_login.php');
                                 <li style="color: white;">leonardosantunes@yahoo.com</li>
                                
                     </div>
-                    
-                           
+                  
             <div class="footer-copyright">
                 <div class="row">
                     <div class="col-lg-12">
@@ -232,9 +166,8 @@ include('verifica_login.php');
 
     <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
 
-   
-
-
+    <!--====== BACK TOP TOP PART ENDS ======-->   
+    
     <!--====== Jquery js ======-->
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
