@@ -175,11 +175,11 @@ include('verifica_login.php');
                                 <th>25/01</th>
                                 <td>Phrasal Verbs - Part 3</td>
                                 <td><a class="more" href="assets/classes/3-16.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/QYEH73KXM"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
                                 </tr>
                                 <th>26/01</th>
-                                <td>.</td>
-                                <td><a class="more" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td>Comparing Places</td>
+                                <td><a class="more" href="assets/classes/3-17.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
                                 </tr>
                             </tbody>
