@@ -147,7 +147,7 @@ include('verifica_login.php');
                                 <th>19/01</th>
                                 <td>Describing your day</td>
                                 <td><a class="more" href="assets/classes/1-13.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/Q81V87OZJ77"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/Q81V87OZJ"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
                                 </tr>
                                 <tr>
                                 <th>26/01</th>
