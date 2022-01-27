@@ -171,6 +171,12 @@ include('verifica_login.php');
                                 <th>25/01</th>
                                 <td>Activities in Progress Part 3</td>
                                 <td><a class="more" href="assets/classes/3-26.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/QGMB653AE"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                </tr>
+                                <tr>
+                                <th>27/01</th>
+                                <td>Talents ans Skills</td>
+                                <td><a class="more" href="assets/classes/3-27.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
                                 </tr>
                             </tbody>
