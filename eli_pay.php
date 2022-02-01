@@ -132,14 +132,14 @@ include('verifica_login.php');
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr style="background-color:yellow;">
+                                <tr style="background-color:chartreuse;">
                                 <th>Jan</th>
                                 <td>10/01</td>
                                 <td><a class="more" href=""><img src="https://i.ibb.co/q7XNghX/icons8-boleto-bankario-48.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a href="#cnpj">CNPJ</a></td>
                                 <td>$$$</td>
                                 </tr>
-                                <tr>
+                                <tr style="background-color:yellow;">
                                 <th>Fev</th>
                                 <td>10/02</td>
                                 <td><a class="more" href=""><img src="https://i.ibb.co/q7XNghX/icons8-boleto-bankario-48.png" alt="pdf" height="25px" width="25px"></a></td>
