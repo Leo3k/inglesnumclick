@@ -152,7 +152,7 @@ include('verifica_login.php');
                                 <tr>
                                 <th>22/02</th>
                                 <td>.</td>
-                                <td><a class="more" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none; color:black; font-weight:bold;"  class="more" href="https://www.antimoon.com/how/pronunc-soundsipa.htm">&nbsp;&nbsp;IPA&nbsp;&#128196;</a></td>
+                                <td><a class="more" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
                                 </tr>
                             </tbody>
