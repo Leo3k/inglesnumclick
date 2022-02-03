@@ -163,9 +163,9 @@ include('verifica_login.php');
                         </div>
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a href="#">Aula Atual</a></h4>
-                            <p class="text">Talents and Skills II<b> 01/02</b></p>
+                            <p class="text">Talents and Skills III<b> 03/02</b></p>
                             <a class="more" href="assets/classes/3-27.pdf">Download <i class="lni-chevron-right"></i></a>
-                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank;" style="text-decoration:none; font-size:12px; color:black" href="https://us05web.zoom.us/j/83655446051?pwd=aEVFbk5PRzJJYU9qbGVPK0hnTGd2UT09">Seu link da aula</a></p>
+                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank;" style="text-decoration:none; font-size:12px; color:black" href="https://us05web.zoom.us/j/86745144343?pwd=RE9saGZ0c0hUdCtiajAzbFRhTXJTQT09">Seu link da aula</a></p>
                         </div>
                     </div>  
                 </div>
