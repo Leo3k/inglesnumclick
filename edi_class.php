@@ -144,11 +144,11 @@ include('verifica_login.php');
                                 <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
                                 </tr>
                                 <tr>
-                                <th>.</th>
-                                <td>.</td>
+                                <th>03/02</th>
+                                <td style="color: crimson;">Ausente</td>
                                 <td><a class="more" target="_blank" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
-                                </tr>
+                                </tr> 
                                 <tr>
                                 <th>.</th>
                                 <td>.</td>
