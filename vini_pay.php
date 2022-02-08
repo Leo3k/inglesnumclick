@@ -126,7 +126,6 @@ include('verifica_login.php');
                                 <tr>
                                 <th>Mês</th>
                                 <th>Vence</th>
-                                <th>Boleto</th>
                                 <th>Pix</th>
                                 <th>Valor</th>
                                 </tr>
@@ -135,20 +134,17 @@ include('verifica_login.php');
                                 <tr style="background-color:chartreuse;">
                                 <th>Jan</th>
                                 <td>30/01</td>
-                                <td><a class="more" href=""><img src="https://i.ibb.co/q7XNghX/icons8-boleto-bankario-48.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a href="#cnpj">CNPJ</a></td>
                                 <td>$260</td>
                                 </tr>
                                 <tr>
                                 <th>Fev</th>
                                 <td>30/02</td>
-                                <td><a class="more" href=""><img src="https://i.ibb.co/q7XNghX/icons8-boleto-bankario-48.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a href="#cnpj">CNPJ</a></td>
                                 <td>$260</td>
                                 </tr>
                                 <th>Mar</th>
                                 <td>30/03</td>
-                                <td><a class="more" href=""><img src="https://i.ibb.co/q7XNghX/icons8-boleto-bankario-48.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a href="#cnpj">CNPJ</a></td>
                                 <td>$260</td>
                                 </tr>
