@@ -134,86 +134,92 @@ include('verifica_login.php');
                                 <tr>
                                 <th>10/01</th>
                                 <td>Clothes</td>
-                                <td><a class="more" href="assets/classes/3-12.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_clothes_eli.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-12.pdf">&#128196;</a></td>
+                                <td><a class="more" href="quiz_clothes_eli.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>11/01</th>
                                 <td>What I'm wearing</td>
-                                <td><a class="more" href="assets/classes/3-13.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_wear_eli.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-13.pdf">&#128196;</a></td>
+                                <td><a class="more" href="quiz_wear_eli.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>12/01</th>
                                 <td>Rooms and Furniture</td>
-                                <td><a class="more" href="assets/classes/3-14.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_house_eli.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-14.pdf">&#128196;</a></td>
+                                <td><a class="more" href="quiz_house_eli.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>17/01</th>
                                 <td>Daily Routine</td>
-                                <td><a class="more" href="assets/classes/3-15.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_routine_eli.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-15.pdf">&#128196;</a></td>
+                                <td><a class="more" href="quiz_routine_eli.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>18/01</th>
                                 <td>Daily Routine Part 2</td>
-                                <td><a class="more" href="assets/classes/3-15.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="q_chores_3-15.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-15.pdf">&#128196;</a></td>
+                                <td><a class="more" href="q_chores_3-15.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>19/01</th>
                                 <td>Phrasal Verbs</td>
-                                <td><a class="more" href="assets/classes/3-16.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="q_phrasal_3-16.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-16.pdf">&#128196;</a></td>
+                                <td><a class="more" href="q_phrasal_3-16.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>24/01</th>
                                 <td>Phrasal Verbs - Part 2</td>
-                                <td><a class="more" href="assets/classes/3-16.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="q_phrasal2_3-16.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-16.pdf">&#128196;</a></td>
+                                <td><a class="more" href="q_phrasal2_3-16.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>25/01</th>
                                 <td>Phrasal Verbs - Part 3</td>
-                                <td><a class="more" href="assets/classes/3-16.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/QYEH73KXM"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-16.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/QYEH73KXM">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>26/01</th>
                                 <td>Comparing Places</td>
-                                <td><a class="more" href="assets/classes/3-17.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/Q01VG8OMJ"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-17.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/Q01VG8OMJ">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>31/01</th>
                                 <td>Likes and dislikes</td>
-                                <td><a class="more" href="assets/classes/3-18.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/QYAH03KUM"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-18.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/QYAH03KUM">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>01/02</th>
                                 <td>Likes and dislikes II</td>
-                                <td><a class="more" href="assets/classes/3-18.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/QYA26TJ83"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-18.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/QYA26TJ83">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>02/02</th>
                                 <td>Family</td>
-                                <td><a class="more" href="assets/classes/3-19.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/Q09RMIP2O"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-19.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/Q09RMIP2O">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>07/02</th>
                                 <td>Early years</td>
-                                <td><a class="more" href="assets/classes/3-20.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/Q052NY9K4"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-20.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/Q052NY9K4">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>08/02</th>
                                 <td>Early years</td>
-                                <td><a class="more" href="assets/classes/3-20.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-20.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QBGCSJ79A">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>09/02</th>
+                                <td>Education</td>
+                                <td><a class="more" href="assets/classes/3-21.pdf">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                             </tbody>
                         </table>

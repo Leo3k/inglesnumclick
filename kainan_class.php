@@ -134,32 +134,38 @@ include('verifica_login.php');
                                 <tr>
                                 <th>05/01</th>
                                 <td>Telling the Time</td>
-                                <td><a class="more" href="assets/classes/1-11.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_time_kainan.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/1-11.pdf">&#128196;</a></td>
+                                <td><a class="more" href="quiz_time_kainan.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>12/01</th>
                                 <td>Vocabulary</td>
-                                <td><a class="more" href="assets/classes/1-12.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_day_kainan.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/1-12.pdf">&#128196;</a></td>
+                                <td><a class="more" href="quiz_day_kainan.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>19/01</th>
                                 <td>Describing your day</td>
-                                <td><a class="more" href="assets/classes/1-13.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/Q81V87OZJ"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/1-13.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/Q81V87OZJ">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>27/01</th>
                                 <td>Describing your week</td>
-                                <td><a class="more" href="assets/classes/1-14.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="q_week_1-14.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/1-14.pdf">&#128196;</a></td>
+                                <td><a class="more" href="q_week_1-14.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>02/02</th>
                                 <td>Describing your week II</td>
-                                <td><a class="more" href="assets/classes/1-14.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="q_once_1-14.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/1-14.pdf">&#128196;</a></td>
+                                <td><a class="more" href="q_once_1-14.php">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>09/02</th>
+                                <td>Negatives with "to be"</td>
+                                <td><a class="more" href="assets/classes/1-15.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/QEZ92ONXP">&#9745;</a></td>
                                 </tr>
                             </tbody>
                         </table>
