@@ -134,32 +134,32 @@ include('verifica_login.php');
                                 <tr>
                                 <th>20/01</th>
                                 <td>Places I have been</td>
-                                <td><a class="more" target="_blank" href="assets/classes/3-24.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/Q4Z92EKQP"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" target="_blank" href="assets/classes/3-24.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/Q4Z92EKQP">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>27/01</th>
                                 <td>Places I have been II</td>
-                                <td><a class="more" target="_blank" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" target="_blank" href="assets/classes/3-24.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/Q052NY9K4">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>03/02</th>
                                 <td style="color: crimson;">Ausente</td>
-                                <td><a class="more" target="_blank" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr> 
                                 <tr>
-                                <th>.</th>
-                                <td>.</td>
-                                <td><a class="more" target="_blank" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <th>10/02</th>
+                                <td>Things I have done</td>
+                                <td><a class="more" target="_blank" href="assets/classes/3-25.pdf">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>.</th>
                                 <td>.</td>
-                                <td><a class="more" target="_blank" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                             </tbody>
                         </table>

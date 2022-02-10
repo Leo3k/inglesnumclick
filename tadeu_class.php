@@ -199,6 +199,12 @@ include('verifica_login.php');
                                 </tr>
                                 <tr>
                                 <th>10/02</th>
+                                <td style="color: crimson;">Ausente</td>
+                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>15/02</th>
                                 <td>Routine and Free Time</td>
                                 <td><a class="more" target="_blank" href="assets/classes/3-8.pdf">&#128196;</a></td>
                                 <td><a class="more" href="quiz_ops.php">&#9745;</a></td>

@@ -134,68 +134,74 @@ include('verifica_login.php');
                                 <tr>
                                 <th>04/01</th>
                                 <td style="color:crimson;">Ausente</td>
-                                <td><a class="more" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>06/01</th>
                                 <td>Things I have done</td>
-                                <td><a class="more" href="assets/classes/3-25.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_pp_g.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-25.pdf">&#128196;</a></td>
+                                <td><a class="more" href="quiz_pp_g.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>11/01</th>
                                 <td>Things I have done Part 2</td>
-                                <td><a class="more" href="assets/classes/3-25.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_verbs_gui.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-25.pdf">&#128196;</a></td>
+                                <td><a class="more" href="quiz_verbs_gui.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>13/01</th>
                                 <td>Things I have done Part 3 and IPA</td>
-                                <td><a class="more" href="assets/classes/3-25.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none; color:black; font-weight:bold;"  class="more" href="https://www.antimoon.com/how/pronunc-soundsipa.htm">&nbsp;&nbsp;IPA&nbsp;&#128196;</a></td>
-                                <td><a class="more" href="quiz_spell_gui.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-25.pdf">&#128196;</a>&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none; color:black; font-weight:bold;"  class="more" href="https://www.antimoon.com/how/pronunc-soundsipa.htm">&nbsp;&nbsp;IPA&nbsp;&#128196;</a></td>
+                                <td><a class="more" href="quiz_spell_gui.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>18/01</th>
                                 <td>Activities in Progress</td>
-                                <td><a class="more" href="assets/classes/3-26.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="q_been_3-26.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-26.pdf">&#128196;</a></td>
+                                <td><a class="more" href="q_been_3-26.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>20/01</th>
                                 <td>Activities in Progress Part 2</td>
-                                <td><a class="more" href="assets/classes/3-26.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="q_ppcont_3-26.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-26.pdf">&#128196;</a></td>
+                                <td><a class="more" href="q_ppcont_3-26.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>25/01</th>
                                 <td>Activities in Progress Part 3</td>
-                                <td><a class="more" href="assets/classes/3-26.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/QGMB653AE"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-26.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/QGMB653AE">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>27/01</th>
                                 <td>Talents ans Skills</td>
-                                <td><a class="more" href="assets/classes/3-27.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/QP7G1QD4W"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-27.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/QP7G1QD4W">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>01/02</th>
                                 <td>Talents ans Skills II</td>
-                                <td><a class="more" href="assets/classes/3-27.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/Q3J74Q8DD"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-27.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/Q3J74Q8DD">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>03/02</th>
                                 <td>Talents ans Skills III</td>
-                                <td><a class="more" href="assets/classes/3-27.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/Q3A2JTJZ3"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-27.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/Q3A2JTJZ3">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>08/02</th>
                                 <td>Talents ans Skills IV</td>
-                                <td><a class="more" href="assets/classes/3-27.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/3-27.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/Q3A2JTJZ3">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>10/02</th>
+                                <td>Activities and Their Results</td>
+                                <td><a class="more" href="assets/classes/3-28.pdf">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                             </tbody>
                         </table>
