@@ -159,11 +159,11 @@ include('verifica_login.php');
                     <div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                         <div class="services-icon">
                             <img class="shape" src="assets/images/triangle.png" style="width:120px" alt="shape">
-                            <img class="shape-1" src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="shape">
+                            <img class="shape-1" src="assets/images/icon.png" alt="shape">
                         </div>
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a href="#">Aula Atual</a></h4>
-                            <p class="text">Numbers and Statistics  <b>Feb 7th</b></p>
+                            <p class="text">Numbers and Statistics  <b>Feb 14th</b></p>
                             <a class="more" href="assets/classes/3-4.pdf">Download <i class="lni-chevron-right"></i></a>
                             <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank;" style="text-decoration:none; font-size:12px; color:black" href="https://join.skype.com/qvh40Emb2vae">Seu link da aula</a></p>
                         </div>

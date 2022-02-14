@@ -134,56 +134,56 @@ include('verifica_login.php');
                                 <tr>
                                 <th>17/01</th>
                                 <td>Talking about jobs</td>
-                                <td><a class="more" target="_blank" href="assets/classes/3-7.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="q_jobs_3-7.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" target="_blank" href="assets/classes/3-7.pdf">&#128196;</a></td>
+                                <td><a class="more" href="q_jobs_3-7.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>24/01</th>
                                 <td>Talking about jobs - Part 2</td>
-                                <td><a class="more" target="_blank" href="assets/classes/3-7.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/QU52VTO14"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" target="_blank" href="assets/classes/3-7.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/QU52VTO14">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>31/01</th>
                                 <td style="color:crimson;">Ausente</td>
-                                <td><a class="more" target="_blank" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                                 <th>07/02</th>
                                 <td>Talking about jobs - Part 3</td>
-                                <td><a class="more" target="_blank" href="assets/classes/3-7.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" target="_blank" href="assets/classes/3-7.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QV1VFWOMJ">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>14/02</th>
-                                <td>.</td>
-                                <td><a class="more" target="_blank" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td>Routine and Free Time</td>
+                                <td><a class="more" target="_blank" href="assets/classes/3-8.pdf">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <tr>
                                 <th>21/02</th>
                                 <td>.</td>
-                                <td><a class="more" target="_blank" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>28/02</th>
                                 <td>.</td>
-                                <td><a class="more" target="_blank" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>07/03</th>
                                 <td>.</td>
-                                <td><a class="more" target="_blank" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>14/03</th>
                                 <td>.</td>
-                                <td><a class="more" target="_blank" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                             </tbody>
                         </table>
