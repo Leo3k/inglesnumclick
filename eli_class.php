@@ -225,6 +225,12 @@ include('verifica_login.php');
                                 <th>14/02</th>
                                 <td>Changing Meaning</td>
                                 <td><a class="more" href="assets/classes/3-22.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.ecenglish.com/learnenglish/lessons/un-prefix">&#9745;</a><a class="more" href="https://www.ecenglish.com/learnenglish/lessons/using-prefix-re">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>15/02</th>
+                                <td>Transportation and travel</td>
+                                <td><a class="more" href="assets/classes/3-23.pdf">&#128196;</a></td>
                                 <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                             </tbody>
