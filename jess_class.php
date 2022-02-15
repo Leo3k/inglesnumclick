@@ -201,6 +201,12 @@ include('verifica_login.php');
                                 <th>10/02</th>
                                 <td>Simple Questions II</td>
                                 <td><a class="more" target="_blank" href="assets/classes/1-17.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QXK41D2VG">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>15/02</th>
+                                <td>Answering Questions</td>
+                                <td><a class="more" target="_blank" href="assets/classes/1-18.pdf">&#128196;</a></td>
                                 <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                             </tbody>

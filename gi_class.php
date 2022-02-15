@@ -134,26 +134,26 @@ include('verifica_login.php');
                                 <tr>
                                 <th>01/02</th>
                                 <td>Introducing Yourself</td>
-                                <td><a class="more" href="assets/classes/1-1_2.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/QE52VQU64"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/1-1_2.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/QE52VQU64">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>08/02</th>
                                 <td>Spelling, Countries, and Nationalities</td>
-                                <td><a class="more" href="assets/classes/1-1_2.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/QWMYVX4AK"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="assets/classes/1-1_2.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz-maker.com/QWMYVX4AK">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>15/02</th>
-                                <td>.</td>
-                                <td><a class="more" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td>Talking about Yourself</td>
+                                <td><a class="more" href="assets/classes/1-3.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/Q72IIXKXS">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>22/02</th>
                                 <td>.</td>
-                                <td><a class="more" href=""><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
-                                <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
+                                <td><a class="more" href="">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                             </tbody>
                         </table>
