@@ -231,6 +231,12 @@ include('verifica_login.php');
                                 <th>15/02</th>
                                 <td>Transportation and travel</td>
                                 <td><a class="more" href="assets/classes/3-23.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QVB1P7U72">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>16/02</th>
+                                <td>Places I have been</td>
+                                <td><a class="more" href="assets/classes/3-24.pdf">&#128196;</a></td>
                                 <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                             </tbody>

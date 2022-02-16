@@ -152,8 +152,8 @@ include('verifica_login.php');
                                 <tr>
                                 <th>13/01</th>
                                 <td style="color:crimson;">Ausente</td>
-                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
-                                <td><a class="more" href="">&#9745;</a></td>
+                                <td><a class="more" target="_blank" href=""></a></td>
+                                <td><a class="more" href=""></a></td>
                                 </tr>
                                 <tr>
                                 <th>19/01</th>
@@ -170,8 +170,8 @@ include('verifica_login.php');
                                 <tr>
                                 <th>26/01</th>
                                 <td style="color:crimson;">Ausente</td>
-                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
-                                <td><a class="more" href="">&#9745;</a></td>
+                                <td><a class="more" target="_blank" href=""></a></td>
+                                <td><a class="more" href=""></a></td>
                                 </tr>
                                 <tr>
                                 <th>27/01</th>
@@ -194,14 +194,20 @@ include('verifica_login.php');
                                 <tr>
                                 <th>09/02</th>
                                 <td style="color:crimson;">Ausente</td>
-                                <td><a class="more" target="_blank" href="assets/classes/3-8.pdf">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td><a class="more" target="_blank" href=""></a></td>
+                                <td><a class="more" href="quiz_ops.php"></a></td>
                                 </tr>
                                 <tr>
                                 <th>10/02</th>
+                                <td style="color:crimson;">Ausente</td>
+                                <td><a class="more" target="_blank" href=""></a></td>
+                                <td><a class="more" href="quiz_ops.php"></a></td>
+                                </tr>
+                                <tr>
+                                <th>16/02</th>
                                 <td>Routine and Free Time</td>
                                 <td><a class="more" target="_blank" href="assets/classes/3-8.pdf">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QP76KQTBW">&#9745;</a></td>
                                 </tr>
                             </tbody>
                         </table>

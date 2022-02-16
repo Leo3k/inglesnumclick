@@ -165,6 +165,12 @@ include('verifica_login.php');
                                 <th>09/02</th>
                                 <td>Negatives with "to be"</td>
                                 <td><a class="more" href="assets/classes/1-15.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/Q1M0RWH5F">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>16/02</th>
+                                <td>Negatives with "to be" II</td>
+                                <td><a class="more" href="assets/classes/1-15.pdf">&#128196;</a></td>
                                 <td><a class="more" href="https://www.quiz-maker.com/QEZ92ONXP">&#9745;</a></td>
                                 </tr>
                             </tbody>
