@@ -205,6 +205,12 @@ include('verifica_login.php');
                                 </tr>
                                 <tr>
                                 <th>15/02</th>
+                                <td>Ayahuasca (Conversation Class)</td>
+                                <td><a class="more" href=""></a></td>
+                                <td><a class="more" href=""></a></td>
+                                </tr>
+                                <tr>
+                                <th>17/02</th>
                                 <td>Stative Verbs</td>
                                 <td><a class="more" href="assets/classes/3-28.pdf">&#128196;</a></td>
                                 <td><a class="more" href="https://learnenglish.britishcouncil.org/grammar/intermediate-to-upper-intermediate/stative-verbs">&#9745;</a><a class="more" target="_blank" href="https://www.youtube.com/watch?v=yLUOMy5sum8">&#127916;</a></td>

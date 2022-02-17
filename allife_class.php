@@ -162,10 +162,16 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://www.quiz-maker.com/QU52VTO14">&#9745;</a></td>
                                 </tr>
                                 <tr>
-                                <th>03/02</th>
+                                <th>10/02</th>
                                 <td>Routine and Free Time</td>
                                 <td><a class="more" href="assets/classes/3-8.pdf">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QP76KQTBW">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>17/02</th>
+                                <td>Routine and Free Time II</td>
+                                <td><a class="more" href="assets/classes/3-8.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QP76KQTBW">&#9745;</a></td>
                                 </tr>
                             </tbody>
                         </table>
