@@ -237,7 +237,13 @@ include('verifica_login.php');
                                 <th>16/02</th>
                                 <td>Places I have been</td>
                                 <td><a class="more" href="assets/classes/3-24.pdf">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td><a class="more" href="https://grammar.hello.ef.com/exercise/present-perfect-vs-simple-past?_ga=2.233705374.1208201202.1645442097-2019555943.1643308515">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>21/02</th>
+                                <td>Present Perfect</td>
+                                <td><a class="more" href="https://www.perfect-english-grammar.com/present-perfect-or-past-simple.html">&#128196;</a></td>
+                                <td><a class="more" href="https://www.perfect-english-grammar.com/past-simple-present-perfect-1.html">&#9745;</a></td>
                                 </tr>
                             </tbody>
                         </table>

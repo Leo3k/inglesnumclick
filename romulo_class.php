@@ -158,20 +158,14 @@ include('verifica_login.php');
                                 <th>14/02</th>
                                 <td>Routine and Free Time</td>
                                 <td><a class="more" target="_blank" href="assets/classes/3-8.pdf">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QP76KQTBW">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <tr>
                                 <th>21/02</th>
-                                <td>.</td>
-                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
-                                </tr>
-                                <tr>
-                                <th>28/02</th>
-                                <td>.</td>
-                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td>Adverbs of Frequency</td>
+                                <td><a class="more" target="_blank" href="assets/classes/3-8.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.quiz.biz/quizz-760331.html">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>07/03</th>
