@@ -241,6 +241,12 @@ include('verifica_login.php');
                                 </tr>
                                 <tr>
                                 <th>21/02</th>
+                                <td>Places I have been II</td>
+                                <td><a class="more" href="assets/classes/3-24.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.perfect-english-grammar.com/past-simple-present-perfect-1.html">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>22/02</th>
                                 <td>Present Perfect</td>
                                 <td><a class="more" href="https://www.perfect-english-grammar.com/present-perfect-or-past-simple.html">&#128196;</a></td>
                                 <td><a class="more" href="https://www.perfect-english-grammar.com/past-simple-present-perfect-1.html">&#9745;</a></td>

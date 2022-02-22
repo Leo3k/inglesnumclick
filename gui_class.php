@@ -215,6 +215,12 @@ include('verifica_login.php');
                                 <td><a class="more" href="assets/classes/3-28.pdf">&#128196;</a></td>
                                 <td><a class="more" href="https://learnenglish.britishcouncil.org/grammar/intermediate-to-upper-intermediate/stative-verbs">&#9745;</a><a class="more" target="_blank" href="https://www.youtube.com/watch?v=yLUOMy5sum8">&#127916;</a></td>
                                 </tr>
+                                <tr>
+                                <th>22/02</th>
+                                <td>Negative Prefixes</td>
+                                <td><a class="more" href="assets/classes/3-29.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.ecenglish.com/learnenglish/lessons/un-prefix">&#9745;</a><a class="more" href="https://www.ecenglish.com/learnenglish/lessons/using-prefix-re">&#9745;</a></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

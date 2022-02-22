@@ -151,9 +151,9 @@ include('verifica_login.php');
                                 </tr>
                                 <tr>
                                 <th>22/02</th>
-                                <td>.</td>
-                                <td><a class="more" href="">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td>Family</td>
+                                <td><a class="more" href="assets/classes/1-4_5.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/Q09RMIP2O">&#9745;</a></td>
                                 </tr>
                             </tbody>
                         </table>

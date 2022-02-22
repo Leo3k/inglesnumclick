@@ -213,6 +213,12 @@ include('verifica_login.php');
                                 <th>17/02</th>
                                 <td>Answering Questions</td>
                                 <td><a class="more" target="_blank" href="assets/classes/1-18.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.english-4u.de/en/grammar-quizzes/questions-do-does.htm">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>22/02</th>
+                                <td>Asking Questions</td>
+                                <td><a class="more" target="_blank" href="assets/classes/1-19.pdf">&#128196;</a></td>
                                 <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                             </tbody>
