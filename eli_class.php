@@ -251,6 +251,12 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://www.perfect-english-grammar.com/present-perfect-or-past-simple.html">&#128196;</a></td>
                                 <td><a class="more" href="https://www.perfect-english-grammar.com/past-simple-present-perfect-1.html">&#9745;</a></td>
                                 </tr>
+                                <tr>
+                                <th>23/02</th>
+                                <td>Things I have done</td>
+                                <td><a class="more" href="assets/classes/3-25Eli.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QK2B5F75T">&#9745;</a></td>
+                                </tr> <!-- Já fizemos 32 e 35 -->
                             </tbody>
                         </table>
         </div>

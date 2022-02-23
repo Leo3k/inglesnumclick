@@ -216,10 +216,16 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://www.quiz.biz/quizz-760331.html">&#9745;</a></td>
                                 </tr>
                                 <tr>
-                                <th>21/02</th>
+                                <th>22/02</th>
                                 <td>Everyday Activities</td>
                                 <td><a class="more" target="_blank" href="assets/classes/3-9.pdf">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QNGWC56Q1">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>24/02</th>
+                                <td>Phrasal verbs</td>
+                                <td><a class="more" target="_blank" href="assets/classes/3-9.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QNGWC56Q1">&#9745;</a></td>
                                 </tr>
                             </tbody>
                         </table>
