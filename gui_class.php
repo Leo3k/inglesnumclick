@@ -221,6 +221,12 @@ include('verifica_login.php');
                                 <td><a class="more" href="assets/classes/3-29.pdf">&#128196;</a></td>
                                 <td><a class="more" href="https://www.ecenglish.com/learnenglish/lessons/un-prefix">&#9745;</a><a class="more" href="https://www.ecenglish.com/learnenglish/lessons/using-prefix-re">&#9745;</a></td>
                                 </tr>
+                                <tr>
+                                <th>22/02</th>
+                                <td>Negative Prefixes II</td>
+                                <td><a class="more" href="assets/classes/3-29.pdf">&#128196;</a></td>
+                                <td><a class="more" href="http://a4esl.org/q/h/vm/negprefix.html">&#9745;</a></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

@@ -159,7 +159,13 @@ include('verifica_login.php');
                                 <th>17/02</th>
                                 <td>Things I have done II</td>
                                 <td><a class="more" target="_blank" href="assets/classes/3-25.pdf">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td><a class="more" href="https://learnenglish.britishcouncil.org/grammar/intermediate-to-upper-intermediate/just-yet-still-and-already">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>24/02</th>
+                                <td>Activities in progress</td>
+                                <td><a class="more" target="_blank" href="assets/classes/3-26.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QK2L5FUJT">&#9745;</a></td>
                                 </tr>
                             </tbody>
                         </table>
