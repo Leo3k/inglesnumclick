@@ -225,9 +225,14 @@ include('verifica_login.php');
                                 <th>24/02</th>
                                 <td>Question words</td>
                                 <td><a class="more" target="_blank" href="assets/classes/1-19.pdf">&#128196;</a></td>
-                                <td><a class="more" href="https://www.learnenglishfeelgood.com/esl-who-when-where-what2.html">&#9745;</a></td>
+                                <td><a class="more" href="https://agendaweb.org/exercises/grammar/questions/wh-questions">&#9745;</a></td>
                                 </tr>
-
+                                <tr>
+                                <th>01/03</th>
+                                <td>Question words II</td>
+                                <td><a class="more" target="_blank" href="assets/classes/1-19.pdf">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

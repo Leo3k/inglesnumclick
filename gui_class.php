@@ -205,7 +205,7 @@ include('verifica_login.php');
                                 </tr>
                                 <tr>
                                 <th>15/02</th>
-                                <td>Ayahuasca (Conversation Class)</td>
+                                <td>Ayahuasca</td>
                                 <td><a class="more" href=""></a></td>
                                 <td><a class="more" href=""></a></td>
                                 </tr>
@@ -222,10 +222,16 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://www.ecenglish.com/learnenglish/lessons/un-prefix">&#9745;</a><a class="more" href="https://www.ecenglish.com/learnenglish/lessons/using-prefix-re">&#9745;</a></td>
                                 </tr>
                                 <tr>
-                                <th>22/02</th>
+                                <th>24/02</th>
+                                <td>War - Russia, Ukraine, and the USA</td>
+                                <td><a class="more" href=""></a></td>
+                                <td><a class="more" href=""></a></td>
+                                </tr>
+                                <tr>
+                                <th>01/03</th>
                                 <td>Negative Prefixes II</td>
                                 <td><a class="more" href="assets/classes/3-29.pdf">&#128196;</a></td>
-                                <td><a class="more" href="http://a4esl.org/q/h/vm/negprefix.html">&#9745;</a></td>
+                                <td><a class="more" href="http://a4esl.org/q/h/vm/negprefix.html">&#9745;</a>&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none; color:black; font-weight:bold;"  class="more" href="https://bit.ly/3vudXMZ">&nbsp;&nbsp;MORE INFO&nbsp;&#128196;</a></td>
                                 </tr>
                             </tbody>
                         </table>
