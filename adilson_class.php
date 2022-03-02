@@ -216,14 +216,26 @@ include('verifica_login.php');
                                 </tr> 
                                 <tr>
                                 <th>23/02</th>
-                                <td>Routine and Free Time</td>
+                                <td>Routine and Free Time III</td>
                                 <td><a class="more" target="_blank" href="assets/classes/3-8.pdf">&#128196;</a></td>
                                 <td><a class="more" href="https://www.quiz.biz/quizz-760331.html">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>23/02</th>
-                                <td>Routine and Free Time II</td>
+                                <td>Body, hair, and appearance</td>
                                 <td><a class="more" target="_blank" href="assets/classes/3-10.pdf">&#128196;</a></td>
+                                <td><a class="more" href="http://take.quiz-maker.com/QJVBDILV9">&#9745;</a></td>
+                                </tr> 
+                                <tr>
+                                <th>02/03</th>
+                                <td>Describing people</td>
+                                <td><a class="more" target="_blank" href="assets/classes/3-11.pdf">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>02/03</th>
+                                <td>Clothes</td>
+                                <td><a class="more" target="_blank" href="assets/classes/3-12.pdf">&#128196;</a></td>
                                 <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr> 
                             </tbody>
