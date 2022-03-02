@@ -269,6 +269,12 @@ include('verifica_login.php');
                                 <td><a class="more" href="assets/classes/3-25Eli.pdf">&#128196;</a></td>
                                 <td><a class="more" href="https://take.quiz-maker.com/QK2B5F75T">&#9745;</a></td>
                                 </tr> <!-- Já fizemos 32 e 35 -->
+                                <tr>
+                                <th>02/03</th>
+                                <td>Kitchen vocabulary</td>
+                                <td><a class="more" href="https://www.youtube.com/watch?v=tTw2-aHcUEA">&#127916;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

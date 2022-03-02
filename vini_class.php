@@ -227,6 +227,12 @@ include('verifica_login.php');
                                 <td><a class="more" target="_blank" href="assets/classes/3-9.pdf">&#128196;</a></td>
                                 <td><a class="more" href="https://take.quiz-maker.com/QNGWC56Q1">&#9745;</a></td>
                                 </tr>
+                                <tr>
+                                <th>02/03</th>
+                                <td>Body, hair, and appearance</td>
+                                <td><a class="more" target="_blank" href="assets/classes/3-10.pdf">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>
