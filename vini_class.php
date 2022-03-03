@@ -232,7 +232,13 @@ include('verifica_login.php');
                                 <td>Body, hair, and appearance</td>
                                 <td><a class="more" target="_blank" href="assets/classes/3-10.pdf">&#128196;</a></td>
                                 <td><a class="more" href="http://take.quiz-maker.com/QJVBDILV9">&#9745;</a></td>
-                                </tr> <!-- o Vini já fez a 11, 12, e 13 -->
+                                </tr>
+                                <tr>
+                                <th>03/03</th>
+                                <td>Song - abcdefu by Gayle</td>
+                                <td><a class="more" href="">&#128196;</a></td>
+                                <td><a class="more" href="https://www.youtube.com/watch?v=NaFd8ucHLuo">&#x1F3B5;</a></td>
+                                </tr>  <!-- o Vini já fez a 11, 12, e 13 -->
                             </tbody>
                         </table>
         </div>

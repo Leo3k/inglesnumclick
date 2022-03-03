@@ -260,7 +260,7 @@ include('verifica_login.php');
                                 <tr>
                                 <th>28/02</th>
                                 <td>Song - abcdefu by Gayle</td>
-                                <td><a class="more" href="assets/classes/3-25Eli.pdf">&#128196;</a></td>
+                                <td><a class="more" href="">&#128196;</a></td>
                                 <td><a class="more" href="https://www.youtube.com/watch?v=NaFd8ucHLuo">&#x1F3B5;</a></td>
                                 </tr> 
                                 <tr>

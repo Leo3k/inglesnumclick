@@ -231,6 +231,12 @@ include('verifica_login.php');
                                 <th>01/03</th>
                                 <td>Question words II</td>
                                 <td><a class="more" target="_blank" href="assets/classes/1-19.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://agendaweb.org/exercises/grammar/questions/wh-questions">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>04/03</th>
+                                <td>Around Town</td>
+                                <td><a class="more" target="_blank" href="assets/classes/1-20.pdf">&#128196;</a></td>
                                 <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                             </tbody>

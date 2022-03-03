@@ -167,6 +167,12 @@ include('verifica_login.php');
                                 <td><a class="more" target="_blank" href="assets/classes/3-26.pdf">&#128196;</a></td>
                                 <td><a class="more" href="https://take.quiz-maker.com/QK2L5FUJT">&#9745;</a></td>
                                 </tr>
+                                <tr>
+                                <th>03/03</th>
+                                <td>Activities in progress II</td>
+                                <td><a class="more" target="_blank" href="assets/classes/3-26.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QK2L5FUJT">&#9745;</a></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

@@ -178,6 +178,12 @@ include('verifica_login.php');
                                 <td>Everyday Activities</td>
                                 <td><a class="more" href="assets/classes/3-9.pdf">&#128196;</a></td>
                                 <td><a class="more" href="https://take.quiz-maker.com/QNGWC56Q1">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>03/03</th>
+                                <td>Phrasal verbs</td>
+                                <td><a class="more" href="assets/classes/3-9.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QNGWC56Q1">&#9745;</a></td>
                                 </tr>  <!-- o Allife já fez a 12 e a 13 -->
                             </tbody>
                         </table>
