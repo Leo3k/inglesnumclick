@@ -181,6 +181,12 @@ include('verifica_login.php');
                                 </tr>
                                 <tr>
                                 <th>03/03</th>
+                                <td style="color:crimson;">Ausente</td>
+                                <td><a class="more" href=""></a></td>
+                                <td><a class="more" href=""></a></td>
+                                </tr>
+                                <tr>
+                                <th>10/03</th>
                                 <td>Phrasal verbs</td>
                                 <td><a class="more" href="assets/classes/3-9.pdf">&#128196;</a></td>
                                 <td><a class="more" href="https://take.quiz-maker.com/QNGWC56Q1">&#9745;</a></td>

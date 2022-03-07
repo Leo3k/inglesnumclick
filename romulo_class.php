@@ -169,9 +169,9 @@ include('verifica_login.php');
                                 </tr>
                                 <tr>
                                 <th>07/03</th>
-                                <td>.</td>
-                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td>Everyday Activities</td>
+                                <td><a class="more" target="_blank" href="assets/classes/3-9.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QNGWC56Q1">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>14/03</th>

@@ -236,7 +236,7 @@ include('verifica_login.php');
                                 <tr>
                                 <th>03/03</th>
                                 <td>Negative Prefixes III</td>
-                                <td><a class="more" href="assets/classes/3-29.pdf">&#128196;</a>&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none; color:black; font-weight:bold;"  class="more" href="https://bit.ly/3vudXMZ">&nbsp;&nbsp;MORE INFO&nbsp;&#128196;</a></td>
+                                <td><a class="more" href="assets/classes/3-29.pdf">&#128196;</a></td>
                                 <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                             </tbody>

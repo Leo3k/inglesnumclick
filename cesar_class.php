@@ -171,7 +171,7 @@ include('verifica_login.php');
                                 <th>07/03</th>
                                 <td>Times and Dates</td>
                                 <td><a class="more" target="_blank" href="assets/classes/3-5.pdf">&#128196;</a></td>
-                                <td><a class="more" href="https://take.quiz-maker.com/QC5FWGXSQ">&#9745;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QC5FWGXSQ">&#9745;</a>&nbsp;&nbsp;<a class="more" href="https://www.quiz-maker.com/QA3JPT5K7">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>14/03</th>
