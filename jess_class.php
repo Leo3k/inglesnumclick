@@ -237,6 +237,12 @@ include('verifica_login.php');
                                 <th>04/03</th>
                                 <td>Around Town</td>
                                 <td><a class="more" target="_blank" href="assets/classes/1-20.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/Q31HF3KPM">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>08/03</th>
+                                <td>Around Town part 2</td>
+                                <td><a class="more" target="_blank" href="assets/classes/1-20.pdf">&#128196;</a></td>
                                 <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                             </tbody>

@@ -163,9 +163,9 @@ include('verifica_login.php');
                         </div>
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a href="#">Aula Atual</a></h4>
-                            <p class="text">Possessive Adjectives <b> March 1st</b></p>
-                            <a class="more" href="assets/classes/1-4_5.pdf">Download <i class="lni-chevron-right"></i></a>
-                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank;" style="text-decoration:none; font-size:12px; color:black" href="https://meet.google.com/zgd-crbq-zbr">Seu link da aula</a></p>
+                            <p class="text">This and That <b> March 8th</b></p>
+                            <a class="more" href="assets/classes/this-that.pdf">Download <i class="lni-chevron-right"></i></a>
+                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank;" style="text-decoration:none; font-size:12px; color:black" href="https://meet.google.com/jcq-cvwb-hjr">Seu link da aula</a></p>
                         </div>
                     </div>  
                 </div>

@@ -137,7 +137,7 @@ include('verifica_login.php');
                                 <td><a href="#cnpj">CNPJ</a></td>
                                 <td>$300</td>
                                 </tr>
-                                <tr>
+                                <tr style="background-color:chartreuse;"> 
                                 <th>Fev</th>
                                 <td>10/02</td>
                                 <td><a href="#cnpj">CNPJ</a></td>
