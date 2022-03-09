@@ -140,19 +140,19 @@ include('verifica_login.php');
                                 <tr>
                                 <th>08/03</th>
                                 <td>Jumping Ships I</td>
-                                <td><a class="more" href="assets/classes/Alex/Jumping ships1.pdf">&#128196;</a></td>
+                                <td><a class="more" href="assets/classes/Alex/ships1.pdf">&#128196;</a></td>
                                 <td><a class="more" href=""></a></td>
                                 </tr>
                                 <tr>
                                 <th>09/03</th>
                                 <td>Jumping Ships II</td>
-                                <td><a class="more" href="assets/classes/Alex/Jumping ships2.pdf">&#128196;</a></td>
+                                <td><a class="more" href="assets/classes/Alex/ships2.pdf">&#128196;</a></td>
                                 <td><a class="more" href="p"></a></td>
                                 </tr>
                                 <tr>
                                 <th>10/03</th>
                                 <td>Jumping Ships III</td>
-                                <td><a class="more" href="assets/classes/Alex/Jumping ships3.pdf">&#128196;</a></td>
+                                <td><a class="more" href="assets/classes/Alex/ships3.pdf">&#128196;</a></td>
                                 <td><a class="more" href=""></a></td>
                                 </tr>
                             </tbody>
