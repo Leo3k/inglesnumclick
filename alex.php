@@ -1,6 +1,7 @@
 <?php
 session_start();
 include('verifica_login.php');
+//include('php/Student.php');
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -9,7 +10,7 @@ include('verifica_login.php');
     <meta charset="utf-8">
     
     <!--====== Title ======-->
-    <title><?php echo $_SESSION['usuario']; ?></title>
+    <title>Teacher Leo</title>
     
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -78,7 +79,7 @@ include('verifica_login.php');
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-bran" href="kainan.php">
+                            <a class="navbar-bran" href="alex.php">
                                 <img src="assets/images/logo1.png" alt="Logo">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,13 +91,16 @@ include('verifica_login.php');
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" class="navbar-nav ml-auto">
                                     <li class="nav-item active">
-                                        <a class="page-scroll" href="kainan.php">Home</a>
+                                        <a class="page-scroll" href="#home">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="kainan_class.php">All classes</a>
+                                        <a class="page-scroll" href="#features">Next Class</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="kainan_pay.php">Pagamento</a>
+                                        <a class="page-scroll" href="alex_class.php">All Classes</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="alex_pay.php">Payment</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="logout.php">Sair</a>
@@ -105,7 +109,7 @@ include('verifica_login.php');
                             </div> <!-- navbar collapse -->
                             
                             <div class="navbar-btn d-none d-sm-inline-block">
-                               <p><a class="main-btn" data-scroll-nav="0" href="kainan.php"><?php echo $_SESSION['usuario']; ?></a></p>
+                               <p><a class="main-btn" data-scroll-nav="0" href="#pricing"><?php echo $_SESSION['usuario']; ?></a><!--<a class="btn" style="color:aqua" href="logout.php">Sair</a></p>--->
                             </div>
                         </nav> <!-- navbar -->
                     </div>
@@ -118,97 +122,61 @@ include('verifica_login.php');
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="header-hero-content text-center">
-                            <h3 class="header-sub-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s" style="color:yellow"><?php echo $_SESSION['usuario']; ?></h3>             
-        <div class="container">
-                        <h3 class="title" style="color:aliceblue">Acompanhe suas aulas.</h3><br><br>
-                        <table class="table table-bordered table-hover" style="background-color: white;">
-                            <thead>
-                                <tr>
-                                <th>Dia</th>
-                                <th>Tema</th>
-                                <th>Arquivo</th>
-                                <th>Exercícios</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                <th>05/01</th>
-                                <td>Telling the Time</td>
-                                <td><a class="more" href="assets/classes/1-11.pdf">&#128196;</a></td>
-                                <td><a class="more" href="quiz_time_kainan.php">&#9745;</a></td>
-                                </tr>
-                                <tr>
-                                <th>12/01</th>
-                                <td>Vocabulary</td>
-                                <td><a class="more" href="assets/classes/1-12.pdf">&#128196;</a></td>
-                                <td><a class="more" href="quiz_day_kainan.php">&#9745;</a></td>
-                                </tr>
-                                <tr>
-                                <th>19/01</th>
-                                <td>Describing your day</td>
-                                <td><a class="more" href="assets/classes/1-13.pdf">&#128196;</a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/Q81V87OZJ">&#9745;</a></td>
-                                </tr>
-                                <tr>
-                                <th>27/01</th>
-                                <td>Describing your week</td>
-                                <td><a class="more" href="assets/classes/1-14.pdf">&#128196;</a></td>
-                                <td><a class="more" href="q_week_1-14.php">&#9745;</a></td>
-                                </tr>
-                                <tr>
-                                <th>02/02</th>
-                                <td>Describing your week II</td>
-                                <td><a class="more" href="assets/classes/1-14.pdf">&#128196;</a></td>
-                                <td><a class="more" href="q_once_1-14.php">&#9745;</a></td>
-                                </tr>
-                                <tr>
-                                <th>09/02</th>
-                                <td>Negatives with "to be"</td>
-                                <td><a class="more" href="assets/classes/1-15.pdf">&#128196;</a></td>
-                                <td><a class="more" href="https://take.quiz-maker.com/Q1M0RWH5F">&#9745;</a></td>
-                                </tr>
-                                <tr>
-                                <th>16/02</th>
-                                <td>Negatives with "to be" II</td>
-                                <td><a class="more" href="assets/classes/1-15.pdf">&#128196;</a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/QEZ92ONXP">&#9745;</a></td>
-                                </tr>
-                                <tr>
-                                <th>23/02</th>
-                                <td>More negatives</td>
-                                <td><a class="more" href="assets/classes/1-16.pdf">&#128196;</a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/QL32XW3WC">&#9745;</a></td>
-                                </tr>
-                                <tr>
-                                <th>02/03</th>
-                                <td>More negatives</td>
-                                <td><a class="more" href="assets/classes/1-16.pdf">&#128196;</a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/QL32XW3WC">&#9745;</a></td>
-                                </tr>
-                                <tr>
-                                <th>09/03</th>
-                                <td>Song - With You by Chris Brown</td>
-                                <td><a class="more" href="">&#128196;</a></td>
-                                <td><a class="more" href="https://www.youtube.com/watch?v=nmjdaBaZe8Y">&#x1F3B5;</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-        </div>
-      
+                            <h2 class="header-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.6s" style="color:aqua">Welcome <?php echo $_SESSION['usuario']; ?>!</h2>
+                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">Faça o download do PDF das aulas, resolva exercícios extras, e controle suas aulas.<!--<a href="Rebeca.php" style="text-decoration:none; color:red;font-size:30px">CLIQUE AQUI</a>---></p>
                         </div> <!-- header hero content -->
                     </div>
                 </div> <!-- row -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="header-hero-image text-center wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.4s">
+                            <img src="assets/images/studentcomputer.png" alt="hero">
+                        </div> <!-- header hero image -->
+                    </div>
+                </div> <!-- row -->
             </div> <!-- container -->
+            <div id="particles-1" class="particles"></div>
         </div> <!-- header hero -->
     </header>
     
     
-        </div> 
+    
+    <section id="features" class="services-area pt-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="section-title text-center pb-40">
+                        <div class="line m-auto"></div>
+                        <h3 class="title">Material para a próxima aula. <span> Faça o download!</span></h3>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <div class="services-icon">
+                            <img class="shape" src="assets/images/triangle.png" style="width:120px" alt="shape">
+                            <img class="shape-1" src="assets/images/icon.png" alt="shape">
+                        </div>
+                        <div class="services-content mt-30">
+                            <h4 class="services-title"><a href="#">Aula Atual</a></h4>
+                            <p class="text">Jumping Ships part3 <b>09/03</b></p>
+                            <a class="more" href="assets/classes/Alex/Jumping ships – By Camilla PART III.pdf">Download <i class="lni-chevron-right"></i></a>
+                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank" style="text-decoration:none; font-size:12px; color:black" href="https://us05web.zoom.us/j/87244205010?pwd=R1FHanR2ZEZyclBCNmdIVzVuUU8yZz09">Seu link da aula</a></p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
     </section>
     
    
-    
-  
     
     <footer id="footer" class="footer-area pt-120">
         <div class="container">
@@ -227,8 +195,7 @@ include('verifica_login.php');
                                 <li style="color: white;">leonardosantunes@yahoo.com</li>
                                
                     </div>
-                    
-                           
+                   
             <div class="footer-copyright">
                 <div class="row">
                     <div class="col-lg-12">
@@ -250,7 +217,8 @@ include('verifica_login.php');
 
     <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
 
-   
+    
+
 
 
     <!--====== Jquery js ======-->

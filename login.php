@@ -30,6 +30,10 @@ switch ($usuario) {
       header('Location: allan.php');
       
     break;
+  case 'Alex':
+      header('Location: alex.php');
+      
+    break;
   case "Tamires":
       header('Location: tamires.php');
       

@@ -78,7 +78,7 @@ include('verifica_login.php');
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-bran" href="kainan.php">
+                            <a class="navbar-bran" href="alex.php">
                                 <img src="assets/images/logo1.png" alt="Logo">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,13 +90,13 @@ include('verifica_login.php');
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" class="navbar-nav ml-auto">
                                     <li class="nav-item active">
-                                        <a class="page-scroll" href="kainan.php">Home</a>
+                                        <a class="page-scroll" href="alex.php">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="kainan_class.php">All classes</a>
+                                        <a class="page-scroll" href="alex_class.php">All classes</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="kainan_pay.php">Pagamento</a>
+                                        <a class="page-scroll" href="alex_pay.php">Pagamento</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="logout.php">Sair</a>
@@ -105,7 +105,7 @@ include('verifica_login.php');
                             </div> <!-- navbar collapse -->
                             
                             <div class="navbar-btn d-none d-sm-inline-block">
-                               <p><a class="main-btn" data-scroll-nav="0" href="kainan.php"><?php echo $_SESSION['usuario']; ?></a></p>
+                               <p><a class="main-btn" data-scroll-nav="0" href="alex_class.php"><?php echo $_SESSION['usuario']; ?></a></p>
                             </div>
                         </nav> <!-- navbar -->
                     </div>
@@ -120,79 +120,37 @@ include('verifica_login.php');
                         <div class="header-hero-content text-center">
                             <h3 class="header-sub-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s" style="color:yellow"><?php echo $_SESSION['usuario']; ?></h3>             
         <div class="container">
-                        <h3 class="title" style="color:aliceblue">Acompanhe suas aulas.</h3><br><br>
+                        <h3 class="title" style="color:aliceblue">Mensalidade</h3><br><br>
                         <table class="table table-bordered table-hover" style="background-color: white;">
                             <thead>
                                 <tr>
-                                <th>Dia</th>
-                                <th>Tema</th>
-                                <th>Arquivo</th>
-                                <th>Exercícios</th>
+                                <th>Mês</th>
+                                <th>Vence</th>
+                                <th>Pix</th>
+                                <th>Valor</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                <th>05/01</th>
-                                <td>Telling the Time</td>
-                                <td><a class="more" href="assets/classes/1-11.pdf">&#128196;</a></td>
-                                <td><a class="more" href="quiz_time_kainan.php">&#9745;</a></td>
+                                <tr style="background-color:chartreuse;">
+                                <th>March</th>
+                                <td>07/03</td>
+                                <td><a href="#cnpj">CNPJ</a></td>
+                                <td>$360</td>
                                 </tr>
                                 <tr>
-                                <th>12/01</th>
-                                <td>Vocabulary</td>
-                                <td><a class="more" href="assets/classes/1-12.pdf">&#128196;</a></td>
-                                <td><a class="more" href="quiz_day_kainan.php">&#9745;</a></td>
+                                <th>Fev</th>
+                                <td>07/04</td>
+                                <td><a href="#cnpj">CNPJ</a></td>
+                                <td>$450</td>
                                 </tr>
                                 <tr>
-                                <th>19/01</th>
-                                <td>Describing your day</td>
-                                <td><a class="more" href="assets/classes/1-13.pdf">&#128196;</a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/Q81V87OZJ">&#9745;</a></td>
-                                </tr>
-                                <tr>
-                                <th>27/01</th>
-                                <td>Describing your week</td>
-                                <td><a class="more" href="assets/classes/1-14.pdf">&#128196;</a></td>
-                                <td><a class="more" href="q_week_1-14.php">&#9745;</a></td>
-                                </tr>
-                                <tr>
-                                <th>02/02</th>
-                                <td>Describing your week II</td>
-                                <td><a class="more" href="assets/classes/1-14.pdf">&#128196;</a></td>
-                                <td><a class="more" href="q_once_1-14.php">&#9745;</a></td>
-                                </tr>
-                                <tr>
-                                <th>09/02</th>
-                                <td>Negatives with "to be"</td>
-                                <td><a class="more" href="assets/classes/1-15.pdf">&#128196;</a></td>
-                                <td><a class="more" href="https://take.quiz-maker.com/Q1M0RWH5F">&#9745;</a></td>
-                                </tr>
-                                <tr>
-                                <th>16/02</th>
-                                <td>Negatives with "to be" II</td>
-                                <td><a class="more" href="assets/classes/1-15.pdf">&#128196;</a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/QEZ92ONXP">&#9745;</a></td>
-                                </tr>
-                                <tr>
-                                <th>23/02</th>
-                                <td>More negatives</td>
-                                <td><a class="more" href="assets/classes/1-16.pdf">&#128196;</a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/QL32XW3WC">&#9745;</a></td>
-                                </tr>
-                                <tr>
-                                <th>02/03</th>
-                                <td>More negatives</td>
-                                <td><a class="more" href="assets/classes/1-16.pdf">&#128196;</a></td>
-                                <td><a class="more" href="https://www.quiz-maker.com/QL32XW3WC">&#9745;</a></td>
-                                </tr>
-                                <tr>
-                                <th>09/03</th>
-                                <td>Song - With You by Chris Brown</td>
-                                <td><a class="more" href="">&#128196;</a></td>
-                                <td><a class="more" href="https://www.youtube.com/watch?v=nmjdaBaZe8Y">&#x1F3B5;</a></td>
+                                <th>Mar</th>
+                                <td>07/05</td>
+                                <td><a href="#cnpj">CNPJ</a></td>
+                                <td>$450</td>
                                 </tr>
                             </tbody>
-                        </table>
+                            </table>
         </div>
       
                         </div> <!-- header hero content -->
@@ -202,13 +160,8 @@ include('verifica_login.php');
         </div> <!-- header hero -->
     </header>
     
-    
         </div> 
     </section>
-    
-   
-    
-  
     
     <footer id="footer" class="footer-area pt-120">
         <div class="container">
@@ -224,11 +177,11 @@ include('verifica_login.php');
                             <p class="text">Contato</p>
                             <ul class="contact">
                                 <li style="color: white;">+55981323625</li>
+                                <li id="cnpj" style="color: yellow;"><b>CNPJ - 37.436.667/0001-41 (pix)</b></li>
                                 <li style="color: white;">leonardosantunes@yahoo.com</li>
                                
                     </div>
-                    
-                           
+                  
             <div class="footer-copyright">
                 <div class="row">
                     <div class="col-lg-12">
@@ -250,9 +203,8 @@ include('verifica_login.php');
 
     <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
 
-   
-
-
+    <!--====== BACK TOP TOP PART ENDS ======-->   
+    
     <!--====== Jquery js ======-->
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>

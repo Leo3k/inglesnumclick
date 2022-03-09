@@ -238,7 +238,13 @@ include('verifica_login.php');
                                 <td>Song - abcdefu by Gayle</td>
                                 <td><a class="more" href="">&#128196;</a></td>
                                 <td><a class="more" href="https://www.youtube.com/watch?v=NaFd8ucHLuo">&#x1F3B5;</a></td>
-                                </tr>  <!-- o Vini já fez a 11, 12, e 13 -->
+                                </tr>  
+                                <tr>
+                                <th>09/03</th>
+                                <td>Song - With You by Chris Brown</td>
+                                <td><a class="more" href="">&#128196;</a></td>
+                                <td><a class="more" href="https://www.youtube.com/watch?v=nmjdaBaZe8Y">&#x1F3B5;</a></td>
+                                </tr> <!-- o Vini já fez a 11, 12, e 13 -->
                             </tbody>
                         </table>
         </div>
