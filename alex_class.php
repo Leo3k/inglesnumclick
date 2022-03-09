@@ -134,26 +134,26 @@ include('verifica_login.php');
                                 <tr>
                                 <th>03/03</th>
                                 <td>First Class</td>
-                                <td><a class="more" href="">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></a></td>
+                                <td><a class="more" href=""></a></td>
+                                <td><a class="more" href=""></a></a></td>
                                 </tr>
                                 <tr>
                                 <th>08/03</th>
                                 <td>Jumping Ships I</td>
-                                <td><a class="more" href="assets/classes/Alex/Jumping ships – By Camilla PART.pdf">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td><a class="more" href="assets/classes/Alex/Jumping ships1.pdf">&#128196;</a></td>
+                                <td><a class="more" href=""></a></td>
                                 </tr>
                                 <tr>
                                 <th>09/03</th>
                                 <td>Jumping Ships II</td>
-                                <td><a class="more" href="assets/classes/Alex/Jumping ships – By Camilla PART II.pdf">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td><a class="more" href="assets/classes/Alex/Jumping ships2.pdf">&#128196;</a></td>
+                                <td><a class="more" href="p"></a></td>
                                 </tr>
                                 <tr>
                                 <th>10/03</th>
                                 <td>Jumping Ships III</td>
-                                <td><a class="more" href="assets/classes/Alex/Jumping ships – By Camilla PART III.pdf">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td><a class="more" href="assets/classes/Alex/Jumping ships3.pdf">&#128196;</a></td>
+                                <td><a class="more" href=""></a></td>
                                 </tr>
                             </tbody>
                         </table>

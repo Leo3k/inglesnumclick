@@ -164,7 +164,7 @@ include('verifica_login.php');
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a href="#">Aula Atual</a></h4>
                             <p class="text">Jumping Ships part3 <b>09/03</b></p>
-                            <a class="more" href="assets/classes/Alex/Jumping ships – By Camilla PART III.pdf">Download <i class="lni-chevron-right"></i></a>
+                            <a class="more" href="assets/classes/Alex/Jumping ships3.pdf">Download <i class="lni-chevron-right"></i></a>
                             <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank" style="text-decoration:none; font-size:12px; color:black" href="https://us05web.zoom.us/j/87244205010?pwd=R1FHanR2ZEZyclBCNmdIVzVuUU8yZz09">Seu link da aula</a></p>
                         </div>
                     </div> 
