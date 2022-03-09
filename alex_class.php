@@ -78,7 +78,7 @@ include('verifica_login.php');
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-bran" href="Alex.php">
+                            <a class="navbar-bran" href="alex.php">
                                 <img src="assets/images/logo1.png" alt="Logo">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,13 +90,13 @@ include('verifica_login.php');
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" class="navbar-nav ml-auto">
                                     <li class="nav-item active">
-                                        <a class="page-scroll" href="Alex.php">Home</a>
+                                        <a class="page-scroll" href="alex.php">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="Alex_class.php">All classes</a>
+                                        <a class="page-scroll" href="alex_class.php">All classes</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="Alex_pay.php">Payment</a>
+                                        <a class="page-scroll" href="alex_pay.php">Payment</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="logout.php">Sair</a>
@@ -105,7 +105,7 @@ include('verifica_login.php');
                             </div> <!-- navbar collapse -->
                             
                             <div class="navbar-btn d-none d-sm-inline-block">
-                               <p><a class="main-btn" data-scroll-nav="0" href="Alex.php"><?php echo $_SESSION['usuario']; ?></a></p>
+                               <p><a class="main-btn" data-scroll-nav="0" href="alex.php"><?php echo $_SESSION['usuario']; ?></a></p>
                             </div>
                         </nav> <!-- navbar -->
                     </div>
