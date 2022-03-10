@@ -134,9 +134,27 @@ include('verifica_login.php');
                                 <tr>
                                 <th>10/03</th>
                                 <td>Song - With You by Chris Brown</td>
-                                <td></td>
                                 <td><a class="more" href="https://www.youtube.com/watch?v=nmjdaBaZe8Y">&#x1F3B5;</a></td>
+                                <td></td>
                                 </tr> 
+                                <tr>
+                                <th>17/03</th>
+                                <td></td>
+                                <td><a class="more" target="_blank" href=""></a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>24/03</th>
+                                <td></td>
+                                <td><a class="more" target="_blank" href=""></a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>31/03</th>
+                                <td></td>
+                                <td><a class="more" target="_blank" href=""></a></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>
