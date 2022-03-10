@@ -244,6 +244,12 @@ include('verifica_login.php');
                                 <td>Song - abcdefu by Gayle</td>
                                 <td><a class="more" href="">&#128196;</a></td>
                                 <td><a class="more" href="https://www.youtube.com/watch?v=NaFd8ucHLuo">&#x1F3B5;</a></td>
+                                </tr>   
+                                <tr>
+                                <th>10/03</th>
+                                <td>Jumping Ships I</td>
+                                <td><a class="more" href="assets/classes/Alex/ships1.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://www.youtube.com/watch?v=_hFl0Md92xA">&#127916;</a></td>
                                 </tr>
                             </tbody>
                         </table>

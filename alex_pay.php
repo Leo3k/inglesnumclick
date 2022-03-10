@@ -138,13 +138,13 @@ include('verifica_login.php');
                                 <td>$360</td>
                                 </tr>
                                 <tr>
-                                <th>Fev</th>
+                                <th>April</th>
                                 <td>07/04</td>
                                 <td><a href="#cnpj">CNPJ</a></td>
                                 <td>$450</td>
                                 </tr>
                                 <tr>
-                                <th>Mar</th>
+                                <th>May</th>
                                 <td>07/05</td>
                                 <td><a href="#cnpj">CNPJ</a></td>
                                 <td>$450</td>

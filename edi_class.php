@@ -173,6 +173,12 @@ include('verifica_login.php');
                                 <td><a class="more" target="_blank" href="assets/classes/3-26.pdf">&#128196;</a></td>
                                 <td><a class="more" href="https://take.quiz-maker.com/QK2L5FUJT">&#9745;</a></td>
                                 </tr>
+                                <tr>
+                                <th>10/03</th>
+                                <td>Song - With You by Chris Brown</td>
+                                <td><a class="more" target="_blank" href=""></a></td>
+                                <td><a class="more" href="https://www.youtube.com/watch?v=nmjdaBaZe8Y">&#x1F3B5;</a></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>
