@@ -231,13 +231,25 @@ include('verifica_login.php');
                                 <td>Describing people</td>
                                 <td><a class="more" target="_blank" href="assets/classes/3-11.pdf">&#128196;</a></td>
                                 <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
-                                </tr>
+                                </tr> 
                                 <tr>
                                 <th>02/03</th>
                                 <td>Clothes</td>
                                 <td><a class="more" target="_blank" href="assets/classes/3-12.pdf">&#128196;</a></td>
                                 <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                </tr>  <!-- Tirou uma semana de férias -->
+                                <tr>
+                                <th>16/03</th>
+                                <td>Song - If I Were a Boy by Beyoncé</td>
+                                <td><a class="more" href="https://www.youtube.com/watch?v=x2GVLf1FPSw">&#x1F3B5;</a></td>
+                                <td></td>
                                 </tr> 
+                                <tr>
+                                <th>16/03</th>
+                                <td>Song - If I Were a Boy by Beyoncé</td>
+                                <td><a class="more" href="https://www.youtube.com/watch?v=x2GVLf1FPSw">&#x1F3B5;</a></td>
+                                <td></td>
+                                </tr>  
                             </tbody>
                         </table>
         </div>

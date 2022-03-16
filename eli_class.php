@@ -273,7 +273,26 @@ include('verifica_login.php');
                                 <th>02/03</th>
                                 <td>Kitchen vocabulary</td>
                                 <td><a class="more" href="https://www.youtube.com/watch?v=tTw2-aHcUEA">&#127916;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td></td>
+                                </tr>
+                                <!-- Tirou uma semana de férias -->
+                                <tr>
+                                <th>14/03</th>
+                                <td>Song - With You by Chris Brown</td>
+                                <td><a class="more" href="https://www.youtube.com/watch?v=nmjdaBaZe8Y">&#x1F3B5;</a></td>
+                                <td></td>
+                                </tr> 
+                                <tr>
+                                <th>15/03</th>
+                                <td>Tell me about...</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/17GB1C8M1SNl75kNZFQfcZ-28efpaj9CU96oxaVuzw0o/edit?usp=sharing">&#127916;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>16/03</th>
+                                <td>Verb Tenses</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1B3-SYvEZCPyEQQzXdNz62Gpy5ObhzJ9vVfeCaAUuYTo/edit?usp=sharing">&#127916;</a></td>
+                                <td></td>
                                 </tr>
                             </tbody>
                         </table>

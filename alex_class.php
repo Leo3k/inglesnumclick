@@ -134,14 +134,14 @@ include('verifica_login.php');
                                 <tr>
                                 <th>03/03</th>
                                 <td>First Class</td>
-                                <td><a class="more" href=""></a></td>
-                                <td><a class="more" href=""></a></a></td>
+                                <td></td>
+                                <td></a></td>
                                 </tr>
                                 <tr>
                                 <th>08/03</th>
                                 <td>Jumping Ships I</td>
                                 <td><a class="more" href="assets/classes/Alex/ships1.pdf">&#128196;</a></td>
-                                <td><a class="more" href=""></a></td>
+                                <td></td>
                                 </tr>
                                 <tr>
                                 <th>09/03</th>
@@ -153,7 +153,25 @@ include('verifica_login.php');
                                 <th>10/03</th>
                                 <td>Jumping Ships III</td>
                                 <td><a class="more" href="assets/classes/Alex/ships3.pdf">&#128196;</a></td>
-                                <td><a class="more" href=""></a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>15/03</th>
+                                <td>Tell me about...</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/17GB1C8M1SNl75kNZFQfcZ-28efpaj9CU96oxaVuzw0o/edit?usp=sharing">&#127916;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>16/03</th>
+                                <td>Verb Tenses</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1B3-SYvEZCPyEQQzXdNz62Gpy5ObhzJ9vVfeCaAUuYTo/edit?usp=sharing">&#127916;</a></td>
+                                <td><a class="more" href="https://www.youtube.com/watch?v=XFRIb1R12A4">&#127916;</a></td>
+                                </tr>
+                                <tr>
+                                <th>17/03</th>
+                                <td>Simple Past</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1zNdw87YG5drUhx1fqr_VdYNYf6Pv8Y4WVVdbedUl_1k/edit?usp=sharing">&#127916;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QC5K0XXCQ">&#9745;</a></td>
                                 </tr>
                             </tbody>
                         </table>
