@@ -251,6 +251,18 @@ include('verifica_login.php');
                                 <td><a class="more" href="assets/classes/Alex/ships1.pdf">&#128196;</a></td>
                                 <td><a class="more" href="https://www.youtube.com/watch?v=_hFl0Md92xA">&#127916;</a></td>
                                 </tr>
+                                <tr>
+                                <th>15/03</th>
+                                <td>Tell me about...</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/17GB1C8M1SNl75kNZFQfcZ-28efpaj9CU96oxaVuzw0o/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>17/03</th>
+                                <td>Reading a package insert</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1WlT3o7Rnw942GITF6H-655dZTPFUb1r4TPLfPxrtwuI/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

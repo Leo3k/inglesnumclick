@@ -190,6 +190,12 @@ include('verifica_login.php');
                                 <td>Phrasal verbs</td>
                                 <td><a class="more" href="assets/classes/3-9.pdf">&#128196;</a></td>
                                 <td><a class="more" href="https://take.quiz-maker.com/QNGWC56Q1">&#9745;</a></td>
+                                </tr> 
+                                <tr>
+                                <th>17/03</th>
+                                <td>Song - abcdefu by Gayle</td>
+                                <td><a class="more" href="">&#128196;</a></td>
+                                <td><a class="more" href="https://www.youtube.com/watch?v=NaFd8ucHLuo">&#x1F3B5;</a></td>
                                 </tr>  <!-- o Allife já fez a 12 e a 13 -->
                             </tbody>
                         </table>

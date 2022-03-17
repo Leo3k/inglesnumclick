@@ -253,6 +253,12 @@ include('verifica_login.php');
                                 </tr> 
                                 <tr>
                                 <th>16/03</th>
+                                <td style="color:crimson;">Ausente</td>
+                                <td><a class="more" target="_blank" href=""></a></td>
+                                <td><a class="more" href=""></a></td>
+                                </tr> 
+                                <tr>
+                                <th>17/03</th>
                                 <td>Song - With You by Chris Brown</td>
                                 <td><a class="more" href="https://www.youtube.com/watch?v=nmjdaBaZe8Y">&#x1F3B5;</a></td>
                                 <td></td>

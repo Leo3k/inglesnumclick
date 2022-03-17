@@ -7,7 +7,7 @@ if(empty($_POST['usuario']) || empty($_POST['senha'])) {
     exit();
 }
 
-$usuario = mysqli_real_escape_string($conexao, ucfirst($_POST['usuario']));    
+$usuario = mysqli_real_escape_string($conexao, trim(ucfirst(strtolower($_POST['usuario']))));    
 $senha = (mysqli_real_escape_string($conexao, $_POST['senha']));
 
 $query = "select id, name from students where name = '{$usuario}' and password = '{$senha}'";

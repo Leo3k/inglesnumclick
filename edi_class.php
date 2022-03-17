@@ -176,8 +176,14 @@ include('verifica_login.php');
                                 <tr>
                                 <th>10/03</th>
                                 <td>Song - With You by Chris Brown</td>
-                                <td><a class="more" target="_blank" href=""></a></td>
                                 <td><a class="more" href="https://www.youtube.com/watch?v=nmjdaBaZe8Y">&#x1F3B5;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>17/03</th>
+                                <td>Tell me about...</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/17GB1C8M1SNl75kNZFQfcZ-28efpaj9CU96oxaVuzw0o/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
                                 </tr>
                             </tbody>
                         </table>
