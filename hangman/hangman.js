@@ -6,7 +6,8 @@ function letters() {
 
 // pegar palavra digitada, separar por letra, e mostrar traços
 function create() {
-    var word =  document.getElementById('word').value;
+    var palavra =  document.getElementById('word').value;
+    var word =  palavra.toLowerCase();
     var encode = window.btoa(word);
     document.getElementById('link').innerHTML = `<a style="text-decoration:none; color:navy" target="_blank" href="/hangman.html?p=${encode}">${word}</a>`;
     document.getElementById('share').innerHTML = `http://inglesnumclick.com.br/portal/hangman/hangman.html?p=${encode}`;
