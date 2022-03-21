@@ -169,14 +169,20 @@ include('verifica_login.php');
                                 </tr>
                                 <tr>
                                 <th>07/03</th>
+                                <td style="color:crimson;">Ausente</td>
+                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>14/03</th>
                                 <td>Times and Dates</td>
                                 <td><a class="more" target="_blank" href="assets/classes/3-5.pdf">&#128196;</a></td>
                                 <td><a class="more" href="https://take.quiz-maker.com/QC5FWGXSQ">&#9745;</a>&nbsp;&nbsp;<a class="more" href="https://www.quiz-maker.com/QA3JPT5K7">&#9745;</a></td>
                                 </tr>
                                 <tr>
-                                <th>14/03</th>
-                                <td>.</td>
-                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
+                                <th>21/03</th>
+                                <td>Times and Dates II</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1kxy6QRkOYpS-XcmxN4ccxvUBMLbej0SHbW2nhWROojU/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                             </tbody>

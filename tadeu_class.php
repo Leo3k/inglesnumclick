@@ -250,6 +250,12 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1zNdw87YG5drUhx1fqr_VdYNYf6Pv8Y4WVVdbedUl_1k/edit?usp=sharing">&#127916;</a></td>
                                 <td><a class="more" href="https://take.quiz-maker.com/QC5K0XXCQ">&#9745;</a></td>
                                 </tr>
+                                <tr>
+                                <th>22/03</th>
+                                <td>Friends: Monica Isn't a Good Masseuse</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1-WSchBoE6brsWNA11wGqjhYfto66joxJLFjGmq2lnP0/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" target="_blank" href="https://www.youtube.com/watch?v=BNRItz1Ngt0">&#127916;</a></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

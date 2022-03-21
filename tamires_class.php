@@ -191,6 +191,18 @@ include('verifica_login.php');
                                 <td><a class="more" href="assets/classes/1-7.pdf"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
                                 <td><a class="more" href="quiz_ops.php"><img src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="quiz" height="25px" width="25px"></a></td>
                                 </tr>
+                                <tr>
+                                <th>14/03</th>
+                                <td>Welcome Back</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1QrKc6P4vaarJVNHKgrFHoD-WYncBFxQBky8MOe-qBpA/edit?usp=sharing"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>21/03</th>
+                                <td>FUTURE</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/15BhgMFDGNgQRVGdgyK05FN-VRDcx30j7bI-K0R7lKJ0/edit?usp=sharing"><img src="https://i.ibb.co/3swb9h8/file-type-pdf-icon-130274.png" alt="pdf" height="25px" width="25px"></a></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>
