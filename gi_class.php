@@ -167,6 +167,24 @@ include('verifica_login.php');
                                 <td><a class="more" href="assets/classes/this-that.pdf">&#128196;</a></td>
                                 <td><a class="more" href="https://take.quiz-maker.com/QY1H03KVM">&#9745;</a></td>
                                 </tr>
+                                <tr>
+                                <th>15/03</th>
+                                <td>There is and There are</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1pVaOFu4eUQLPnpMHVK1H-SIhWapWDW5TT20ANCqJGRA/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="">&#9745;</a></td>
+                                </tr> 
+                                <tr>
+                                <th>22/03</th>
+                                <td>Studying for a test</td>
+                                <td><a class="more" href="">&#128196;</a></td>
+                                <td><a class="more" href="">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>29/03</th>
+                                <td>This, That, These, and Those</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1rGK2D_I7rPo4vZYAsWzcHTZXj2CW4hCwEFwUrjna0Pk/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/Q9UQVIWGX">&#9745;</a></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

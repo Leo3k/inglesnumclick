@@ -243,7 +243,19 @@ include('verifica_login.php');
                                 <th>08/03</th>
                                 <td>Around Town part 2</td>
                                 <td><a class="more" target="_blank" href="assets/classes/1-20.pdf">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/Q31HF3KPM">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>15/03</th>
+                                <td>Verbs in the past</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1U_V7ihgTK3VSnUmOwM6gCC_oZ2KrZxttATrv_67pDy0/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>25/03</th>
+                                <td>Simple Past</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1zNdw87YG5drUhx1fqr_VdYNYf6Pv8Y4WVVdbedUl_1k/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QC5K0XXCQ"> &#128221;</a></td>
                                 </tr>
                             </tbody>
                         </table>
