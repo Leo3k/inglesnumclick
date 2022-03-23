@@ -163,9 +163,9 @@ include('verifica_login.php');
                         </div>
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a href="#">Aula Atual</a></h4>
-                            <p class="text">Reading a package insert <b>23/03</b></p>
-                            <a class="more" href="https://docs.google.com/presentation/d/1WlT3o7Rnw942GITF6H-655dZTPFUb1r4TPLfPxrtwuI/edit?usp=sharing">Download <i class="lni-chevron-right"></i></a>
-                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank" style="text-decoration:none; font-size:12px; color:black" href="https://us05web.zoom.us/j/83139609472?pwd=RTV6UVp3M2VpQkx1RTE3ODZsVlRuQT09">Seu link da aula</a></p>
+                            <p class="text">Story <b>24/03</b></p>
+                            <a class="more" href="https://docs.google.com/presentation/d/1MWgk04oN2IZMIrvVrk4DKLEA735xVjpCJNoiITsHcxQ/edit?usp=sharing">Download <i class="lni-chevron-right"></i></a>
+                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank" style="text-decoration:none; font-size:12px; color:black" href="https://us05web.zoom.us/j/81602913170?pwd=U3pNZjBXZmVBcWFlZmJydDhHdlJ4Zz09">Seu link da aula</a></p>
                         </div>
                     </div> 
                 </div>

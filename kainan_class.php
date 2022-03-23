@@ -197,6 +197,12 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://www.youtube.com/watch?v=nmjdaBaZe8Y">&#x1F3B5;</a></td>
                                 <td></td> 
                                 </tr>
+                                <tr>
+                                <th>23/03</th>
+                                <td>Simple Past</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1U_V7ihgTK3VSnUmOwM6gCC_oZ2KrZxttATrv_67pDy0/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

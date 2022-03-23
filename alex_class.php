@@ -185,6 +185,12 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1WlT3o7Rnw942GITF6H-655dZTPFUb1r4TPLfPxrtwuI/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
+                                <tr>
+                                <th>24/03</th>
+                                <td>Story</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1MWgk04oN2IZMIrvVrk4DKLEA735xVjpCJNoiITsHcxQ/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

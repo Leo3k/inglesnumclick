@@ -260,8 +260,20 @@ include('verifica_login.php');
                                 <tr>
                                 <th>17/03</th>
                                 <td>Song - With You by Chris Brown</td>
-                                <td><a class="more" href="https://www.youtube.com/watch?v=nmjdaBaZe8Y">&#x1F3B5;</a></td>
                                 <td></td>
+                                <td><a class="more" href="https://www.youtube.com/watch?v=nmjdaBaZe8Y">&#x1F3B5;</a></td>
+                                </tr>
+                                <tr>
+                                <th>18/03</th>
+                                <td>Verbs in the past</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1U_V7ihgTK3VSnUmOwM6gCC_oZ2KrZxttATrv_67pDy0/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>25/03</th>
+                                <td>Irregular Verbs</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1zNdw87YG5drUhx1fqr_VdYNYf6Pv8Y4WVVdbedUl_1k/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QC5K0XXCQ"> &#128221;</a></td>
                                 </tr> <!-- o Vini já fez a 11, 12, e 13 -->
                             </tbody>
                         </table>
