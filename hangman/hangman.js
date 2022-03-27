@@ -1201,7 +1201,7 @@ var t = "t";
 function letterT() {
     document.getElementById('t').disabled = true;
     if (one === t) {
-        document.getElementById('first').innerHTML = m; 
+        document.getElementById('first').innerHTML = t; 
         ++score;
     } 
     if (two === t) {
