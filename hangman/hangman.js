@@ -1,6 +1,6 @@
 //pegar numero de letras selecionado e mudar quantidade de letras permitida
 function letters() {
-    var number = document.getElementById('number').value;
+    var number = document.getElementById('number').value; 
     var long = document.getElementById('word').setAttribute('maxlength', number); 
 }
 
@@ -10,9 +10,11 @@ function create() {
     var word =  palavra.toLowerCase();
     var encode = window.btoa(word);
     document.getElementById('link').innerHTML = `<a style="text-decoration:none; color:navy" target="_blank" href="/hangman.html?p=${encode}">${word}</a>`;
-    document.getElementById('share').innerHTML = `http://inglesnumclick.com.br/portal/hangman/hangman.html?p=${encode}`;
-    document.getElementById('share').style.display = "block";
+    document.getElementById('share').innerHTML = `http://inglesnumclick.com.br/portal/hangman/hangman.html?p=${encode}`;   
     document.getElementById('share').setAttribute("href",`http://inglesnumclick.com.br/portal/hangman/hangman.html?p=${encode}`);
+    if (word == "") {} else {
+        document.getElementById('share').style.display = "block";
+    };   
 }
 
 //uma alternativa para este código seria a pessoa selecionar as letras na hora de criar a palavra ao inves de digitar
@@ -79,34 +81,39 @@ function letterA() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== a && two !== a && three !== a && four !== a && five !== a) {
         --loss;
         document.getElementById('aa').innerHTML = a;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -134,34 +141,39 @@ function letterB() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== b && two !== b && three !== b && four !== b && five !== b) {
         --loss;
         document.getElementById('bb').innerHTML = b;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -189,34 +201,39 @@ function letterC() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== c && two !== c && three !== c && four !== c && five !== c) {
         --loss;
         document.getElementById('cc').innerHTML = c;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -244,34 +261,39 @@ function letterD() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== d && two !== d && three !== d && four !== d && five !== d) {
         --loss;
         document.getElementById('dd').innerHTML = d;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -299,34 +321,39 @@ function letterE() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== e && two !== e && three !== e && four !== e && five !== e) {
         --loss;
         document.getElementById('ee').innerHTML = e;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -354,34 +381,39 @@ function letterF() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== f && two !== f && three !== f && four !== f && five !== f) {
         --loss;
         document.getElementById('ff').innerHTML = f;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -409,34 +441,39 @@ function letterG() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== g && two !== g && three !== g && four !== g && five !== g) {
         --loss;
         document.getElementById('gg').innerHTML = g;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -464,34 +501,39 @@ function letterH() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== h && two !== h && three !== h && four !== h && five !== h) {
         --loss;
         document.getElementById('hh').innerHTML = h;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -519,34 +561,39 @@ function letterI() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== i && two !== i && three !== i && four !== i && five !== i) {
         --loss;
         document.getElementById('ii').innerHTML = i;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -574,34 +621,39 @@ function letterJ() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== j && two !== j && three !== j && four !== j && five !== j) {
         --loss;
         document.getElementById('jj').innerHTML = j;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -629,34 +681,39 @@ function letterK() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== k && two !== k && three !== k && four !== k && five !== k) {
         --loss;
         document.getElementById('kk').innerHTML = k;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -684,34 +741,39 @@ function letterL() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== l && two !== l && three !== l && four !== l && five !== l) {
         --loss;
         document.getElementById('ll').innerHTML = l;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -739,34 +801,39 @@ function letterM() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== m && two !== m && three !== m && four !== m && five !== m) {
         --loss;
         document.getElementById('mm').innerHTML = m;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -794,34 +861,39 @@ function letterN() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== n && two !== n && three !== n && four !== n && five !== n) {
         --loss;
         document.getElementById('nn').innerHTML = n;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -849,34 +921,39 @@ function letterO() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== o && two !== o && three !== o && four !== o && five !== o) {
         --loss;
         document.getElementById('oo').innerHTML = o;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -904,34 +981,39 @@ function letterP() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== p && two !== p && three !== p && four !== p && five !== p) {
         --loss;
         document.getElementById('pp').innerHTML = p;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -959,34 +1041,39 @@ function letterQ() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== q && two !== q && three !== q && four !== q && five !== q) {
         --loss;
         document.getElementById('qq').innerHTML = q;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -1014,34 +1101,39 @@ function letterR() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== r && two !== r && three !== r && four !== r && five !== r) {
         --loss;
         document.getElementById('rr').innerHTML = r;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -1069,34 +1161,39 @@ function letterS() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== s && two !== s && three !== s && four !== s && five !== s) {
         --loss;
         document.getElementById('ss').innerHTML = s;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -1124,34 +1221,39 @@ function letterT() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== t && two !== t && three !== t && four !== t && five !== t) {
         --loss;
         document.getElementById('tt').innerHTML = t;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -1179,34 +1281,39 @@ function letterU() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== u && two !== u && three !== u && four !== u && five !== u) {
         --loss;
         document.getElementById('uu').innerHTML = u;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -1234,34 +1341,39 @@ function letterV() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== v && two !== v && three !== v && four !== v && five !== v) {
         --loss;
         document.getElementById('vv').innerHTML = v;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -1289,34 +1401,39 @@ function letterW() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== w && two !== w && three !== w && four !== w && five !== w) {
         --loss;
         document.getElementById('ww').innerHTML = w;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -1344,34 +1461,39 @@ function letterX() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== x && two !== x && three !== x && four !== x && five !== x) {
         --loss;
         document.getElementById('xx').innerHTML = x;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -1399,34 +1521,39 @@ function letterY() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== y && two !== y && three !== y && four !== y && five !== y) {
         --loss;
         document.getElementById('yy').innerHTML = y;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
 };
 
@@ -1454,33 +1581,42 @@ function letterZ() {
         ++score; 
     } 
     if (score === wordLength) {
-        document.getElementById('img').style.display = "none";
-        document.getElementById('img2').style.display = "block";
-        document.getElementById('alphabet').innerHTML = "VENCEDOR";
+        document.getElementById('imge').style.display = "none";
+        document.getElementById('imge2').style.display = "block";
+        document.getElementById('result').innerHTML = "Parabéns! Você descobriu a palavra.";
+        document.getElementById('result').setAttribute("class","h6 text-success bg-white p-2");
+        document.getElementById('newgame').style.display = "block";
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
     } 
     if ( one !== z && two !== z && three !== z && four !== z && five !== z) {
         --loss;
         document.getElementById('zz').innerHTML = z;
     }
     if (loss === 5) {
-        document.getElementById("img").src = img.src.replace("hang.png", "hang2.png");   
+        document.getElementById("imge").src = imge.src.replace("hang.png", "hang2.png");   
     }
     if (loss === 4) {
-        document.getElementById("img").src = img.src.replace("hang2.png", "hang3.png");   
+        document.getElementById("imge").src = imge.src.replace("hang2.png", "hang3.png");   
     }
     if (loss === 3) {
-        document.getElementById("img").src = img.src.replace("hang3.png", "hang4.png");     
+        document.getElementById("imge").src = imge.src.replace("hang3.png", "hang4.png");     
     }
     if (loss === 2) {
-        document.getElementById("img").src = img.src.replace("hang4.png", "hang5.png");
+        document.getElementById("imge").src = imge.src.replace("hang4.png", "hang5.png");
     }
     if (loss === 1) {
-        document.getElementById("img").src = img.src.replace("hang5.png", "hang6.png");
+        document.getElementById("imge").src = imge.src.replace("hang5.png", "hang6.png");
     }
     if (loss === 0) {
-        document.getElementById("img").src = img.src.replace("hang6.png", "hang7.png");
-        document.getElementById('alphabet').innerHTML = "PERDEDOR";
+        document.getElementById("imge").src = imge.src.replace("hang6.png", "hang7.png");
+        document.getElementById('result').innerHTML = "Que pena! Você gastou as suas 6 tentativas."
         document.getElementById('div').style.display = "none";
+        document.getElementById('game').style.height = "675px";
+        document.getElementById('try').style.display = "block";
     }
+};
+
+function tryAgain() {
+    location.reload();
 };

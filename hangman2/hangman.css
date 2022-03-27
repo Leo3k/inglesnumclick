@@ -1,20 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Josefin+Sans:wght@500&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Playfair+Display&display=swap');
 
-
-
-p#alphabet, span {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 50px;
-    margin: 5px;
-    color: white;
+body {
+    background-color: #854629;
 }
 
-p#underscore {
-    margin-bottom: 0px;
-}
-
- /*div#main {
+div#main {
     margin: auto;
     width: 300px;
     height:300px;
@@ -29,13 +19,16 @@ p {
     color: white;
 }
 
-
+h1{
+    font-family: 'Playfair Display', serif;
+    color:white;
+}
 
 p#link {
     font-size: 80px;
 }
 
- {
+p#underscore {
     font-family: 'Playfair Display', serif;
     font-size:40px;
 }
@@ -49,7 +42,6 @@ p#alphabet {
     margin:auto;
     margin-bottom:5px;
 }
-}*/
 
 div#begin {
     margin: auto;
@@ -60,10 +52,13 @@ div#begin {
 }
 
 div#game {
+    margin: auto;
+    height:400px;
     display: none;
+    text-align: center;
 }
 
- /* button {
+button {
 	box-shadow: -7px 4px 17px -8px #cf866c;
 	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
 	background-color:#d0451b;
@@ -85,11 +80,11 @@ button:hover {
 button:active {
 	position:relative;
 	top:1px;
-}*/
+}
 
-#imge2 {
+#img2 {
     display: none;
-    margin: auto;
+    margin:auto;
 }
 
 div#div {
