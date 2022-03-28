@@ -150,9 +150,9 @@ include('verifica_login.php');
                                 <td><a class="more" target="_blank" href="https://www.youtube.com/watch?v=BNRItz1Ngt0">&#127916;</a></td>
                                 </tr>
                                 <tr>
-                                <th>31/03</th>
-                                <td></td>
-                                <td><a class="more" target="_blank" href=""></a></td>
+                                <th>28/03</th>
+                                <td>Comparison</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1i3jWnhdcxysIC4P_4Jy5WBT9xhOmS2fnDLDLj1kP2K8/edit?usp=sharing"></a></td>
                                 <td></td>
                                 </tr>
                             </tbody>

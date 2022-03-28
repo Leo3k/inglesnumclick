@@ -312,6 +312,12 @@ include('verifica_login.php');
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1U_V7ihgTK3VSnUmOwM6gCC_oZ2KrZxttATrv_67pDy0/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
+                                <tr>
+                                <th>28/03</th>
+                                <td>Comparison</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1i3jWnhdcxysIC4P_4Jy5WBT9xhOmS2fnDLDLj1kP2K8/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>
