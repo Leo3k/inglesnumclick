@@ -323,6 +323,12 @@ include('verifica_login.php');
                                 <td>Superlatives</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1rbJW6f0n8KLS6B5Wh8u4WEwhVZYH2OLR-ho8VlK2CJo/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                </tr> 
+                                <tr>
+                                <th>30/03</th>
+                                <td>Cartoons</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1k2WPP_JV05s2MM4OR6QRw20Oh3eHJFYfAlYQvUlRS80/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
                                 </tr>
                             </tbody>
                         </table>

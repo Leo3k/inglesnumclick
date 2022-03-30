@@ -192,17 +192,23 @@ include('verifica_login.php');
                                 <td></td>
                                 </tr>
                                 <tr>
-                                <th>28/03</th>
+                                <th>29/03</th>
                                 <td>Parenting</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/document/d/1kP5_VnvYhGubCAUkY8SOCNSfWKnsmGVLVQYG0g9gE0M/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>     
                                 <tr>
-                                <th>29/03</th>
+                                <th>30/03</th>
                                 <td>Verbs related to eating</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1fh6o061JkvP0UURkHX79LDMLl00CJm7-dSdDe1UIQgc/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
-                                </tr>                            
+                                </tr>  
+                                <tr>
+                                <th>31/03</th>
+                                <td>Cartoons</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1k2WPP_JV05s2MM4OR6QRw20Oh3eHJFYfAlYQvUlRS80/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                </tr>                          
                             </tbody>
                         </table>
         </div>
