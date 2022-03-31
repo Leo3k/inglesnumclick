@@ -199,9 +199,15 @@ include('verifica_login.php');
                                 </tr> 
                                 <tr>
                                 <th>24/03</th>
+                                <td style="color:crimson;">Ausente</td>
+                                <td><a class="more" href=""></a></td>
+                                <td><a class="more" href=""></a></td>
+                                </tr>
+                                <tr>
+                                <th>31/03</th>
                                 <td>Useful words</td>
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1WpWki33PiifVPe-FiqBtB7PcRkRv18Xx6NKhDkw-mNo/edit?usp=sharing">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QG2G3FV6L">&#9745;</a></td>
                                 </tr> <!-- o Allife já fez a 12 e a 13 -->
                             </tbody>
                         </table>

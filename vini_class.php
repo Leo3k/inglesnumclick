@@ -283,6 +283,12 @@ include('verifica_login.php');
                                 </tr>
                                 <tr>
                                 <th>30/03</th>
+                                <td style="color:crimson;">Ausente</td>
+                                <td><a class="more" target="_blank" href=""></a></td>
+                                <td><a class="more" href=""></a></td>
+                                </tr>
+                                <tr>
+                                <th>31/03</th>
                                 <td>Common Verbs</td>
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1iyyp15h-WfCO9vJYuljB6FXXkKg3j8KVTxyumBDtaDU/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href="quiz_ops.php"> &#128221;</a></td>
