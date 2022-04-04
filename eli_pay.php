@@ -133,18 +133,19 @@ include('verifica_login.php');
                             <tbody>
                                 <tr style="background-color:chartreuse;">
                                 <th>Jan</th>
-                                <td>10/01</td>
+                                <td>-</td>
                                 <td><a href="#cnpj">CNPJ</a></td>
                                 <td>$$$</td>
                                 </tr>
-                                <tr style="background-color:yellow;">
+                                <tr style="background-color:chartreuse;">
                                 <th>Fev</th>
-                                <td>10/02</td>
+                                <td>-</td>
                                 <td><a href="#cnpj">CNPJ</a></td>
                                 <td>$$$</td>
                                 </tr>
+                                <tr style="background-color:chartreuse;">
                                 <th>Mar</th>
-                                <td>10/03</td>
+                                <td>-</td>
                                 <td><a href="#cnpj">CNPJ</a></td>
                                 <td>$$$</td>
                                 </tr>

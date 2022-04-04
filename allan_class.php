@@ -154,7 +154,13 @@ include('verifica_login.php');
                                 <td>Comparison</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1i3jWnhdcxysIC4P_4Jy5WBT9xhOmS2fnDLDLj1kP2K8/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
-                                </tr> <!-- next class : superlatives https://docs.google.com/presentation/d/1rbJW6f0n8KLS6B5Wh8u4WEwhVZYH2OLR-ho8VlK2CJo/edit?usp=sharing -->
+                                </tr> 
+                                <tr>
+                                <th>04/04</th>
+                                <td>Superlatives</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1rbJW6f0n8KLS6B5Wh8u4WEwhVZYH2OLR-ho8VlK2CJo/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

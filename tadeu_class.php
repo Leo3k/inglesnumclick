@@ -260,13 +260,25 @@ include('verifica_login.php');
                                 <th>24/03</th>
                                 <td style="color: crimson;">Ausente</td>
                                 <td><a class="more" target="_blank" href="">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td></td>
                                 </tr>
                                 <tr>
                                 <th>28/03</th>
                                 <td>Story</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1MWgk04oN2IZMIrvVrk4DKLEA735xVjpCJNoiITsHcxQ/edit?usp=sharing">&#128196;</a></td>
-                                <td><a class="more" target="_blank" href="quiz_ops.php"></a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>31/03</th>
+                                <td style="color: crimson;">Ausente</td>
+                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>05/04</th>
+                                <td>Verb Tenses</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1B3-SYvEZCPyEQQzXdNz62Gpy5ObhzJ9vVfeCaAUuYTo/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
                                 </tr>
                             </tbody>
                         </table>

@@ -285,13 +285,13 @@ include('verifica_login.php');
                                 <tr>
                                 <th>15/03</th>
                                 <td>Tell me about...</td>
-                                <td><a class="more" href="https://docs.google.com/presentation/d/17GB1C8M1SNl75kNZFQfcZ-28efpaj9CU96oxaVuzw0o/edit?usp=sharing">&#127916;</a></td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/17GB1C8M1SNl75kNZFQfcZ-28efpaj9CU96oxaVuzw0o/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
                                 <tr>
                                 <th>16/03</th>
                                 <td>Verb Tenses</td>
-                                <td><a class="more" href="https://docs.google.com/presentation/d/1B3-SYvEZCPyEQQzXdNz62Gpy5ObhzJ9vVfeCaAUuYTo/edit?usp=sharing">&#127916;</a></td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1B3-SYvEZCPyEQQzXdNz62Gpy5ObhzJ9vVfeCaAUuYTo/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
                                 <tr>
@@ -310,25 +310,31 @@ include('verifica_login.php');
                                 <th>23/03</th>
                                 <td>Verbs in the past</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1U_V7ihgTK3VSnUmOwM6gCC_oZ2KrZxttATrv_67pDy0/edit?usp=sharing">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td></td>
                                 </tr>
                                 <tr>
                                 <th>28/03</th>
                                 <td>Comparison</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1i3jWnhdcxysIC4P_4Jy5WBT9xhOmS2fnDLDLj1kP2K8/edit?usp=sharing">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td></td>
                                 </tr>
                                 <tr>
                                 <th>29/03</th>
                                 <td>Superlatives</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1rbJW6f0n8KLS6B5Wh8u4WEwhVZYH2OLR-ho8VlK2CJo/edit?usp=sharing">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td></td>
                                 </tr> 
                                 <tr>
                                 <th>30/03</th>
                                 <td>Cartoons</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1k2WPP_JV05s2MM4OR6QRw20Oh3eHJFYfAlYQvUlRS80/edit?usp=sharing">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>04/04</th>
+                                <td>FUTURE</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/15BhgMFDGNgQRVGdgyK05FN-VRDcx30j7bI-K0R7lKJ0/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
                                 </tr>
                             </tbody>
                         </table>

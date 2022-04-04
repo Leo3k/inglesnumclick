@@ -207,8 +207,14 @@ include('verifica_login.php');
                                 <th>31/03</th>
                                 <td>Cartoons</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1k2WPP_JV05s2MM4OR6QRw20Oh3eHJFYfAlYQvUlRS80/edit?usp=sharing">&#128196;</a></td>
-                                <td><a class="more" href="quiz_ops.php">&#9745;</a></td>
-                                </tr>                          
+                                <td></td>
+                                </tr>  
+                                <tr>
+                                <th>05/04</th>
+                                <td>Green Turtle</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1DnV1HTZ-4mnR4s9KCUkEBSK4CZKI4FxPvOKhfXQoYAM/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>                        
                             </tbody>
                         </table>
         </div>

@@ -132,21 +132,22 @@ include('verifica_login.php');
                             </thead>
                             <tbody>
                                 <tr style="background-color:chartreuse;">
-                                <th>Jan</th>
-                                <td>27/01</td>
-                                <td><a href="#cnpj">CNPJ</a></td>
-                                <td>$230</td>
+                                    <th>Jan</th>
+                                    <td>27/01</td>
+                                    <td><a href="#cnpj">CNPJ</a></td>
+                                    <td>$230</td>
                                 </tr>
-                                <tr>
-                                <th>Fev</th>
                                 <tr style="background-color:chartreuse;">
-                                <td><a href="#cnpj">CNPJ</a></td>
-                                <td>$75</td>
+                                    <th>Fev</th>
+                                    <td>27/02</td>
+                                    <td><a href="#cnpj">CNPJ</a></td>
+                                    <td>$75</td>
                                 </tr>
-                                <th>Mar</th>
-                                <td>27/03</td>
-                                <td><a href="#cnpj">CNPJ</a></td>
-                                <td></td>
+                                <tr style="background-color:chartreuse;">
+                                    <th>Mar</th>
+                                    <td>27/03</td>
+                                    <td><a href="#cnpj">CNPJ</a></td>
+                                    <td>$112</td>
                                 </tr>
                             </tbody>
                             </table>

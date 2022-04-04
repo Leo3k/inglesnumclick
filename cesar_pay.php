@@ -149,6 +149,12 @@ include('verifica_login.php');
                                 <td><a href="#cnpj">CNPJ</a></td>
                                 <td>$</td>
                                 </tr>
+                                <tr style="background-color:chartreuse">
+                                <th>Abr</th>
+                                <td>01/04</td>
+                                <td><a href="#cnpj">CNPJ</a></td>
+                                <td>$</td>
+                                </tr>
                             </tbody>
                             </table>
         </div>

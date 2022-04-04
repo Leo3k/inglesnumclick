@@ -143,10 +143,11 @@ include('verifica_login.php');
                                 <td><a href="#cnpj">CNPJ</a></td>
                                 <td>$114</td>
                                 </tr>
+                                <tr style="background-color:chartreuse">
                                 <th>Mar</th>
                                 <td>20/03</td>
                                 <td><a href="#cnpj">CNPJ</a></td>
-                                <td>$</td>
+                                <td>$152</td>
                                 </tr>
                             </tbody>
                             </table>
