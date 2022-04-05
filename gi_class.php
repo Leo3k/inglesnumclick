@@ -171,19 +171,25 @@ include('verifica_login.php');
                                 <th>15/03</th>
                                 <td>There is and There are</td>
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1pVaOFu4eUQLPnpMHVK1H-SIhWapWDW5TT20ANCqJGRA/edit?usp=sharing">&#128196;</a></td>
-                                <td><a class="more" href="">&#9745;</a></td>
+                                <td></td>
                                 </tr> 
                                 <tr>
                                 <th>22/03</th>
                                 <td>Studying for a test</td>
                                 <td><a class="more" href="">&#128196;</a></td>
-                                <td><a class="more" href="">&#9745;</a></td>
+                                <td></td>
                                 </tr>
                                 <tr>
                                 <th>29/03</th>
                                 <td>This, That, These, and Those</td>
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1rGK2D_I7rPo4vZYAsWzcHTZXj2CW4hCwEFwUrjna0Pk/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href="https://take.quiz-maker.com/Q9UQVIWGX">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>05/04</th>
+                                <td>Common Verbs</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1iyyp15h-WfCO9vJYuljB6FXXkKg3j8KVTxyumBDtaDU/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
                                 </tr>
                             </tbody>
                         </table>

@@ -263,6 +263,18 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1iyyp15h-WfCO9vJYuljB6FXXkKg3j8KVTxyumBDtaDU/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href="quiz_ops.php"> &#128221;</a></td>
                                 </tr>
+                                <tr>
+                                <th>29/03</th>
+                                <td>Common Verbs</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1iyyp15h-WfCO9vJYuljB6FXXkKg3j8KVTxyumBDtaDU/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="quiz_ops.php"> &#128221;</a></td>
+                                </tr>
+                                <tr>
+                                <th>05/03</th>
+                                <td>Verb Tenses</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1B3-SYvEZCPyEQQzXdNz62Gpy5ObhzJ9vVfeCaAUuYTo/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>
