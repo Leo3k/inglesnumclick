@@ -293,6 +293,18 @@ include('verifica_login.php');
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/17B2u1BVbnId1fLHDgh6oSMRIleNpHy54bWFAJDBjAvk/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
+                                <tr>
+                                <th>07/04</th>
+                                <td style="color: crimson;">Ausente</td>
+                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
+                                <td></td>
+                                </tr> 
+                                <tr>
+                                <th>12/04</th>
+                                <td>She's out of my league</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1uWFFlCwbTVlZ8umDeCbXhn_nns_7kYzqw1bWjXB1tpo/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

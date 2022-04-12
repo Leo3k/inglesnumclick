@@ -226,7 +226,19 @@ include('verifica_login.php');
                                 <td>FREE TIME part 2</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/17B2u1BVbnId1fLHDgh6oSMRIleNpHy54bWFAJDBjAvk/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
-                                </tr>                     
+                                </tr>
+                                <tr>
+                                <th>12/04</th>
+                                <td>She's out of my league</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1uWFFlCwbTVlZ8umDeCbXhn_nns_7kYzqw1bWjXB1tpo/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>    
+                                <tr>
+                                <th>13/04</th>
+                                <td>Friends: Marriage</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1jx3mVG-2-JWMa7nauIOsO_QzLHACXcuLwCicKM1Wit4/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" target="_blank" href="https://www.youtube.com/watch?v=s0OORxpYLbw">&#127916;</a></td>
+                                </tr>                   
                             </tbody>
                         </table>
         </div>

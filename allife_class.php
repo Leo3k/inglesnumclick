@@ -208,7 +208,13 @@ include('verifica_login.php');
                                 <td>Useful words</td>
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1WpWki33PiifVPe-FiqBtB7PcRkRv18Xx6NKhDkw-mNo/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href="https://take.quiz-maker.com/QG2G3FV6L">&#9745;</a></td>
-                                </tr> <!-- o Allife já fez a 12 e a 13 -->
+                                </tr> 
+                                <tr>
+                                <th>07/04</th>
+                                <td>Listening</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1ckQuwn7h-abSRyspID-Pk08BQMoUEXC2w3AZHz_Pd_o/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

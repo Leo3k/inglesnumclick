@@ -192,11 +192,17 @@ include('verifica_login.php');
                                 <td><a class="more" target="_blank" href="https://www.youtube.com/watch?v=ppunAo8ckBc">&#127916;</a></td>
                                 </tr>
                                 <tr>
-                                <th>31/03</th>
+                                <th>01/04</th>
                                 <td>Green Turtle</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1DnV1HTZ-4mnR4s9KCUkEBSK4CZKI4FxPvOKhfXQoYAM/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
+                                <tr>
+                                <th>07/04</th>
+                                <td style="color: crimson;">Ausente</td>
+                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
+                                <td></td>
+                                </tr> 
                             </tbody>
                         </table>
         </div>
