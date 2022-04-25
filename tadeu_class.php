@@ -294,9 +294,21 @@ include('verifica_login.php');
                                 </tr> 
                                 <tr>
                                 <th>14/04</th>
+                                <td style="color: crimson;">Ausente</td>
+                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>19/04</th>
                                 <td>Prepositions</td>
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1ZVdy4A2_vGhVtX8aFFGJLpq143xZgFC3q2_woQYNR0M/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
+                                </tr>
+                                <tr>
+                                <th>26/04</th>
+                                <td>Some - any - no</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1wJ5a-qYH1L6tlF0tKZe-oiC1vkhZyk2diyKAk15D6Ek/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QWYGVXO3K">&#9745;</a></td>
                                 </tr>
                             </tbody>
                         </table>

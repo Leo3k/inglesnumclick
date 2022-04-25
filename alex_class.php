@@ -238,7 +238,31 @@ include('verifica_login.php');
                                 <td>Friends: Marriage</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1jx3mVG-2-JWMa7nauIOsO_QzLHACXcuLwCicKM1Wit4/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" target="_blank" href="https://www.youtube.com/watch?v=s0OORxpYLbw">&#127916;</a></td>
-                                </tr>                   
+                                </tr>  
+                                <tr>
+                                <th>19/04</th>
+                                <td>Friends: Marriage Part 2</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1jx3mVG-2-JWMa7nauIOsO_QzLHACXcuLwCicKM1Wit4/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" target="_blank" href="https://www.youtube.com/watch?v=s0OORxpYLbw">&#127916;</a></td>
+                                </tr>        
+                                <tr>
+                                <th>20/04</th>
+                                <td style="color: crimson;">Ausente</td>
+                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
+                                <td></td>
+                                </tr> 
+                                <tr>
+                                <th>22/04</th>
+                                <td>Paraphrasing</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/document/d/1jFrUUzqbhbTHAAt12WROXoIVr9HJLf7TMIn1DzObCTA/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>  
+                                <tr>
+                                <th>22/04</th>
+                                <td>Paraphrasing Part 2</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1bWAHuUjSe8ZG5l6_-A8vUfcL0-TgCylMjUFnTAc3RqQ/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>            
                             </tbody>
                         </table>
         </div>

@@ -221,6 +221,18 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1pVaOFu4eUQLPnpMHVK1H-SIhWapWDW5TT20ANCqJGRA/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr> 
+                                <tr>
+                                <th>18/04</th>
+                                <td>Script</td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>25/04</th>
+                                <td>Prepositions</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1ZVdy4A2_vGhVtX8aFFGJLpq143xZgFC3q2_woQYNR0M/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr> 
                             </tbody>
                         </table>
         </div>

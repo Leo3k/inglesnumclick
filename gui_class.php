@@ -311,6 +311,18 @@ include('verifica_login.php');
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1uWFFlCwbTVlZ8umDeCbXhn_nns_7kYzqw1bWjXB1tpo/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
+                                <tr>
+                                <th>19/04</th>
+                                <td>First Class (Mateus)</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1QlbyaGe770EvfISX1Jnnpa5NSsgU-S-sWVIKccacv3Q/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>20/04</th>
+                                <td>Verb Tenses (Mateus)</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1B3-SYvEZCPyEQQzXdNz62Gpy5ObhzJ9vVfeCaAUuYTo/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

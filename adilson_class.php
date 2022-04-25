@@ -310,6 +310,18 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1ZVdy4A2_vGhVtX8aFFGJLpq143xZgFC3q2_woQYNR0M/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
+                                <tr>
+                                <th>20/04</th>
+                                <td>Vocabulary</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1LXlWJDvpRNq_Q28anHNeszYfFEeFjVwhHVvIJEl2NIk/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="http://take.quiz-maker.com/QBZB1SJ5H">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>20/04</th>
+                                <td>Vocabulary</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1LXlWJDvpRNq_Q28anHNeszYfFEeFjVwhHVvIJEl2NIk/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="http://take.quiz-maker.com/QBZB1SJ5H">&#9745;</a></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

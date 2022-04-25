@@ -163,9 +163,9 @@ include('verifica_login.php');
                         </div>
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a href="#">Aula Atual</a></h4>
-                            <p class="text">Friends: Marriage <b>APRIL 13th</b></p>
-                            <a class="more" href="https://www.youtube.com/watch?v=s0OORxpYLbw">Download <i class="lni-chevron-right"></i></a>
-                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank" style="text-decoration:none; font-size:12px; color:black" href="https://meet.google.com/zai-desy-hui">Seu link da aula</a></p>
+                            <p class="text">Paraphrasing part 2 <b>APRIL 25th</b></p>
+                            <a class="more" href="https://docs.google.com/presentation/d/1bWAHuUjSe8ZG5l6_-A8vUfcL0-TgCylMjUFnTAc3RqQ/edit?usp=sharing">Download <i class="lni-chevron-right"></i></a>
+                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank" style="text-decoration:none; font-size:12px; color:black" href="">Seu link da aula</a></p>
                         </div>
                     </div> 
                 </div>
@@ -191,7 +191,7 @@ include('verifica_login.php');
                             </a>
                             <p class="text">Contato</p>
                             <ul class="contact">
-                                <li style="color: white;">+55981323625</li>
+                                <li style="color: white;">+5518981323625</li>
                                 <li style="color: white;">leonardosantunes@yahoo.com</li>
                                
                     </div>
