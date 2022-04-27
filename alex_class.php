@@ -258,11 +258,23 @@ include('verifica_login.php');
                                 <td></td>
                                 </tr>  
                                 <tr>
-                                <th>22/04</th>
+                                <th>26/04</th>
                                 <td>Paraphrasing Part 2</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1bWAHuUjSe8ZG5l6_-A8vUfcL0-TgCylMjUFnTAc3RqQ/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
-                                </tr>            
+                                </tr> 
+                                <tr>
+                                <th>27/04</th>
+                                <td>Unscramble the sentences</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1H4r0V0_MH9VRgBfVG3f9UEjV5SAPtNarpRI04KuvFMY/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr> 
+                                <tr>
+                                <th>28/04</th>
+                                <td>Song - Somewhere Over The Rainbow</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1D72-_rukCJjU3sbdHAWh4sDOC--0o-lFM1SBlbQNMsQ/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="https://www.youtube.com/watch?v=V1bFr2SWP1I">&#x1F3B5;</a></td>
+                                </tr>           
                             </tbody>
                         </table>
         </div>

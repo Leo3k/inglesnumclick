@@ -163,8 +163,8 @@ include('verifica_login.php');
                         </div>
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a href="#">Aula Atual</a></h4>
-                            <p class="text">Paraphrasing part 2 <b>APRIL 25th</b></p>
-                            <a class="more" href="https://docs.google.com/presentation/d/1bWAHuUjSe8ZG5l6_-A8vUfcL0-TgCylMjUFnTAc3RqQ/edit?usp=sharing">Download <i class="lni-chevron-right"></i></a>
+                            <p class="text">Song <b>APRIL 27th</b></p>
+                            <a class="more" href="https://docs.google.com/presentation/d/1H4r0V0_MH9VRgBfVG3f9UEjV5SAPtNarpRI04KuvFMY/edit?usp=sharing">Download <i class="lni-chevron-right"></i></a>
                             <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank" style="text-decoration:none; font-size:12px; color:black" href="">Seu link da aula</a></p>
                         </div>
                     </div> 
