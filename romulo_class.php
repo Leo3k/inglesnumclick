@@ -202,7 +202,13 @@ include('verifica_login.php');
                                 <td>FREE TIME</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/17B2u1BVbnId1fLHDgh6oSMRIleNpHy54bWFAJDBjAvk/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
-                                </tr>  
+                                </tr> 
+                                <tr>
+                                <th>02/05</th>
+                                <td>Somebody - anything - nowhere</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1VfJdEmzXnBYu5pS6O_Uq_88pPRdHtbemnboW33nZi04/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr> 
                             </tbody>
                         </table>
         </div>

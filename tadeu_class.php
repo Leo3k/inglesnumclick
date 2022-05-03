@@ -312,6 +312,12 @@ include('verifica_login.php');
                                 </tr>
                                 <tr>
                                 <th>28/04</th>
+                                <td style="color: crimson;">Ausente</td>
+                                <td><a class="more" target="_blank" href="">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>03/05</th>
                                 <td>Somebody - anything - nowhere</td>
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1VfJdEmzXnBYu5pS6O_Uq_88pPRdHtbemnboW33nZi04/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>

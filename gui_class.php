@@ -323,6 +323,36 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1B3-SYvEZCPyEQQzXdNz62Gpy5ObhzJ9vVfeCaAUuYTo/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
+                                <tr>
+                                <th>26/04</th>
+                                <td>Fable (Mateus)</td>
+                                <td><a class="more" href="https://docs.google.com/document/d/1yMG-pZeD6Xryl_TmL2aVYBphPiN_XNcXhKbaovMg-Cc/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>26/04</th>
+                                <td>Paraphrasing</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1iCLKFlXHZaMNQHw_sojfn44ft0uqLDb0ZPCMUfAkxfY/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>28/04</th>
+                                <td>Conversation</td>
+                                <td><a class="more" href="">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>03/05</th>
+                                <td>Elon Musk buys Twitter</td>
+                                <td><a class="more" href="https://docs.google.com/document/d/1deJMcrfhsTJRMuS_ooqb_l_p9ijYE02rk1prBSkxNiw/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>03/05</th>
+                                <td>The Dog and The Bone (Mateus)</td>
+                                <td><a class="more" href="https://docs.google.com/document/d/15imJZQBKhOhOjiIVEELH0bFDmqL1m-6BVHKrMMA3fDY/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

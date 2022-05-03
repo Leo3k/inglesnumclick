@@ -173,6 +173,18 @@ include('verifica_login.php');
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1lPhW6Dm3QH_P9JRTyOUKQd390GAAa_7ToBOP1O8Fh94/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
+                                <tr>
+                                <th>02/05</th>
+                                <td>Some - any - no</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1wJ5a-qYH1L6tlF0tKZe-oiC1vkhZyk2diyKAk15D6Ek/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QWYGVXO3K">&#9745;</a></td>
+                                </tr> 
+                                <tr>
+                                <th>03/05</th>
+                                <td>Somebody - anything - nowhere</td>
+                                <td><a class="more" href=" https://docs.google.com/presentation/d/15KVVH-kU-IXZb86ZCT98haAd2nyNo8kNsocM97hPFPA/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="https://test-english.com/grammar-points/a2/something-anything-nothing-etc/">&#9745;</a></td> 
+                                </tr>
                             </tbody>
                         </table>
         </div>

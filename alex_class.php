@@ -274,7 +274,19 @@ include('verifica_login.php');
                                 <td>Song - Somewhere Over The Rainbow</td>
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1D72-_rukCJjU3sbdHAWh4sDOC--0o-lFM1SBlbQNMsQ/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href="https://www.youtube.com/watch?v=V1bFr2SWP1I">&#x1F3B5;</a></td>
-                                </tr>           
+                                </tr>      
+                                <tr>
+                                <th>03/05</th>
+                                <td>Song - Somewhere Over The Rainbow</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1D72-_rukCJjU3sbdHAWh4sDOC--0o-lFM1SBlbQNMsQ/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="https://www.youtube.com/watch?v=V1bFr2SWP1I">&#x1F3B5;</a></td>
+                                </tr>  
+                                <tr>
+                                <th>04/05</th>
+                                <td>Elon Musk buys Twitter</td>
+                                <td><a class="more" href="https://docs.google.com/document/d/1deJMcrfhsTJRMuS_ooqb_l_p9ijYE02rk1prBSkxNiw/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>   
                             </tbody>
                         </table>
         </div>
