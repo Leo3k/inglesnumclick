@@ -163,7 +163,7 @@ include('verifica_login.php');
                         </div>
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a href="#">Aula Atual</a></h4>
-                            <p class="text">Elon Musk buys Twitter <b>May 3rd</b></p>
+                            <p class="text">The Guide Dog <b>May 5th</b></p>
                             <a class="more" href="">Download <i class="lni-chevron-right"></i></a>
                             <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s"><a target="_blank;" style="text-decoration:none; font-size:12px; color:black" href="">Seu link da aula</a></p>
                         </div>

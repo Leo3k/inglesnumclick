@@ -348,11 +348,12 @@ include('verifica_login.php');
                                 <td></td>
                                 </tr>
                                 <tr>
-                                <th>03/05</th>
-                                <td>The Dog and The Bone (Mateus)</td>
-                                <td><a class="more" href="https://docs.google.com/document/d/15imJZQBKhOhOjiIVEELH0bFDmqL1m-6BVHKrMMA3fDY/edit?usp=sharing">&#128196;</a></td>
-                                <td></td>
+                                <th>05/05</th>
+                                <td>The Guide Dog</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/17_hF53vboFcHMFSgo39XWvssZi_28WloXql46NbYhW4/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="">&#x1F3B5;</a></td>
                                 </tr>
+
                             </tbody>
                         </table>
         </div>

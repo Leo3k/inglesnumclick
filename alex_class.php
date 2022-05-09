@@ -286,7 +286,19 @@ include('verifica_login.php');
                                 <td>Elon Musk buys Twitter</td>
                                 <td><a class="more" href="https://docs.google.com/document/d/1deJMcrfhsTJRMuS_ooqb_l_p9ijYE02rk1prBSkxNiw/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
-                                </tr>   
+                                </tr>  
+                                <tr>
+                                <th>05/05</th>
+                                <td>The Guide Dog</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/17_hF53vboFcHMFSgo39XWvssZi_28WloXql46NbYhW4/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="">&#x1F3B5;</a></td>
+                                </tr>
+                                <tr>
+                                <th>10/05</th>
+                                <td>Question Tags</td>
+                                <td><a class="more" href="https://learnenglishteens.britishcouncil.org/grammar/b1-b2-grammar/question-tags">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/Q83JPE5K7">&#x1F3B5;</a></td>
+                                </tr> 
                             </tbody>
                         </table>
         </div>
