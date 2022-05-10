@@ -396,6 +396,12 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://learnenglishteens.britishcouncil.org/grammar/a1-a2-grammar/past-simple-regular-verbs">&#128196;</a></td>
                                 <td><a class="more" href="http://www.learnenglish-online.com/grammar/readings/simplepastreading.html">&#128196;</a></td>
                                 </tr>
+                                <tr>
+                                <th>10/05</th>
+                                <td>Simple Past Review</td>
+                                <td><a class="more" href="http://www.learnenglish-online.com/grammar/tests/simplepast.html">&#128196;</a>&nbsp;&nbsp;<a class="more" href="http://www.learnenglish-online.com/grammar/tests/simplepastquestions.html">&#128196;</a></td>
+                                <td><a class="more" href="http://www.learnenglish-online.com/grammar/tests/simplepast2.html">&#128196;</a>&nbsp;&nbsp;<a class="more" href="http://www.learnenglish-online.com/grammar/tests/simplepastquestions2.html">&#128196;</a></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

@@ -291,14 +291,20 @@ include('verifica_login.php');
                                 <th>05/05</th>
                                 <td>The Guide Dog</td>
                                 <td><a class="more" href="https://docs.google.com/presentation/d/17_hF53vboFcHMFSgo39XWvssZi_28WloXql46NbYhW4/edit?usp=sharing">&#128196;</a></td>
-                                <td><a class="more" href="">&#x1F3B5;</a></td>
+                                <td><a class="more" href=""></a></td>
                                 </tr>
                                 <tr>
                                 <th>10/05</th>
                                 <td>Question Tags</td>
                                 <td><a class="more" href="https://learnenglishteens.britishcouncil.org/grammar/b1-b2-grammar/question-tags">&#128196;</a></td>
-                                <td><a class="more" href="https://take.quiz-maker.com/Q83JPE5K7">&#x1F3B5;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/Q83JPE5K7">&#128221;</a></td>
                                 </tr> 
+                                <tr>
+                                <th>11/05</th>
+                                <td>Meetings</td>
+                                <td><a class="more" href="https://docs.google.com/document/d/1vXwemtgJRd1P1BDtZ_1ZSIL-U2OcJWwIcnq5x48s4tU/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="">&#x1F3B5;</a></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>
