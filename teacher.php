@@ -105,7 +105,7 @@ include('verifica_login.php');
         </div> <!-- navbar area -->
         
         <div id="home" class="header-hero bg_cover" style="background-image: url(assets/images/banner-bg.svg)">
-            <div class="container">
+            <div class="container bg-primary">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="header-hero-content text-center">
