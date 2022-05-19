@@ -402,6 +402,30 @@ include('verifica_login.php');
                                 <td><a class="more" href="http://www.learnenglish-online.com/grammar/tests/simplepast.html">&#128196;</a>&nbsp;&nbsp;<a class="more" href="http://www.learnenglish-online.com/grammar/tests/simplepastquestions.html">&#128196;</a></td>
                                 <td><a class="more" href="http://www.learnenglish-online.com/grammar/tests/simplepast2.html">&#128196;</a>&nbsp;&nbsp;<a class="more" href="http://www.learnenglish-online.com/grammar/tests/simplepastquestions2.html">&#128196;</a></td>
                                 </tr>
+                                <tr>
+                                <th>11/05</th>
+                                <td>Practicing the Prepositions</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1WkAIjMx4nI3-MC9BdvcEMEi9zZN64kk8-idDeHisSIA/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>16/05</th>
+                                <td>Creating a Story</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1jU6RB4wp1COlFoGph5Zm8SdsycUlDqsPdkkt_A6r10A/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>17/05</th>
+                                <td>Writing a Letter</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/17NeekVH6LoiWphONdJDugubEChs29UXn2BcbJSPINKo/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>18/05</th>
+                                <td>Useful Words II</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1cm_RaB8bdV3BH-JuHmJ7KERvMsU3nov0hByXWJIlHnE/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

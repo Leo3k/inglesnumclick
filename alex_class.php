@@ -303,7 +303,19 @@ include('verifica_login.php');
                                 <th>11/05</th>
                                 <td>Meetings</td>
                                 <td><a class="more" href="https://docs.google.com/document/d/1vXwemtgJRd1P1BDtZ_1ZSIL-U2OcJWwIcnq5x48s4tU/edit?usp=sharing">&#128196;</a></td>
-                                <td><a class="more" href="">&#x1F3B5;</a></td>
+                                <td><a class="more" href=""></a></td>
+                                </tr>
+                                <tr>
+                                <th>18/04</th>
+                                <td>Job Interview</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1lPhW6Dm3QH_P9JRTyOUKQd390GAAa_7ToBOP1O8Fh94/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>19/04</th>
+                                <td>Job Interview II</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1lPhW6Dm3QH_P9JRTyOUKQd390GAAa_7ToBOP1O8Fh94/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
                                 </tr>
                             </tbody>
                         </table>

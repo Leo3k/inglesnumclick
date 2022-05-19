@@ -351,7 +351,7 @@ include('verifica_login.php');
                                 <th>05/05</th>
                                 <td>The Guide Dog</td>
                                 <td><a class="more" href="https://docs.google.com/presentation/d/17_hF53vboFcHMFSgo39XWvssZi_28WloXql46NbYhW4/edit?usp=sharing">&#128196;</a></td>
-                                <td><a class="more" href="">&#x1F3B5;</a></td>
+                                <td><a class="more" href=""></a></td>
                                 </tr>
                                 <tr>
                                 <th>10/05</th>
@@ -360,11 +360,29 @@ include('verifica_login.php');
                                 <td></td>
                                 </tr>
                                 <tr>
-                                <th>10/05</th>
-                                <td>Meetings</td>
-                                <td><a class="more" href="https://docs.google.com/document/d/1vXwemtgJRd1P1BDtZ_1ZSIL-U2OcJWwIcnq5x48s4tU/edit?usp=sharing">&#128196;</a></td>
-                                <td><a class="more" href="">&#x1F3B5;</a></td>
+                                <th>12/05</th>
+                                <td>Tongue Twisters</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1YWwJy9UQ6sPKUzl685WxkQEeQI2z2bQ3i72y7mhkaDE/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href=""></a></td>
                                 </tr>
+                                <tr>
+                                <th>17/04</th>
+                                <td>Useful words I (Mateus)</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1WpWki33PiifVPe-FiqBtB7PcRkRv18Xx6NKhDkw-mNo/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>17/04</th>
+                                <td>Job Interview</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1lPhW6Dm3QH_P9JRTyOUKQd390GAAa_7ToBOP1O8Fh94/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>19/04</th>
+                                <td>Job Interview II</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1lPhW6Dm3QH_P9JRTyOUKQd390GAAa_7ToBOP1O8Fh94/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>    
                             </tbody>
                         </table>
         </div>

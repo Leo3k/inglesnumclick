@@ -221,6 +221,12 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1LXlWJDvpRNq_Q28anHNeszYfFEeFjVwhHVvIJEl2NIk/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href="http://take.quiz-maker.com/QBZB1SJ5H">&#9745;</a></td>
                                 </tr>
+                                <tr>
+                                <th>17/05</th>
+                                <td>Writing a Letter</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/17NeekVH6LoiWphONdJDugubEChs29UXn2BcbJSPINKo/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>
