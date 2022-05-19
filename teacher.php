@@ -109,8 +109,8 @@ include('verifica_login.php');
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="header-hero-content text-center">
-                            <h3 class="header-sub-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s" style="color:yellow"><?php echo $_SESSION['usuario']; ?></h3>             
-        <div class="container">
+                            <h3 class="header-sub-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s" style="color:yellow"><?php echo "Teacher Leo" ?></h3>             
+        <div class="container bg-primary">
                         <h3 class="title" style="color:aliceblue">Acompanhe seus alunos</h3><br><br>
                         <select id="episodes" onchange="location = this.value;"> <!-- when an option is selected, redirect to the value !--> 
                 <option value="">Select Lesson</option>
