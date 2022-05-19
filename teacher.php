@@ -130,6 +130,8 @@ include('verifica_login.php');
                 <option value="tamires_class.php">Tamires</option>
                 <option value="vini_class.php">Vinicius</option>
             </select>
+            <br><br><br><br>
+            <p>.</p>
         </div>
       
                         </div> <!-- header hero content -->
