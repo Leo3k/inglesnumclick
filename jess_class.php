@@ -293,9 +293,16 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1LXlWJDvpRNq_Q28anHNeszYfFEeFjVwhHVvIJEl2NIk/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href="http://take.quiz-maker.com/QBZB1SJ5H">&#9745;</a></td>
                                 </tr>
-                                <th>17/05</th>
+                                <tr>
+                                <th>18/05</th>
                                 <td>Creating a Story</td>
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1jU6RB4wp1COlFoGph5Zm8SdsycUlDqsPdkkt_A6r10A/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>24/05</th>
+                                <td>Very</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/19sYQHiSNW6hm744I_0pZPAM4Zt6uN0zeQ2bihz-3138/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
                             </tbody>

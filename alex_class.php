@@ -306,15 +306,33 @@ include('verifica_login.php');
                                 <td><a class="more" href=""></a></td>
                                 </tr>
                                 <tr>
-                                <th>18/04</th>
+                                <th>18/05</th>
                                 <td>Job Interview</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1lPhW6Dm3QH_P9JRTyOUKQd390GAAa_7ToBOP1O8Fh94/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
                                 <tr>
-                                <th>19/04</th>
+                                <th>19/05</th>
                                 <td>Job Interview II</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1lPhW6Dm3QH_P9JRTyOUKQd390GAAa_7ToBOP1O8Fh94/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>20/05</th>
+                                <td>Useful words</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1WpWki33PiifVPe-FiqBtB7PcRkRv18Xx6NKhDkw-mNo/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QG2G3FV6L">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>25/05</th>
+                                <td>Useful Words II</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1cm_RaB8bdV3BH-JuHmJ7KERvMsU3nov0hByXWJIlHnE/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>26/05</th>
+                                <td>Useful Words III</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1gmleCaE39Flq_e5FHhOqygvUY3IJ8u5p03qtonNPP6w/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
                             </tbody>

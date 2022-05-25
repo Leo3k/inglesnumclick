@@ -113,7 +113,7 @@ include('verifica_login.php');
         <div class="container bg-primary">
                         <h3 class="title" style="color:aliceblue">Acompanhe seus alunos</h3><br><br>
                         <select id="episodes" onchange="location = this.value;"> <!-- when an option is selected, redirect to the value !--> 
-                <option value="">Select Lesson</option>
+                <option value="">Select Student</option>
                 <option value="adilson_class.php">Adilson</option> <!-- change values to what is required !-->
                 <option value="alex_class.php">Alex</option>
                 <option value="allan_class.php">Allan</option>

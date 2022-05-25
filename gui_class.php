@@ -369,7 +369,7 @@ include('verifica_login.php');
                                 <th>17/04</th>
                                 <td>Useful words I (Mateus)</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1WpWki33PiifVPe-FiqBtB7PcRkRv18Xx6NKhDkw-mNo/edit?usp=sharing">&#128196;</a></td>
-                                <td></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QG2G3FV6L">&#9745;</a></td>
                                 </tr>
                                 <tr>
                                 <th>17/04</th>
@@ -382,7 +382,13 @@ include('verifica_login.php');
                                 <td>Job Interview II</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1lPhW6Dm3QH_P9JRTyOUKQd390GAAa_7ToBOP1O8Fh94/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
-                                </tr>    
+                                </tr>   
+                                <tr>
+                                <th>24/05</th>
+                                <td>Useful Words II (Mateus)</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1cm_RaB8bdV3BH-JuHmJ7KERvMsU3nov0hByXWJIlHnE/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr> 
                             </tbody>
                         </table>
         </div>
