@@ -203,6 +203,12 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/document/d/1P2pQzHvmSj3Y1gXEoACw75z-6yGkC4NKowx4uFx3qYg/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href=""></a></td>
                                 </tr>
+                                <tr>
+                                <th>30/05</th>
+                                <td>Soccer</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1XdrdpYkyDgL-grxrklHbc9nAwCudc1JxQce_u4YIuvY/edit?usp=sharing">&#9917;</a></td>
+                                <td><a class="more" href="https://www.fluentu.com/blog/english/english-vocabulary-football-soccer-esl/">&#x26BD;</a></td>
+                                </tr>   
                             </tbody>
                         </table>
         </div>

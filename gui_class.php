@@ -382,6 +382,12 @@ include('verifica_login.php');
                                 <td>Job Interview II</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1lPhW6Dm3QH_P9JRTyOUKQd390GAAa_7ToBOP1O8Fh94/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
+                                </tr> 
+                                <tr>
+                                <th>24/05</th>
+                                <td>Soccer</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1XdrdpYkyDgL-grxrklHbc9nAwCudc1JxQce_u4YIuvY/edit?usp=sharing">&#9917;</a></td>
+                                <td><a class="more" href="https://www.fluentu.com/blog/english/english-vocabulary-football-soccer-esl/">&#x26BD;</a></td>
                                 </tr>   
                                 <tr>
                                 <th>24/05</th>
@@ -389,6 +395,12 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1cm_RaB8bdV3BH-JuHmJ7KERvMsU3nov0hByXWJIlHnE/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr> 
+                                <tr>
+                                <th>26/05</th>
+                                <td>Useful Words IV</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1CBAbvCbeScCd44mQ4cEzYRPaQcDUbKtTUWQQrkiagz8/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

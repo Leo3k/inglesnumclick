@@ -125,6 +125,7 @@ include('verifica_login.php');
                 <option value="gui_class.php">Guilherme</option>
                 <option value="jess_class.php">Jessica</option>
                 <option value="kainan_class.php">Kainan</option>
+                <option value="raoni_class.php">Raoni</option>
                 <option value="romulo_class.php">Romulo</option>
                 <option value="tadeu_class.php">Tadeu</option>
                 <option value="tamires_class.php">Tamires</option>

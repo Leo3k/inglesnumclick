@@ -79,7 +79,7 @@ include('verifica_login.php');
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-bran" href="tamires.php">
+                            <a class="navbar-bran" href="raoni.php">
                                 <img src="assets/images/logo1.png" alt="Logo">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -97,10 +97,10 @@ include('verifica_login.php');
                                         <a class="page-scroll" href="#features">Next Class</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="tamires_class.php">All Classes</a>
+                                        <a class="page-scroll" href="raoni_class.php">All Classes</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="tamires_pay.php">Pagamento</a>
+                                        <a class="page-scroll" href="raoni_pay.php">Pagamento</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="logout.php">Sair</a>
@@ -159,11 +159,11 @@ include('verifica_login.php');
                     <div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                         <div class="services-icon">
                             <img class="shape" src="assets/images/triangle.png" style="width:120px" alt="shape">
-                            <img class="shape-1" src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="shape">
+                            <img class="shape-1" src="assets/images/icon.png" alt="shape">
                         </div>
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a href="#">Aula Atual</a></h4>
-                            <p class="text"> Very <b> 30/05 </b></p>
+                            <p class="text">Very <b>May 30th </b></p>
                         </div>
                     </div> 
                 </div>
@@ -189,7 +189,7 @@ include('verifica_login.php');
                             </a>
                             <p class="text">Contato</p>
                             <ul class="contact">
-                                <li style="color: white;">+55981323625</li>
+                                <li style="color: white;">+55(18)981323625</li>
                                 <li style="color: white;">leonardosantunes@yahoo.com</li>
                                
                     </div>

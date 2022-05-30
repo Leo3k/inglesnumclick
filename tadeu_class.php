@@ -326,16 +326,16 @@ include('verifica_login.php');
                                 <th>05/05</th>
                                 <td>The Guide Dog</td>
                                 <td><a class="more" href="https://docs.google.com/presentation/d/17_hF53vboFcHMFSgo39XWvssZi_28WloXql46NbYhW4/edit?usp=sharing">&#128196;</a></td>
-                                <td><a class="more" href="">&#x1F3B5;</a></td>
+                                <td></td>
                                 </tr>
                                 <tr>
                                 <th>10/05</th>
                                 <td>Question Tags</td>
                                 <td><a class="more" href="https://learnenglishteens.britishcouncil.org/grammar/b1-b2-grammar/question-tags">&#128196;</a></td>
-                                <td><a class="more" href="https://take.quiz-maker.com/Q83JPE5K7">&#x1F3B5;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/Q83JPE5K7">&#9745;</a></td>
                                 </tr>
                                 <tr>
-                                <th>25/05</th>
+                                <th>31/05</th>
                                 <td>Tongue Twisters</td>
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1YWwJy9UQ6sPKUzl685WxkQEeQI2z2bQ3i72y7mhkaDE/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href=""></a></td>
@@ -372,7 +372,7 @@ include('verifica_login.php');
                             </a>
                             <p class="text">Contato</p>
                             <ul class="contact">
-                                <li style="color: white;">+55981323625</li>
+                                <li style="color: white;">+55(18)981323625</li>
                                 <li style="color: white;">leonardosantunes@yahoo.com</li>
                                
                     </div>

@@ -1,7 +1,6 @@
 <?php
 session_start();
 include('verifica_login.php');
-//include('php/Student.php');
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
@@ -10,7 +9,7 @@ include('verifica_login.php');
     <meta charset="utf-8">
     
     <!--====== Title ======-->
-    <title>Teacher Leo</title>
+    <title><?php echo $_SESSION['usuario']; ?></title>
     
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -79,7 +78,7 @@ include('verifica_login.php');
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-bran" href="tamires.php">
+                            <a class="navbar-bran" href="raoni.php">
                                 <img src="assets/images/logo1.png" alt="Logo">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -91,16 +90,13 @@ include('verifica_login.php');
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" class="navbar-nav ml-auto">
                                     <li class="nav-item active">
-                                        <a class="page-scroll" href="#home">Home</a>
+                                        <a class="page-scroll" href="raoni.php">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="#features">Next Class</a>
+                                        <a class="page-scroll" href="raoni_class.php">All classes</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="tamires_class.php">All Classes</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="page-scroll" href="tamires_pay.php">Pagamento</a>
+                                        <a class="page-scroll" href="raoni_pay.php">Payment</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="logout.php">Sair</a>
@@ -109,7 +105,7 @@ include('verifica_login.php');
                             </div> <!-- navbar collapse -->
                             
                             <div class="navbar-btn d-none d-sm-inline-block">
-                               <p><a class="main-btn" data-scroll-nav="0" href="#pricing"><?php echo $_SESSION['usuario']; ?></a><!--<a class="btn" style="color:aqua" href="logout.php">Sair</a></p>--->
+                               <p><a class="main-btn" data-scroll-nav="0" href="raoni.php"><?php echo $_SESSION['usuario']; ?></a></p>
                             </div>
                         </nav> <!-- navbar -->
                     </div>
@@ -122,59 +118,43 @@ include('verifica_login.php');
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="header-hero-content text-center">
-                            <h2 class="header-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.6s" style="color:aqua">Welcome <?php echo $_SESSION['usuario']; ?>!</h2>
-                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">Faça o download do PDF das aulas, resolva exercícios extras, e controle suas aulas.<!--<a href="Rebeca.php" style="text-decoration:none; color:red;font-size:30px">CLIQUE AQUI</a>---></p>
+                            <h3 class="header-sub-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s" style="color:yellow"><?php echo $_SESSION['usuario']; ?></h3>             
+        <div class="container">
+                        <h3 class="title" style="color:aliceblue">Acompanhe suas aulas.</h3><br><br>
+                        <table class="table table-bordered table-hover" style="background-color: white;">
+                            <thead>
+                                <tr>
+                                <th>Dia</th>
+                                <th>Tema</th>
+                                <th>Arquivo</th>
+                                <th>Exercícios</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <th>30/05</th>
+                                <td>Very</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/19sYQHiSNW6hm744I_0pZPAM4Zt6uN0zeQ2bihz-3138/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+        </div>
+      
                         </div> <!-- header hero content -->
                     </div>
                 </div> <!-- row -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="header-hero-image text-center wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.4s">
-                            <img src="assets/images/studentcomputer.png" alt="hero">
-                        </div> <!-- header hero image -->
-                    </div>
-                </div> <!-- row -->
             </div> <!-- container -->
-            <div id="particles-1" class="particles"></div>
         </div> <!-- header hero -->
     </header>
     
     
-    
-    <section id="features" class="services-area pt-120">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="section-title text-center pb-40">
-                        <div class="line m-auto"></div>
-                        <h3 class="title">Material para a próxima aula. <span> Faça o download!</span></h3>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-7 col-sm-8">
-                    
-                </div>
-                <div class="col-lg-4 col-md-7 col-sm-8">
-                    <div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <div class="services-icon">
-                            <img class="shape" src="assets/images/triangle.png" style="width:120px" alt="shape">
-                            <img class="shape-1" src="https://i.ibb.co/mRPQZjx/iconfinder-document03-1622833-121957.png" alt="shape">
-                        </div>
-                        <div class="services-content mt-30">
-                            <h4 class="services-title"><a href="#">Aula Atual</a></h4>
-                            <p class="text"> Very <b> 30/05 </b></p>
-                        </div>
-                    </div> 
-                </div>
-                <div class="col-lg-4 col-md-7 col-sm-8">
-                    
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+        </div> 
     </section>
     
    
+    
+  
     
     <footer id="footer" class="footer-area pt-120">
         <div class="container">
@@ -189,11 +169,12 @@ include('verifica_login.php');
                             </a>
                             <p class="text">Contato</p>
                             <ul class="contact">
-                                <li style="color: white;">+55981323625</li>
+                                <li style="color: white;">+55(18)981323625</li>
                                 <li style="color: white;">leonardosantunes@yahoo.com</li>
                                
                     </div>
-                   
+                    
+                           
             <div class="footer-copyright">
                 <div class="row">
                     <div class="col-lg-12">
@@ -215,8 +196,7 @@ include('verifica_login.php');
 
     <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
 
-    
-
+   
 
 
     <!--====== Jquery js ======-->

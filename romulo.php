@@ -191,7 +191,7 @@ include('verifica_login.php');
                             </a>
                             <p class="text">Contato</p>
                             <ul class="contact">
-                                <li style="color: white;">+55981323625</li>
+                                <li style="color: white;">+55(18)981323625</li>
                                 <li style="color: white;">leonardosantunes@yahoo.com</li>
                                
                     </div>

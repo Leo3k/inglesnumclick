@@ -331,8 +331,20 @@ include('verifica_login.php');
                                 </tr>
                                 <tr>
                                 <th>26/05</th>
+                                <td>Useful Words II part2</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1cm_RaB8bdV3BH-JuHmJ7KERvMsU3nov0hByXWJIlHnE/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>27/05</th>
                                 <td>Useful Words III</td>
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1gmleCaE39Flq_e5FHhOqygvUY3IJ8u5p03qtonNPP6w/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>31/05</th>
+                                <td>Useful Words IV</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1CBAbvCbeScCd44mQ4cEzYRPaQcDUbKtTUWQQrkiagz8/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
                             </tbody>
