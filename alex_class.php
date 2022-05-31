@@ -303,7 +303,7 @@ include('verifica_login.php');
                                 <th>11/05</th>
                                 <td>Meetings</td>
                                 <td><a class="more" href="https://docs.google.com/document/d/1vXwemtgJRd1P1BDtZ_1ZSIL-U2OcJWwIcnq5x48s4tU/edit?usp=sharing">&#128196;</a></td>
-                                <td><a class="more" href=""></a></td>
+                                <td></td>
                                 </tr>
                                 <tr>
                                 <th>18/05</th>
@@ -331,7 +331,7 @@ include('verifica_login.php');
                                 </tr>
                                 <tr>
                                 <th>26/05</th>
-                                <td>Useful Words II part2</td>
+                                <td>Useful Words II part 2</td>
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1cm_RaB8bdV3BH-JuHmJ7KERvMsU3nov0hByXWJIlHnE/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
@@ -345,7 +345,13 @@ include('verifica_login.php');
                                 <th>31/05</th>
                                 <td>Useful Words IV</td>
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1CBAbvCbeScCd44mQ4cEzYRPaQcDUbKtTUWQQrkiagz8/edit?usp=sharing">&#128196;</a></td>
-                                <td></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QC5GLOXQQ">&#128221;</a></td>
+                                </tr>
+                                <tr>
+                                <th>01/06</th>
+                                <td>Useful Words IV part 2</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1CBAbvCbeScCd44mQ4cEzYRPaQcDUbKtTUWQQrkiagz8/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/QC5GLOXQQ">&#128221;</a></td>
                                 </tr>
                             </tbody>
                         </table>
