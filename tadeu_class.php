@@ -340,6 +340,18 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1YWwJy9UQ6sPKUzl685WxkQEeQI2z2bQ3i72y7mhkaDE/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href=""></a></td>
                                 </tr>
+                                <tr>
+                                <th>02/06</th>
+                                <td>Commonly Used Adjectives</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1rsgZ2gOZ5RmPaJ5Lq4aYH6v1uWZa5COGHRNljEMDNus/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>06/06</th>
+                                <td>Ordinal Numbers</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1qDvXsP8sNDmfT6jD-bpfVmwibEybKYzhnP4VJfLYGw0/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

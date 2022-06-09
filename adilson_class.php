@@ -382,6 +382,30 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1gmleCaE39Flq_e5FHhOqygvUY3IJ8u5p03qtonNPP6w/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
+                                <tr>
+                                <th>01/06</th>
+                                <td>Commonly Used Adjectives</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1rsgZ2gOZ5RmPaJ5Lq4aYH6v1uWZa5COGHRNljEMDNus/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>01/06</th>
+                                <td>Commonly Used Adjectives</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1rsgZ2gOZ5RmPaJ5Lq4aYH6v1uWZa5COGHRNljEMDNus/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>08/06</th>
+                                <td>Very</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/19sYQHiSNW6hm744I_0pZPAM4Zt6uN0zeQ2bihz-3138/edit?usp=sharing">&#128196;</a></td>
+                                <td><a class="more" href="https://take.quiz-maker.com/Q09RIEABO">&#9745;</a></td>
+                                </tr>
+                                <tr>
+                                <th>08/06</th>
+                                <td>Many and Much</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1NoK_MKU2gk3UpCQWk3fvOOhfryrwDIhZWPz0lrJ8Xxk/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

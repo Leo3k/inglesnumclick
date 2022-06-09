@@ -353,6 +353,30 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1CBAbvCbeScCd44mQ4cEzYRPaQcDUbKtTUWQQrkiagz8/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href="https://take.quiz-maker.com/QC5GLOXQQ">&#128221;</a></td>
                                 </tr>
+                                <tr>
+                                <th>02/06</th>
+                                <td>Commonly Used Adjectives</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1rsgZ2gOZ5RmPaJ5Lq4aYH6v1uWZa5COGHRNljEMDNus/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>07/06</th>
+                                <td>Ordinal Numbers</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1qDvXsP8sNDmfT6jD-bpfVmwibEybKYzhnP4VJfLYGw0/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>08/06</th>
+                                <td>Ordinal Numbers part 2</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1qDvXsP8sNDmfT6jD-bpfVmwibEybKYzhnP4VJfLYGw0/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>09/06</th>
+                                <td>LinkedIn Profile </td>
+                                <td><a class="more" href="https://br.linkedin.com/">&#128196;</a></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

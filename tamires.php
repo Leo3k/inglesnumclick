@@ -163,7 +163,7 @@ include('verifica_login.php');
                         </div>
                         <div class="services-content mt-30">
                             <h4 class="services-title"><a href="#">Aula Atual</a></h4>
-                            <p class="text"> Very <b> 30/05 </b></p>
+                            <p class="text"> Many and Much <b> 06/06 </b></p>
                         </div>
                     </div> 
                 </div>
