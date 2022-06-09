@@ -50,7 +50,7 @@ session_start();
                 </div>
             </div>
         </div>
-        <a href="http://inglesnumclick.com.br/portal/hangman/"><img id="img" src="/portal/hangman/forca1.png" width="72px" height="43px"></a>
+        <a href="https://inglesnumclick.com.br/portal/hangman_game/"><img id="img" src="/portal/hangman/forca1.png" width="72px" height="43px"></a>
     </section>
 </body>
 
