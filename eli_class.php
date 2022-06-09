@@ -429,7 +429,7 @@ include('verifica_login.php');
                             </tbody>
                         </table>
                         <table id="may" class="table table-bordered table-hover" style="background-color: white;">
-                            <thead>
+                            <thead style="margin:auto;">
                                 <tr>
                                 <th>Dia</th>
                                 <th>Tema</th>
@@ -437,7 +437,7 @@ include('verifica_login.php');
                                 <th>Exercícios</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody style="margin:auto;">
                                 <tr>
                                 <th>03/05</th>
                                 <td>Song - Somewhere Over The Rainbow</td>
