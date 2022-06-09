@@ -123,14 +123,14 @@ include('verifica_login.php');
                             <h3 class="header-sub-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s" style="color:yellow"><?php echo $_SESSION['usuario']; ?></h3>             
         <div class="container">
                         <h3 class="title" style="color:aliceblue">Acompanhe suas aulas.</h3>
-                        <select> <!-- when an option is selected, redirect to the value !--> 
-                            <option onclick="displayLessons(jun)">June</option>
-                            <option onclick="displayLessons(may)">May</option> 
-                            <option onclick="displayLessons(apr)">April</option>
-                            <option onclick="displayLessons(mar)">March</option>
-                            <option onclick="displayLessons(feb)">February</option>
-                            <option onclick="displayLessons(jan)">January</option>
-                        </select>
+                        <div class="container"> <!-- when an option is selected, redirect to the value !--> 
+                            <button type="button" class="btn btn-success" onclick="displayLessons(jun)">June</button>
+                            <button type="button" class="btn btn-success" onclick="displayLessons(may)">May</button> 
+                            <button type="button" class="btn btn-success" onclick="displayLessons(apr)">April</button>
+                            <button type="button" class="btn btn-success" onclick="displayLessons(mar)">March</button>
+                            <button type="button" class="btn btn-success" onclick="displayLessons(feb)">February</button>
+                            <button type="button" class="btn btn-success" onclick="displayLessons(jan)">January</button>
+                        </div>
                         <br><br>
                         <table class="table table-bordered table-hover" style="background-color: white;">
                             <thead>
