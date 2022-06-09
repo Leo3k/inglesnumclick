@@ -123,14 +123,14 @@ include('verifica_login.php');
                             <h3 class="header-sub-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s" style="color:yellow"><?php echo $_SESSION['usuario']; ?></h3>             
         <div class="container">
                         <h3 class="title" style="color:aliceblue">Acompanhe suas aulas.</h3>
-                        <select id="episodes" onchange="location = this.value;"> <!-- when an option is selected, redirect to the value !--> 
-                <option onclick="displayLessons(jun)">June</option>
-                <option onclick="displayLessons(may)">May</option> 
-                <option onclick="displayLessons(apr)">April</option>
-                <option onclick="displayLessons(mar)">March</option>
-                <option onclick="displayLessons(feb)">February</option>
-                <option onclick="displayLessons(jan)">January</option>
-            </select>
+                        <select> <!-- when an option is selected, redirect to the value !--> 
+                            <option onclick="displayLessons(jun)">June</option>
+                            <option onclick="displayLessons(may)">May</option> 
+                            <option onclick="displayLessons(apr)">April</option>
+                            <option onclick="displayLessons(mar)">March</option>
+                            <option onclick="displayLessons(feb)">February</option>
+                            <option onclick="displayLessons(jan)">January</option>
+                        </select>
                         <br><br>
                         <table class="table table-bordered table-hover" style="background-color: white;">
                             <thead>
