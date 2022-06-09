@@ -133,8 +133,8 @@ include('verifica_login.php');
                             <button type="button" class="btn btn-success" onclick="displayLessons('jan')">January</button>
                         </div>
                         <br><br>
-                        <table class="table table-bordered table-hover" style="background-color: white;">
-                            <thead id="jan" style="display:none;">
+                        <table id="jan" style="display:none;" class="table table-bordered table-hover" style="background-color: white;">
+                            <thead>
                                 <tr>
                                 <th>Dia</th>
                                 <th>Tema</th>
@@ -204,7 +204,9 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://www.quiz-maker.com/QYAH03KUM">&#9745;</a></td>
                                 </tr>
                             </tbody>
-                            <thead id="fev" style="display:none;">
+                        </table>
+                        <table id="feb" style="display:none;" class="table table-bordered table-hover" style="background-color: white;">
+                            <thead>
                                 <tr>
                                 <th>Dia</th>
                                 <th>Tema</th>
@@ -286,7 +288,9 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://www.youtube.com/watch?v=NaFd8ucHLuo">&#x1F3B5;</a></td>
                                 </tr> 
                             </tbody>
-                            <thead id="mar" style="display:none;">
+                        </table>
+                        <table id="mar" style="display:none;" class="table table-bordered table-hover" style="background-color: white;">
+                            <thead>
                                 <tr>
                                 <th>Dia</th>
                                 <th>Tema</th>
@@ -363,7 +367,9 @@ include('verifica_login.php');
                                 <td></td>
                                 </tr>
                             </tbody>
-                            <thead id="apr" style="display:none;">
+                        </table>
+                        <table id="apr" style="display:none;" class="table table-bordered table-hover" style="background-color: white;">
+                            <thead>
                                 <tr>
                                 <th>Dia</th>
                                 <th>Tema</th>
@@ -421,7 +427,9 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://test-english.com/grammar-points/a2/something-anything-nothing-etc/">&#9745;</a></td> 
                                 </tr> 
                             </tbody>
-                            <thead id="may" style="display:none;">
+                        </table>
+                        <table id="may" style="display:none;" class="table table-bordered table-hover" style="background-color: white;">
+                            <thead>
                                 <tr>
                                 <th>Dia</th>
                                 <th>Tema</th>
@@ -485,7 +493,9 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://take.quiz-maker.com/Q09RIEABO">&#9745;</a></td> 
                                 </tr>
                             </tbody>
-                            <thead id="jun" style="display:none;">
+                        </table>
+                        <table id="jun" style="display:none;" class="table table-bordered table-hover" style="background-color: white;">
+                            <thead>
                                 <tr>
                                 <th>Dia</th>
                                 <th>Tema</th>
