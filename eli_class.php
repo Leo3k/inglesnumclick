@@ -40,6 +40,8 @@ include('verifica_login.php');
     
     <!--====== Style CSS ======-->
     <link rel="stylesheet" href="assets/css/style.css"> 
+
+    <script src="display.js"></script>
     
 </head>
 
@@ -120,7 +122,16 @@ include('verifica_login.php');
                         <div class="header-hero-content text-center">
                             <h3 class="header-sub-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s" style="color:yellow"><?php echo $_SESSION['usuario']; ?></h3>             
         <div class="container">
-                        <h3 class="title" style="color:aliceblue">Acompanhe suas aulas.</h3><br><br>
+                        <h3 class="title" style="color:aliceblue">Acompanhe suas aulas.</h3>
+                        <select id="episodes" onchange="location = this.value;"> <!-- when an option is selected, redirect to the value !--> 
+                <option onclick="displayLessons(jun)">June</option>
+                <option onclick="displayLessons(may)">May</option> 
+                <option onclick="displayLessons(apr)">April</option>
+                <option onclick="displayLessons(mar)">March</option>
+                <option onclick="displayLessons(feb)">February</option>
+                <option onclick="displayLessons(jan)">January</option>
+            </select>
+                        <br><br>
                         <table class="table table-bordered table-hover" style="background-color: white;">
                             <thead>
                                 <tr>
@@ -130,7 +141,7 @@ include('verifica_login.php');
                                 <th>Exercícios</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody id="jan" style="display:none;">
                                 <tr>
                                 <th>10/01</th>
                                 <td>Clothes</td>
@@ -191,6 +202,8 @@ include('verifica_login.php');
                                 <td><a class="more" href="assets/classes/3-18.pdf">&#128196;</a></td>
                                 <td><a class="more" href="https://www.quiz-maker.com/QYAH03KUM">&#9745;</a></td>
                                 </tr>
+                            </tbody>
+                            <tbody id="fev" style="display:none;">
                                 <tr>
                                 <th>01/02</th>
                                 <td>Likes and dislikes II</td>
@@ -263,6 +276,8 @@ include('verifica_login.php');
                                 <td><a class="more" href="">&#128196;</a></td>
                                 <td><a class="more" href="https://www.youtube.com/watch?v=NaFd8ucHLuo">&#x1F3B5;</a></td>
                                 </tr> 
+                            </tbody>
+                            <tbody id="mar" style="display:none;">
                                 <tr>
                                 <th>01/03</th>
                                 <td>Things I have done II</td>
@@ -330,6 +345,8 @@ include('verifica_login.php');
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1k2WPP_JV05s2MM4OR6QRw20Oh3eHJFYfAlYQvUlRS80/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
+                            </tbody>
+                            <tbody id="apr" style="display:none;">
                                 <tr>
                                 <th>04/04</th>
                                 <td>FUTURE</td>
@@ -378,6 +395,8 @@ include('verifica_login.php');
                                 <td><a class="more" href=" https://docs.google.com/presentation/d/15KVVH-kU-IXZb86ZCT98haAd2nyNo8kNsocM97hPFPA/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href="https://test-english.com/grammar-points/a2/something-anything-nothing-etc/">&#9745;</a></td> 
                                 </tr> 
+                            </tbody>
+                            <tbody id="may" style="display:none;">
                                 <tr>
                                 <th>03/05</th>
                                 <td>Song - Somewhere Over The Rainbow</td>
@@ -432,6 +451,8 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/presentation/d/19sYQHiSNW6hm744I_0pZPAM4Zt6uN0zeQ2bihz-3138/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href="https://take.quiz-maker.com/Q09RIEABO">&#9745;</a></td> 
                                 </tr>
+                            </tbody>
+                            <tbody id="jun" style="display:none;">
                                 <tr>
                                 <th>01/06</th>
                                 <td>Many and Much</td>
