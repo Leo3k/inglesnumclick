@@ -133,7 +133,7 @@ include('verifica_login.php');
                             <button type="button" class="btn btn-success" onclick="displayLessons('jan')">January</button>
                         
                         <br><br>
-                        <table id="jan" class="table table-bordered table-hover" style="background-color: white; width:200px;">
+                        <table id="jan" class="table table-bordered table-hover" style="background-color: white; width:400px;">
                             <thead>
                                 <tr>
                                 <th>Dia</th>
@@ -205,7 +205,7 @@ include('verifica_login.php');
                                 </tr>
                             </tbody>
                         </table>
-                        <table id="feb" class="table table-bordered table-hover" style="background-color: white; width:200px;">
+                        <table id="feb" class="table table-bordered table-hover" style="background-color: white; width:400px;">
                             <thead>
                                 <tr>
                                 <th>Dia</th>
@@ -289,7 +289,7 @@ include('verifica_login.php');
                                 </tr> 
                             </tbody>
                         </table>
-                        <table id="mar" class="table table-bordered table-hover" style="background-color: white; width:200px;">
+                        <table id="mar" class="table table-bordered table-hover" style="background-color: white; width:400px;">
                             <thead>
                                 <tr>
                                 <th>Dia</th>
@@ -368,7 +368,7 @@ include('verifica_login.php');
                                 </tr>
                             </tbody>
                         </table>
-                        <table id="apr" class="table table-bordered table-hover" style="background-color: white; width:200px;">
+                        <table id="apr" class="table table-bordered table-hover" style="background-color: white; width:400px;">
                             <thead>
                                 <tr>
                                 <th>Dia</th>
@@ -428,7 +428,7 @@ include('verifica_login.php');
                                 </tr> 
                             </tbody>
                         </table>
-                        <table id="may" class="table table-bordered table-hover" style="background-color: white; width:200px;">
+                        <table id="may" class="table table-bordered table-hover" style="background-color: white; width:400px;">
                             <thead style="margin:auto;">
                                 <tr>
                                 <th>Dia</th>
@@ -494,7 +494,7 @@ include('verifica_login.php');
                                 </tr>
                             </tbody>
                         </table>
-                        <table id="jun" class="table table-bordered table-hover" style="background-color: white; width:200px;">
+                        <table id="jun" class="table table-bordered table-hover" style="background-color: white; width:400px;">
                             <thead>
                                 <tr>
                                 <th>Dia</th>
