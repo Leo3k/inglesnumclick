@@ -269,6 +269,30 @@ include('verifica_login.php');
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1U_V7ihgTK3VSnUmOwM6gCC_oZ2KrZxttATrv_67pDy0/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
+                                <tr>
+                                <th>14/06</th>
+                                <td>Regular and Irregular verbs</td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>20/06</th>
+                                <td>Verbs in the past II</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1U_V7ihgTK3VSnUmOwM6gCC_oZ2KrZxttATrv_67pDy0/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>21/06</th>
+                                <td>Verbs in the past III</td>
+                                <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/1U_V7ihgTK3VSnUmOwM6gCC_oZ2KrZxttATrv_67pDy0/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>28/06</th>
+                                <td>Simple Past - Listening</td>
+                                <td><a class="more" target="_blank" href="https://bogglesworldesl.com//Listening/PastTense10.wav">&#128196;</a></td>
+                                <td><a class="more" target="_blank" href="https://www.youtube.com/watch?v=C2WibetqA48">&#128196;</a></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

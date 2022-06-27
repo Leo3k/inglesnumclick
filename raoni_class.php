@@ -132,9 +132,15 @@ include('verifica_login.php');
                             </thead>
                             <tbody>
                                 <tr>
-                                <th>30/05</th>
+                                <th>13/06</th>
                                 <td>Very</td>
                                 <td><a class="more" target="_blank" href="https://docs.google.com/presentation/d/19sYQHiSNW6hm744I_0pZPAM4Zt6uN0zeQ2bihz-3138/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>20/06</th>
+                                <td>Mary's Saturday part 1</td>
+                                <td></td>
                                 <td></td>
                                 </tr>
                             </tbody>

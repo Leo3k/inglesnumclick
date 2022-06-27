@@ -227,6 +227,18 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/presentation/d/19sYQHiSNW6hm744I_0pZPAM4Zt6uN0zeQ2bihz-3138/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href="https://take.quiz-maker.com/Q09RIEABO">&#9745;</a></td> 
                                 </tr>
+                                <tr>
+                                <th>20/06</th>
+                                <td>Mary's Saturday</td>
+                                <td><a class="more" href="https://docs.google.com/document/d/1jxI4L1cfZG5FJEDpxGR2SXYcDmVy-BvYuJAIjEh0d-Y/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>27/06</th>
+                                <td>Mary's Saturday Part 2</td>
+                                <td><a class="more" href="https://docs.google.com/document/d/1jxI4L1cfZG5FJEDpxGR2SXYcDmVy-BvYuJAIjEh0d-Y/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

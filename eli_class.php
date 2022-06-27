@@ -528,6 +528,48 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/document/d/1QVc-lsoTGUeLQ_6I8t3JsNUfEZNQnGbqT9rZLxUf5bw/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
+                                <tr>
+                                <th>13/06</th>
+                                <td>Modal Verbs</td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>14/06</th>
+                                <td>Taylor Swift</td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>15/06</th>
+                                <td>IELTS</td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>20/06</th>
+                                <td>Mary's Saturday</td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>21/06</th>
+                                <td>Traveling</td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>22/06</th>
+                                <td>Body Parts</td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>27/06</th>
+                                <td>Dating</td>
+                                <td></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
                         </div>

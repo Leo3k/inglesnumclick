@@ -214,6 +214,30 @@ include('verifica_login.php');
                                 <td>Ordinal Numbers</td>
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1qDvXsP8sNDmfT6jD-bpfVmwibEybKYzhnP4VJfLYGw0/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
+                                </tr>
+                                <tr>
+                                <th>13/06</th>
+                                <td>Mistakes part 1</td>
+                                <td><a class="more" href="https://docs.google.com/document/d/1QVc-lsoTGUeLQ_6I8t3JsNUfEZNQnGbqT9rZLxUf5bw/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>14/06</th>
+                                <td>Mistakes part 2</td>
+                                <td><a class="more" href="https://docs.google.com/document/d/1QVc-lsoTGUeLQ_6I8t3JsNUfEZNQnGbqT9rZLxUf5bw/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr> 
+                                <tr>
+                                <th>20/06</th>
+                                <td>Popular Programming Languages</td>
+                                <td></td>
+                                <td></td>
+                                </tr> 
+                                <tr>
+                                <th>27/06</th>
+                                <td>Present Perfect</td>
+                                <td><a class="more" href="https://docs.google.com/document/d/1Cf3L5Iq-yyhMTw5d_h_BnQNz0zMXF9aoO8HvpSm5OaY/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
                                 </tr> 
                             </tbody>
                         </table>

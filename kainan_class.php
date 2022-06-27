@@ -257,6 +257,18 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/presentation/d/19sYQHiSNW6hm744I_0pZPAM4Zt6uN0zeQ2bihz-3138/edit?usp=sharing">&#128196;</a></td>
                                 <td><a class="more" href="https://take.quiz-maker.com/Q09RIEABO">&#9745;</a></td>
                                 </tr>
+                                <tr>
+                                <th>15/06</th>
+                                <td>Many and Much</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1NoK_MKU2gk3UpCQWk3fvOOhfryrwDIhZWPz0lrJ8Xxk/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>22/06</th>
+                                <td>Ordinal Numbers</td>
+                                <td></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

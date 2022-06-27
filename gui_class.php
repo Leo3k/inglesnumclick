@@ -425,6 +425,24 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/document/d/1QVc-lsoTGUeLQ_6I8t3JsNUfEZNQnGbqT9rZLxUf5bw/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
+                                <tr>
+                                <th>14/06</th>
+                                <td>Bruno Mars (Mateus)</td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>21/06</th>
+                                <td>Popular Programming Languages</td>
+                                <td></td>
+                                <td></td>
+                                </tr> 
+                                <tr>
+                                <th>21/06</th>
+                                <td>Traveling (Mateus)</td>
+                                <td></td>
+                                <td></td>
+                                </tr> 
                             </tbody>
                         </table>
         </div>

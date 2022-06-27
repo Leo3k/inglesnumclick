@@ -377,6 +377,30 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1qDvXsP8sNDmfT6jD-bpfVmwibEybKYzhnP4VJfLYGw0/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
+                                <tr>
+                                <th>16/06</th>
+                                <td>Ordinal Numbers part 2</td>
+                                <td><a class="more" href="https://docs.google.com/presentation/d/1qDvXsP8sNDmfT6jD-bpfVmwibEybKYzhnP4VJfLYGw0/edit?usp=sharing">&#128196;</a></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>20/06</th>
+                                <td>Mary's Saturday</td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>23/06</th>
+                                <td>Dating</td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>27/06</th>
+                                <td>Traveling</td>
+                                <td></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>

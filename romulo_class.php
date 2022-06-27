@@ -233,6 +233,18 @@ include('verifica_login.php');
                                 <td><a class="more" href="https://docs.google.com/presentation/d/1cm_RaB8bdV3BH-JuHmJ7KERvMsU3nov0hByXWJIlHnE/edit?usp=sharing">&#128196;</a></td>
                                 <td></td>
                                 </tr>
+                                <tr>
+                                <th>13/06</th>
+                                <td>Ordinal Numbers</td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr>
+                                <th>27/06</th>
+                                <td>Traveling</td>
+                                <td></td>
+                                <td></td>
+                                </tr>
                             </tbody>
                         </table>
         </div>
