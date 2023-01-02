@@ -6,7 +6,7 @@
 //define('DB', 'site');
 
 //Production
-define('HOST', '192.185.223.40');
+define('HOST', '108.167.132.22');
 define('USUARIO', 'ingl814_leo');
 define('SENHA', 'eu<#MACEIO');
 define('DB', 'ingl814_site');
