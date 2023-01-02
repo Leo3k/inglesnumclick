@@ -59,7 +59,7 @@
     </ul><br>
     <p><b>Let's practice</b></p>
     <p><i>Write down the feelings/emotions that correspond to the pictures.</p>
-    <img src="imgs/v1.png" width='400px' height='800px' class="rounded" alt="...">
+    <img src="imgs/v1.png" width='350px' height='800px' class="rounded" alt="...">
     <div>
         <br>
     <p><b>1</b> - He is <input type='text' size='5' class='blank' maxlength="3">

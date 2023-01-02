@@ -31,7 +31,7 @@ echo "<h1>".strtoupper($_SESSION['username'])."</h1>";
         <th scope='col'>date</th>
         <th scope='col'>activities</th>
         <?php
-        if ($_SESSION['username'] == 'LEO'){
+        if ($_SESSION['username'] == 'TEACHER'){
           echo "<th scope='col'>student</th>";
         }   
         else {
@@ -44,7 +44,7 @@ echo "<h1>".strtoupper($_SESSION['username'])."</h1>";
 <?php require 'connection.php';
     
     $username = strtoupper($_SESSION['username']);
-    if ($_SESSION['username'] == 'LEO') {
+    if ($_SESSION['username'] == 'TEACHER') {
       $query = "SELECT * FROM classes WHERE teacher = '$username'";
     }
     else {
@@ -65,7 +65,7 @@ echo "<h1>".strtoupper($_SESSION['username'])."</h1>";
         $a4 = $row['activity4'];
         $originalDate = $row['date'];
         $newDate = date('d/m', strtotime($originalDate));
-    if ($_SESSION['username'] == 'LEO') {
+    if ($_SESSION['username'] == 'TEACHER') {
       echo "<tr style='color:white';>   
       <th scope='row'><a href='classes.php?id=$id'>$id</a></th>
       <td>".$newDate."</td>
@@ -97,7 +97,7 @@ echo "<h1>".strtoupper($_SESSION['username'])."</h1>";
     </tbody>
   </table>
   <?php
-    if ($_SESSION['username'] == 'LEO') {
+    if ($_SESSION['username'] == 'TEACHER') {
       echo "
       <a href='plan.php' class='btn btn-primary'>PLAN CLASS</a>
       <a href='feedback.php' class='btn btn-primary'>FEEDBACK</a>

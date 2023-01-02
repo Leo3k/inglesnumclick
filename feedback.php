@@ -3,7 +3,7 @@ session_start();
 include "navbar.php";
 require 'connection.php';  
 
-if ($_SESSION['username'] !== 'LEO') {
+if ($_SESSION['username'] !== 'TEACHER') {
     header("Location: index.php");
 }
 
