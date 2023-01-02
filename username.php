@@ -3,7 +3,7 @@ session_start();
 include "navbar.php" 
 ?>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<?php require 'connection.php';
+<?php require_once 'connection.php';
 
 if (!isset($_SESSION['username'])) {
 
