@@ -1,7 +1,8 @@
 <?php 
 session_start();
-include "navbar.php";
-require 'connection.php';
+include "navbar.php"
+?>
+<?php require 'connection.php';
 
 if (!isset($_SESSION['username'])) {
 
@@ -46,4 +47,3 @@ if(isset($_POST["submit"])){
         <button type="submit" name="submit" class="btn btn-info">SEND</button>
     </form>
 </div>
-</body>
