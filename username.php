@@ -2,6 +2,7 @@
 session_start();
 include "navbar.php" 
 ?>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <?php require 'connection.php';
 
 if (!isset($_SESSION['username'])) {
@@ -32,7 +33,6 @@ if(isset($_POST["submit"])){
     header("Location: student.php");
 }
 ?>
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <div style="border:1px solid white;width:380px; border-radius:5px; margin:auto; text-align:center; margin-top:5px;padding:5px;">
     <figure class="text-center mt-3">
     <blockquote class="blockquote">
