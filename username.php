@@ -30,7 +30,7 @@ if (!isset($_SESSION['username'])) {
         }
     }
 } else {
-    header("Location: student.php");
+    echo "<script>window.location.href='student.php'</script>";
 }
 ?>
 <div style="border:1px solid white;width:380px; border-radius:5px; margin:auto; text-align:center; margin-top:5px;padding:5px;">
