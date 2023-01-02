@@ -1,7 +1,7 @@
 <?php 
 session_start();
 include "navbar.php";
-//require 'connection.php';
+require 'connection.php';
 
 if (!isset($_SESSION['username'])) {
 
