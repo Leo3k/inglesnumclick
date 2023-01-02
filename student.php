@@ -1,10 +1,8 @@
 <?php 
-session_start();
+
 include "navbar.php"; 
 
-if (!isset($_SESSION['username'])) {
-  header("Location: index.php");
-}
+
 ?>
 <style>
 table {
@@ -22,7 +20,7 @@ td, th {
 </style>
 <div style="width:420px;text-align:center;color:white;padding-left:0px;" class="container">
 <?php
-echo "<h1>".strtoupper($_SESSION['username'])."</h1>";
+echo "<h1>".strtoupper($_GET['id'])."</h1>";
 ?>
 <table class='table' style='width:420px'>
 <thead class='thead-light'>
@@ -31,7 +29,7 @@ echo "<h1>".strtoupper($_SESSION['username'])."</h1>";
         <th scope='col'>date</th>
         <th scope='col'>activities</th>
         <?php
-        if ($_SESSION['username'] == 'TEACHER'){
+        if ($_GET['id'] == 'TEACHER'){
           echo "<th scope='col'>student</th>";
         }   
         else {
@@ -43,7 +41,7 @@ echo "<h1>".strtoupper($_SESSION['username'])."</h1>";
     <tbody>
 <?php require 'connection.php';
     
-    $username = strtoupper($_SESSION['username']);
+    $username = strtoupper($_GET['id']);
     if ($_SESSION['username'] == 'TEACHER') {
       $query = "SELECT * FROM classes WHERE teacher = '$username'";
     }
@@ -65,7 +63,7 @@ echo "<h1>".strtoupper($_SESSION['username'])."</h1>";
         $a4 = $row['activity4'];
         $originalDate = $row['date'];
         $newDate = date('d/m', strtotime($originalDate));
-    if ($_SESSION['username'] == 'TEACHER') {
+    if ($_GET['id'] == 'TEACHER') {
       echo "<tr style='color:white';>   
       <th scope='row'><a href='classes.php?id=$id'>$id</a></th>
       <td>".$newDate."</td>
@@ -97,7 +95,7 @@ echo "<h1>".strtoupper($_SESSION['username'])."</h1>";
     </tbody>
   </table>
   <?php
-    if ($_SESSION['username'] == 'TEACHER') {
+    if ($_GET['id'] == 'TEACHER') {
       echo "
       <a href='plan.php' class='btn btn-primary'>PLAN CLASS</a>
       <a href='feedback.php' class='btn btn-primary'>FEEDBACK</a>
@@ -105,5 +103,5 @@ echo "<h1>".strtoupper($_SESSION['username'])."</h1>";
       "; 
     } 
   ?> <br><br>
-  <a href='logout.php'>Log out</a>
+  <!-- <a href='logout.php'>Log out</a> -->
 </div>
