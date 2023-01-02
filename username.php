@@ -1,8 +1,6 @@
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <?php 
 session_start();
-include "navbar.php"; 
-
 require 'connection.php';
 
 if (!isset($_SESSION['username'])) {
@@ -32,6 +30,7 @@ if (!isset($_SESSION['username'])) {
 } else {
     header("Location: student.php");
 }
+include "navbar.php"; 
 ?>
 <div style="border:1px solid white;width:380px; border-radius:5px; margin:auto; text-align:center; margin-top:5px;padding:5px;">
     <figure class="text-center mt-3">
