@@ -16,6 +16,7 @@ if (!isset($_SESSION['username'])) {
         if ($result) {
             if (mysqli_num_rows($result) > 0) {
                 header("Location: https://www.inglesnumclick.com.br/inglesnumclick/password.php?id=$username");
+                exit();
             } else {
                 echo "<script>
                 Swal.fire({
