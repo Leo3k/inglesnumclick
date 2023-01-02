@@ -1,10 +1,10 @@
 <?php 
 session_start();
 include "navbar.php";
-require 'connection.php';
-print_r('hru');
+//require 'connection.php';
+
 if (!isset($_SESSION['username'])) {
-print_r('hello');
+
 if(isset($_POST["submit"])){
     $username = $_POST["username"];
     $query = "SELECT * FROM login WHERE username = '$username'";
