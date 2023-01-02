@@ -44,6 +44,8 @@
     }
 }
 </style>
+</head>
+<body>
 <!-- nav PC -->
 <div id='navPC'>
       <div class="col-12 d-flex justify-content-center mb-0">
@@ -104,5 +106,5 @@
   </div>
   </div>
 </nav>
-   
+</body>   
     
