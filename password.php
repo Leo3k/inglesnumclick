@@ -36,7 +36,7 @@ if(isset($_POST["submit"])) {
     </figcaption>
     </figure>
     <form class="input-group" action="" method="post" autocomplete="off">
-        <input maxlength="6" name="password" style="text-align:center;text-transform:uppercase" type="password" id="inputPassword5" class="form-control" placeholder="password" aria-describedby="passwordHelpBlock">
+        <input name="password" style="text-align:center;text-transform:uppercase" type="password" id="inputPassword5" class="form-control" placeholder="password" aria-describedby="passwordHelpBlock">
         <button type="submit" name="submit" class="btn btn-info">SEND</button>
     </form>
 </div>

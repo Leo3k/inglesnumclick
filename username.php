@@ -7,28 +7,35 @@ include "navbar.php"
 
 if (!isset($_SESSION['username'])) {
 
-if(isset($_POST["submit"])){
-    $username = $_POST["username"];
-    $query = "SELECT * FROM login WHERE username = '$username'";
-    mysqli_query($conn, $query);
-    $result = $conn->query($query);
+    if(isset($_POST["submit"])){
+        $username = $_POST["username"];
+        $query = "SELECT * FROM login WHERE username = '$username'";
+        mysqli_query($conn, $query);
+        $result = $conn->query($query);
 
-    if ($result) {
-        if (mysqli_num_rows($result) > 0) {
-            header("Location: password.php?id=$username");
+        if ($result) {
+            if (mysqli_num_rows($result) > 0) {
+                //header("Location: password.php?id=$username");
+                echo "<script>
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Username Found!'
+                })
+                </script>;";
+            } else {
+                echo "<script>
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Username Not Found!'
+                })
+                </script>;";
+            }
         } else {
-            echo "<script>
-            Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Username Not Found!'
-              })
-            </script>;";
+            echo 'Error';
         }
-    } else {
-        echo 'Error';
     }
-}
 } else {
     header("Location: student.php");
 }
