@@ -13,7 +13,7 @@ include "navbar.php";
     </figcaption>
     </figure>
     <form class="input-group" action="" method="post" autocomplete="off">
-        <input name='username' maxlength="6" style="text-align:center;" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        <input name='username' style="text-align:center;" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
         <button type="submit" name="submit" class="btn btn-info">SEND</button>
     </form>
 </div>
