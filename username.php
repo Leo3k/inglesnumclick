@@ -1,11 +1,8 @@
 <?php 
-session_start();
 include "navbar.php" 
 ?>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <?php require 'connection.php';
-
-if (!isset($_SESSION['username'])) {
 
 if(isset($_POST["submit"])){
     $username = $_POST["username"];
@@ -15,10 +12,7 @@ if(isset($_POST["submit"])){
 
     if ($result) {
         if (mysqli_num_rows($result) > 0) {
-            ob_start();
-            header("Location: password.php?id=$username");
-            ob_end_flush();
-            exit;
+            echo "<script> window.location.href = 'password.php?id=$username'; </script>";
         } else {
             echo "<script>
             Swal.fire({
@@ -32,9 +26,7 @@ if(isset($_POST["submit"])){
         echo 'Error';
     }
 }
-} else {
-    header("Location: student.php");
-}
+
 ?>
 <div style="border:1px solid white;width:380px; border-radius:5px; margin:auto; text-align:center; margin-top:5px;padding:5px;">
     <figure class="text-center mt-3">

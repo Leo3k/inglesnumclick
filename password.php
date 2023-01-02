@@ -1,7 +1,6 @@
 <?php include "navbar.php" ?>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <?php 
-session_start();
 require 'connection.php';
 
 if(isset($_POST["submit"])) {
@@ -13,8 +12,7 @@ if(isset($_POST["submit"])) {
     $result = mysqli_query($conn, $check);
     $row = mysqli_num_rows($result);
     if($row >= 1) {
-        $_SESSION['username'] = strtoupper($username);
-        header("Location: student.php");
+        echo "<script> window.location.href = 'student.php?id=$username'; </script>";
     } else {
         echo "<script>
         Swal.fire({
