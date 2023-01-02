@@ -3,7 +3,9 @@ session_start();
 include "navbar.php" 
 ?>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<?php require 'connection.php';
+<?php 
+ob_start();
+require 'connection.php';
 
 if (!isset($_SESSION['username'])) {
 
@@ -15,7 +17,7 @@ if (!isset($_SESSION['username'])) {
 
         if ($result) {
             if (mysqli_num_rows($result) > 0) {
-                echo "<script>window.location.href='password.php?id=$username'</script>";
+                header("Location: password.php?id=$username");
             } else {
                 echo "<script>
                 Swal.fire({
@@ -30,8 +32,9 @@ if (!isset($_SESSION['username'])) {
         }
     }
 } else {
-    echo "<script>window.location.href='student.php'</script>";
+    header("Location: student.php");
 }
+ob_end_flush();
 ?>
 <div style="border:1px solid white;width:380px; border-radius:5px; margin:auto; text-align:center; margin-top:5px;padding:5px;">
     <figure class="text-center mt-3">
