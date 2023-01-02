@@ -14,7 +14,7 @@ if(isset($_POST["submit"])) {
     $row = mysqli_num_rows($result);
     if($row >= 1) {
         $_SESSION['username'] = strtoupper($username);
-        header("Location: student.php");
+        echo "<script>window.location.href='student.php'</script>";
     } else {
         echo "<script>
         Swal.fire({
