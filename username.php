@@ -1,6 +1,6 @@
 <?php 
 session_start();
-include "navbar.php" 
+include "navbar.php"; 
 ?>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <?php require 'connection.php';
@@ -47,4 +47,3 @@ if(isset($_POST["submit"])){
         <button type="submit" name="submit" class="btn btn-info">SEND</button>
     </form>
 </div>
-<?php echo ('hi');
