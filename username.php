@@ -3,37 +3,36 @@ session_start();
 include "navbar.php" 
 ?>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<?php 
-require 'connection.php';
+<?php require 'connection.php';
 
 if (!isset($_SESSION['username'])) {
 
-    if(isset($_POST["submit"])){
-        $username = $_POST["username"];
-        $query = "SELECT * FROM login WHERE username = '$username'";
-        mysqli_query($conn, $query);
-        $result = $conn->query($query);
+if(isset($_POST["submit"])){
+    $username = $_POST["username"];
+    $query = "SELECT * FROM login WHERE username = '$username'";
+    mysqli_query($conn, $query);
+    $result = $conn->query($query);
 
-        if ($result) {
-            if (mysqli_num_rows($result) > 0) {
-                header("Location: https://www.inglesnumclick.com.br/inglesnumclick/password.php?id=$username");
-                exit;
-            } else {
-                echo "<script>
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Username Not Found!'
-                })
-                </script>;";
-            }
+    if ($result) {
+        if (mysqli_num_rows($result) > 0) {
+            ob_start();
+            header("Location: password.php?id=$username");
+            exit;
         } else {
-            echo 'Error';
+            echo "<script>
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Username Not Found!'
+              })
+            </script>;";
         }
+    } else {
+        echo 'Error';
     }
+}
 } else {
-    header("Location: https://www.inglesnumclick.com.br/inglesnumclick/student.php");
-    exit;
+    header("Location: student.php");
 }
 ?>
 <div style="border:1px solid white;width:380px; border-radius:5px; margin:auto; text-align:center; margin-top:5px;padding:5px;">
@@ -46,7 +45,7 @@ if (!isset($_SESSION['username'])) {
     </figcaption>
     </figure>
     <form class="input-group" action="" method="post" autocomplete="off">
-        <input name='username' style="text-align:center;" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        <input name='username' maxlength="6" style="text-align:center;" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
         <button type="submit" name="submit" class="btn btn-info">SEND</button>
     </form>
 </div>
