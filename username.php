@@ -47,3 +47,4 @@ if(isset($_POST["submit"])){
         <button type="submit" name="submit" class="btn btn-info">SEND</button>
     </form>
 </div>
+<?php echo ('hi');
