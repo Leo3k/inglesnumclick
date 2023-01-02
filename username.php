@@ -1,22 +1,9 @@
 <?php 
 session_start();
-include "navbar.php"
+include "navbar.php" 
 ?>
-<?php 
-
-define('HOST', '108.167.132.22');
-define('USUARIO', 'ingle814_leo');
-define('SENHA', 'eu<#MACEIO');
-define('DB', 'ingle814_site');
-
-$conn = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('Não conectado');
-
-// Check connection
-if ($conn->connect_error) {
-   die("Connection failed: " . $conn->connect_error);
-}
-  echo "Connected successfully";
-
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<?php require 'connection.php';
 
 if (!isset($_SESSION['username'])) {
 
@@ -46,7 +33,6 @@ if(isset($_POST["submit"])){
     header("Location: student.php");
 }
 ?>
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <div style="border:1px solid white;width:380px; border-radius:5px; margin:auto; text-align:center; margin-top:5px;padding:5px;">
     <figure class="text-center mt-3">
     <blockquote class="blockquote">
@@ -57,7 +43,7 @@ if(isset($_POST["submit"])){
     </figcaption>
     </figure>
     <form class="input-group" action="" method="post" autocomplete="off">
-        <input name='username' style="text-align:center;" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        <input name='username' maxlength="6" style="text-align:center;" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
         <button type="submit" name="submit" class="btn btn-info">SEND</button>
     </form>
 </div>
