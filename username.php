@@ -1,9 +1,9 @@
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <?php 
 session_start();
-ob_start();
-include "navbar.php";
-ob_end_flush();
+include "navbar.php" 
+?>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<?php 
 require 'connection.php';
 
 if (!isset($_SESSION['username'])) {
@@ -16,7 +16,8 @@ if (!isset($_SESSION['username'])) {
 
         if ($result) {
             if (mysqli_num_rows($result) > 0) {
-                header("Location: password.php?id=$username");
+                header("Location: https://www.inglesnumclick.com.br/inglesnumclick/password.php?id=$username");
+                exit;
             } else {
                 echo "<script>
                 Swal.fire({
@@ -31,8 +32,9 @@ if (!isset($_SESSION['username'])) {
         }
     }
 } else {
-    header("Location: student.php");
-} 
+    header("Location: https://www.inglesnumclick.com.br/inglesnumclick/student.php");
+    exit;
+}
 ?>
 <div style="border:1px solid white;width:380px; border-radius:5px; margin:auto; text-align:center; margin-top:5px;padding:5px;">
     <figure class="text-center mt-3">
