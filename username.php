@@ -1,10 +1,24 @@
 <?php 
-//session_start();
+session_start();
 include "navbar.php"
 ?>
-<?php require 'connection.php';
+<?php 
 
-//if (!isset($_SESSION['username'])) {
+define('HOST', '108.167.132.22');
+define('USUARIO', 'ingle814_leo');
+define('SENHA', 'eu<#MACEIO');
+define('DB', 'ingle814_site');
+
+$conn = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('Não conectado');
+
+// Check connection
+if ($conn->connect_error) {
+   die("Connection failed: " . $conn->connect_error);
+}
+  echo "Connected successfully";
+
+
+if (!isset($_SESSION['username'])) {
 
 if(isset($_POST["submit"])){
     $username = $_POST["username"];
@@ -28,9 +42,9 @@ if(isset($_POST["submit"])){
         echo 'Error';
     }
 }
-//} else {
-//    header("Location: student.php");
-//}
+} else {
+    header("Location: student.php");
+}
 ?>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <div style="border:1px solid white;width:380px; border-radius:5px; margin:auto; text-align:center; margin-top:5px;padding:5px;">
