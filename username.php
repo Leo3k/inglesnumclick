@@ -15,14 +15,7 @@ if (!isset($_SESSION['username'])) {
 
         if ($result) {
             if (mysqli_num_rows($result) > 0) {
-                //header("Location: password.php?id=$username");
-                echo "<script>
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Oops...',
-                    text: 'Username Found!'
-                })
-                </script>;";
+                header("Location: https://www.inglesnumclick.com.br/inglesnumclick/password.php?id=$username");
             } else {
                 echo "<script>
                 Swal.fire({
