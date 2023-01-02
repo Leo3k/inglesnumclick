@@ -1,11 +1,6 @@
 <?php 
-session_start();
 include "navbar.php";
 require 'connection.php';  
-
-if ($_SESSION['username'] !== 'TEACHER') {
-    header("Location: index.php");
-}
 
 if(isset($_POST["submit"])){
     $student = $_POST["student"];

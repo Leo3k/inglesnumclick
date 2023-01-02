@@ -29,7 +29,7 @@ echo "<h1>".strtoupper($_GET['id'])."</h1>";
         <th scope='col'>date</th>
         <th scope='col'>activities</th>
         <?php
-        if ($_GET['id'] == 'TEACHER'){
+        if (strtoupper($_GET['id']) == 'TEACHER'){
           echo "<th scope='col'>student</th>";
         }   
         else {
@@ -42,7 +42,7 @@ echo "<h1>".strtoupper($_GET['id'])."</h1>";
 <?php require 'connection.php';
     
     $username = strtoupper($_GET['id']);
-    if ($_SESSION['username'] == 'TEACHER') {
+    if (strtoupper($_GET['id']) == 'TEACHER') {
       $query = "SELECT * FROM classes WHERE teacher = '$username'";
     }
     else {
@@ -63,7 +63,7 @@ echo "<h1>".strtoupper($_GET['id'])."</h1>";
         $a4 = $row['activity4'];
         $originalDate = $row['date'];
         $newDate = date('d/m', strtotime($originalDate));
-    if ($_GET['id'] == 'TEACHER') {
+    if (strtoupper($_GET['id']) == 'TEACHER') {
       echo "<tr style='color:white';>   
       <th scope='row'><a href='classes.php?id=$id'>$id</a></th>
       <td>".$newDate."</td>
@@ -95,7 +95,7 @@ echo "<h1>".strtoupper($_GET['id'])."</h1>";
     </tbody>
   </table>
   <?php
-    if ($_GET['id'] == 'TEACHER') {
+    if (strtoupper($_GET['id']) == 'TEACHER') {
       echo "
       <a href='plan.php' class='btn btn-primary'>PLAN CLASS</a>
       <a href='feedback.php' class='btn btn-primary'>FEEDBACK</a>
