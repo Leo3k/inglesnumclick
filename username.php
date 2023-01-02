@@ -17,6 +17,7 @@ if(isset($_POST["submit"])){
         if (mysqli_num_rows($result) > 0) {
             ob_start();
             header("Location: password.php?id=$username");
+            ob_end_flush();
             exit;
         } else {
             echo "<script>
