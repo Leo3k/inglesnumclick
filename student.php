@@ -43,7 +43,7 @@ echo "<h1>".strtoupper($_GET['id'])."</h1>";
     
     $username = strtoupper($_GET['id']);
     if (strtoupper($_GET['id']) == 'TEACHER') {
-      $query = "SELECT * FROM classes WHERE teacher = 'LEO' AND 'MARIA'";
+      $query = "SELECT * FROM classes";
     }
     else {
     $query = "SELECT * FROM classes WHERE student = '$username'";
