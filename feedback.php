@@ -10,7 +10,7 @@ if(isset($_POST["submit"])){
 
 $query = "UPDATE `site`.`CLASSES` SET `status` = 'finished', `feedback` = '$feedback' WHERE `id` = '$id'";
 mysqli_query($conn, $query);
-echo "<script> window.location.href = 'student.php?id=$username'; </script>";
+echo "<script> window.location.href = 'https://www.inglesnumclick.com.br/inglesnumclick/student.php?id=$username'; </script>";
 }
 ?>
 <div class='container-sm my-2' style='background-color:lightgray;color:black;padding:20px;margin:auto;width:400px;border-radius:5px;'>
