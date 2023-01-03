@@ -7,6 +7,11 @@
         width:580px;
     }    
 } 
+@media (max-width: 576px) { 
+    img {
+        width:100%;
+    }    
+} 
 .sound {
 	width: 30px;
 	height: 20px;
@@ -53,7 +58,7 @@
           src="imgs/demonstratives.png"
           alt="MDB Logo"
           draggable="false"
-          height="550"
+          height="480"
       /><br><br>
     <p><b>Exercise</b></p>
     <p><i>Listen and fill in the blanks.</i></p>

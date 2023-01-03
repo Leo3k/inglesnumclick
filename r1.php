@@ -7,6 +7,11 @@
         width:580px;
     }    
 } 
+@media (max-width: 576px) { 
+    img {
+        width:100%;
+    }    
+} 
 .sound {
 	width: 30px;
 	height: 20px;
