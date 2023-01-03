@@ -45,7 +45,7 @@
         <a class="navbar-brand" href="#"
         ><img
           id="MDB-logo"
-          src="imgs/logo1.png"
+          src="imgs/logo.png"
           alt="MDB Logo"
           draggable="false"
           height="120"
@@ -72,7 +72,7 @@
     <a class="navbar-brand" href="#">
     <img
           id="MDB-logo"
-          src="imgs/logo1.png"
+          src="imgs/logo.png"
           alt="MDB Logo"
           draggable="false"
           height="90"
