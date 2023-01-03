@@ -8,10 +8,9 @@ if(isset($_POST["submit"])){
     $id = $_POST["id"];
     $feedback = $_POST["feedback"];
 
-$query = "UPDATE `site`.`classes` SET `status` = 'finished', `feedback` = '$feedback' WHERE `id` = '$id'";
+$query = "UPDATE `classes` SET `status` = 'finished', `feedback` = '$feedback' WHERE `classes`.`id` = '$id'";
 mysqli_query($conn, $query);
-echo "good";
-//echo "<script> window.location.href = 'https://www.inglesnumclick.com.br/inglesnumclick/student.php?id=$username'; </script>";
+echo "<script> window.location.href = 'https://www.inglesnumclick.com.br/inglesnumclick/student.php?id=$username'; </script>";
 }
 ?>
 <div class='container-sm my-2' style='background-color:lightgray;color:black;padding:20px;margin:auto;width:400px;border-radius:5px;'>
