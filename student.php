@@ -98,7 +98,7 @@ echo "<h1>".strtoupper($_GET['id'])."</h1>";
     if (strtoupper($_GET['id']) == 'TEACHER') {
       echo "
       <a href='plan.php?id=$username' class='btn btn-primary'>PLAN CLASS</a>
-      <a href='feedback.php?id=$username' class='btn btn-primary'>FEEDBACK</a>
+      <a href='feedback.php?p=$username' class='btn btn-primary'>FEEDBACK</a>
       <a href='delete.php?id=$username' class='btn btn-danger'>DELETE CLASS</a>
       "; 
     } 

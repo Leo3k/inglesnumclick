@@ -2,7 +2,7 @@
 include "navbar.php";
 require 'connection.php';  
 
-$username = strtoupper($_GET['id']);
+$username = strtoupper($_GET['p']);
 
 if(isset($_POST["submit"])){
     $id = $_POST["id"];
