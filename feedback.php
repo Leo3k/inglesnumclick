@@ -8,7 +8,7 @@ if(isset($_POST["submit"])){
     $id = $_POST["id"];
     $feedback = $_POST["feedback"];
 
-$query = "UPDATE 'classes' SET 'status' = 'finished', 'feedback' = '$feedback' WHERE 'id' = '$id'";
+$query = "UPDATE `site`.`classes` SET `status` = 'finished', `feedback` = '$feedback' WHERE `id` = '$id'";
 mysqli_query($conn, $query);
 echo "<script> window.location.href = 'https://www.inglesnumclick.com.br/inglesnumclick/student.php?id=$username'; </script>";
 }
