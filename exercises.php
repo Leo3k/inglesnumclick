@@ -34,7 +34,7 @@ switch ($skill) {
     break;
   case "listening":
     if ($level == "BEGINNER") {
-    
+      echo "<p>&#127911;&nbsp;Listening 1&nbsp;<a href='l2.php'>This, That, These, and Those</a> &#11088;&#11088;</p>";
     } else if (($level == "INTERMEDIATE")) {
 
     } else {
@@ -42,7 +42,13 @@ switch ($skill) {
     }
     break;
   case "reading":
-    echo "Your favorite color is green!";
+    if ($level == "BEGINNER") {
+      echo "<p>&#127911;&nbsp;Reading 1&nbsp;<a href='r1.php'>Rooms and Furniture (WILL)</a> &#11088;&#11088;&#11088;</p>";
+    } else if (($level == "INTERMEDIATE")) {
+
+    } else {
+      
+    }
     break;
   case "writing":
         echo "Your favorite color is green!";
