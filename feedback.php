@@ -2,13 +2,15 @@
 include "navbar.php";
 require 'connection.php';  
 
+$username = strtoupper($_GET['id']);
+
 if(isset($_POST["submit"])){
     $id = $_POST["id"];
     $feedback = $_POST["feedback"];
 
 $query = "UPDATE `site`.`CLASSES` SET `status` = 'finished', `feedback` = '$feedback' WHERE `id` = '$id'";
 mysqli_query($conn, $query);
-header("Location:student.php");
+echo "<script> window.location.href = 'student.php?id=$username'; </script>";
 }
 ?>
 <div class='container-sm my-2' style='background-color:lightgray;color:black;padding:20px;margin:auto;width:400px;border-radius:5px;'>

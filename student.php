@@ -43,7 +43,7 @@ echo "<h1>".strtoupper($_GET['id'])."</h1>";
     
     $username = strtoupper($_GET['id']);
     if (strtoupper($_GET['id']) == 'TEACHER') {
-      $query = "SELECT * FROM classes WHERE teacher = '$username'";
+      $query = "SELECT * FROM classes WHERE teacher = 'LEO' AND 'MARIA'";
     }
     else {
     $query = "SELECT * FROM classes WHERE student = '$username'";
@@ -97,9 +97,9 @@ echo "<h1>".strtoupper($_GET['id'])."</h1>";
   <?php
     if (strtoupper($_GET['id']) == 'TEACHER') {
       echo "
-      <a href='plan.php' class='btn btn-primary'>PLAN CLASS</a>
-      <a href='feedback.php' class='btn btn-primary'>FEEDBACK</a>
-      <a href='delete.php' class='btn btn-danger'>DELETE CLASS</a>
+      <a href='plan.php?id=$username' class='btn btn-primary'>PLAN CLASS</a>
+      <a href='feedback.php?id=$username' class='btn btn-primary'>FEEDBACK</a>
+      <a href='delete.php?id=$username' class='btn btn-danger'>DELETE CLASS</a>
       "; 
     } 
   ?> <br><br>

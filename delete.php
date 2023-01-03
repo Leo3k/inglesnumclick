@@ -3,19 +3,17 @@ session_start();
 include "navbar.php";
 require 'connection.php';  
 
-if ($_SESSION['username'] !== 'TEACHER') {
-    header("Location: index.php");
-}
+$username = strtoupper($_GET['id']);
 
 if (isset($_POST['confirm'])) {
     $id = $_SESSION['id']; 
     if ($_POST['confirm'] == 'Yes') {
       $delete = "DELETE FROM classes WHERE id= '$id'";
       mysqli_query($conn, $delete);
-      header("Location:student.php");
+      echo "<script> window.location.href = 'student.php?id=$username'; </script>";
     }
     else if ($_POST['confirm'] == 'No') {
-        header("Location:student.php");  
+        echo "<script> window.location.href = 'student.php?id=$username'; </script>";  
     } 
 }
 ?>

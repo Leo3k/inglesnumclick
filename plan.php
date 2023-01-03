@@ -2,6 +2,8 @@
 include "navbar.php";
 require 'connection.php';  
 
+$username = strtoupper($_GET['id']);
+
 if(isset($_POST["submit"])){
     $student = $_POST["student"];
     $date = $_POST["date"];
@@ -13,7 +15,7 @@ if(isset($_POST["submit"])){
 
 $query = "INSERT INTO classes VALUES(null, '$student', '$date', '$activity1', '$activity2', '$activity3', '$activity4', '$teacher', 'planned', '')";
 mysqli_query($conn, $query);
-header("Location:student.php");
+echo "<script> window.location.href = 'student.php?id=$username'; </script>";
 }
 
 ?>
