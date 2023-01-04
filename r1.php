@@ -108,7 +108,7 @@
         </tr>
     </table>
     <p><b>Reading Comprehension Questions</b></p>
-    <p><i>Read the text again and asnwer the questions below.</p>
+    <p><i>Read the text again and answer the questions below.</p>
     <div class="embed-responsive embed-responsive-1by1" id="sticky">
         <iframe class="embed-responsive-item" src="https://take.quiz-maker.com/QW2DPX32K"></iframe>
     </div><br>

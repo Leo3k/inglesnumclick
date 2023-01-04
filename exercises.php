@@ -51,7 +51,13 @@ switch ($skill) {
     }
     break;
   case "writing":
-        echo "Your favorite color is green!";
+    if ($level == "BEGINNER") {
+      
+    } else if (($level == "INTERMEDIATE")) {
+      echo "<p>&#x270d;&nbsp;Writing 1:&nbsp;<a href='w1.php'>There is - There are</a> &#11088;&#11088;&#11088;</p>";
+    } else {
+      
+    }
     break;
   case "vocabulary":
     if ($level == "BEGINNER") {
