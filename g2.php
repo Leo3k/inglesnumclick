@@ -56,7 +56,7 @@
     <p>The laptop is <b>bigger than</b> the cellphone.</p>
     <p>The cellphone is <b>lighter than</b> the laptop.</p>
     <p>The laptop is <b>heavier than</b> the cellphone.</p><br>
-    <h5 style="color:BLACK">ONE-SILLABLE ADJECTIVES</h5>
+    <h5 style="color:BLACK">ONE-SYLLABLE ADJECTIVES</h5>
     <table class="table table-light table-hover">
     <tbody>
         <tr>
@@ -111,7 +111,7 @@
         </tr>
         </tbody>
     </table><p>*cvc - consonant vowel consonant</p><br>
-    <h5 style="color:BLACK">TWO-SILLABLE ADJECTIVES <br><span style="font-size:15px"><i>ENDING IN 'Y'</i></span></h5>
+    <h5 style="color:BLACK">TWO-SYLLABLE ADJECTIVES <br><span style="font-size:15px"><i>ENDING IN 'Y'</i></span></h5>
     <table class="table table-light table-hover">
     <tbody>
         <tr>
