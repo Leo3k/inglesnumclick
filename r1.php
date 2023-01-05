@@ -42,12 +42,12 @@
           height="400"
       /><br><br>
       <div style='background-color:aliceblue;padding:3px;'>
-    <p><input type='text' size='1' class='blank' maxlength="1"> BEDROOM <a class="myButton" type="submit" value="Ouvir" onclick="english(`BEDROOM`)"><img class="sound" src="https://img.icons8.com/fluency/48/000000/room-sound.png"/></a>
-    <input type='text' size='1' class='blank' maxlength="1"> BATHROOM <a class="myButton" type="submit" value="Ouvir" onclick="english(`BATHROOM`)"><img class="sound" src="https://img.icons8.com/fluency/48/000000/room-sound.png"/></a></p>
-    <p><input type='text' size='1' class='blank' maxlength="1"> KITCHEN <a class="myButton" type="submit" value="Ouvir" onclick="english(`KITCHEN`)"><img class="sound" src="https://img.icons8.com/fluency/48/000000/room-sound.png"/></a>
-    <input type='text' size='1' class='blank' maxlength="1"> LIVING ROOM <a class="myButton" type="submit" value="Ouvir" onclick="english(`LIVING ROOM`)"><img class="sound" src="https://img.icons8.com/fluency/48/000000/room-sound.png"/></a></p>
-    <p><input type='text' size='1' class='blank' maxlength="1"> DINING ROOM <a class="myButton" type="submit" value="Ouvir" onclick="english(`DINING ROOM`)"><img class="sound" src="https://img.icons8.com/fluency/48/000000/room-sound.png"/></a>
-    <input type='text' size='1' class='blank' maxlength="1"> LAUNDRY ROOM <a class="myButton" type="submit" value="Ouvir" onclick="english(`LAUNDRY ROOM`)"><img class="sound" src="https://img.icons8.com/fluency/48/000000/room-sound.png"/></a></p>
+    <p><input type='text' size='1' class='blank' maxlength="1"> BEDROOM <a class="myButton" type="submit" value="Ouvir" onclick="english(`BEDROOM`)"><img class="sound" src="https://img.icons8.com/fluency/48/000000/room-sound.png"/></a></p>
+    <p><input type='text' size='1' class='blank' maxlength="1"> BATHROOM <a class="myButton" type="submit" value="Ouvir" onclick="english(`BATHROOM`)"><img class="sound" src="https://img.icons8.com/fluency/48/000000/room-sound.png"/></a></p>
+    <p><input type='text' size='1' class='blank' maxlength="1"> KITCHEN <a class="myButton" type="submit" value="Ouvir" onclick="english(`KITCHEN`)"><img class="sound" src="https://img.icons8.com/fluency/48/000000/room-sound.png"/></a></p>
+    <p><input type='text' size='1' class='blank' maxlength="1"> LIVING ROOM <a class="myButton" type="submit" value="Ouvir" onclick="english(`LIVING ROOM`)"><img class="sound" src="https://img.icons8.com/fluency/48/000000/room-sound.png"/></a></p>
+    <p><input type='text' size='1' class='blank' maxlength="1"> DINING ROOM <a class="myButton" type="submit" value="Ouvir" onclick="english(`DINING ROOM`)"><img class="sound" src="https://img.icons8.com/fluency/48/000000/room-sound.png"/></a></p>
+    <p><input type='text' size='1' class='blank' maxlength="1"> LAUNDRY ROOM <a class="myButton" type="submit" value="Ouvir" onclick="english(`LAUNDRY ROOM`)"><img class="sound" src="https://img.icons8.com/fluency/48/000000/room-sound.png"/></a></p>
     <button type='button' onclick='checkAnswers()' class="btn btn-primary">CHECK</button>
     <br>
     <br></div><br>

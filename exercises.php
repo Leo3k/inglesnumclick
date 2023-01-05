@@ -27,7 +27,7 @@ switch ($skill) {
     if ($level == "BEGINNER") {
       echo "<p>&#128214;&nbsp;Grammar 1:&nbsp;<a href='g1.php'>To BE</a> &#11088;</p>";
     } else if (($level == "INTERMEDIATE")) {
-
+      echo "<p>&#128214;&nbsp;Grammar 1:&nbsp;<a href='g2.php'>Comparative Adjectives</a> &#11088;&#11088;&#11088;</p>";
     } else {
       
     }
@@ -69,7 +69,13 @@ switch ($skill) {
     }
     break;
   case "speaking":
-        echo "Your favorite color is green!";
+    if ($level == "BEGINNER") {
+      
+    } else if (($level == "INTERMEDIATE")) {
+      echo "<p>&#10067;&nbsp;Speaking 1:&nbsp;<a href='s1.php'>Random Questions</a> &#11088;&#11088;&#11088;</p>";
+    } else {
+      
+    }
     break;
   default:
     echo "Go back to the previous page";

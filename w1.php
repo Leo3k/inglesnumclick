@@ -29,7 +29,7 @@ span {
         <h4 style="color:BLACK">THERE IS - THERE ARE</p>
     </blockquote>
     <figcaption style="color:black" class="blockquote-footer">
-        Pay attention to the table and examples below.<br><cite><b>r1</b></cite>
+        Pay attention to the table and examples below.<br><cite><b>w1</b></cite>
     </figcaption> 
     </figure>
   </div>
@@ -60,25 +60,25 @@ span {
         <p><b>Exercise 1</b></p>
         <p><i>Unscramble the sentences and write them down in the correct order. PS. Don't forget the punctuation.</i></p>
         <p><b> IS A MAN THERE YOUR IN ROOM LIVING? </b></p>
-        <input type='text' size='40' class='blank' maxlength="35"><br><br>
+        <input type='text' size='30' class='blank' maxlength="35"><br><br>
         <p><b> ARE PEOPLE THREE DANCING THERE THE IN KITCHEN. </b></p>
-        <input type='text' size='40' class='blank' maxlength="46"><br><br>
+        <input type='text' size='30' class='blank' maxlength="46"><br><br>
         <p><b> ISN'T A THERE TV HERE. </b></p>
-        <input type='text' size='40' class='blank' maxlength="22"><br><br>
+        <input type='text' size='30' class='blank' maxlength="22"><br><br>
         <p><b> THERE IS BATHROOM HERE NEAR? </b></p>
-        <input type='text' size='40' class='blank' maxlength="30"><br><br>
+        <input type='text' size='30' class='blank' maxlength="30"><br><br>
         <p><b> ANY PLAYERS THERE SHORT AREN'T ON TEAM THE. </b></p>
-        <input type='text' size='40' class='blank' maxlength="43"><br><br>
+        <input type='text' size='30' class='blank' maxlength="43"><br><br>
         <p><b> A IS HUGE THERE SPIDER THE WALL ON. </b></p>
-        <input type='text' size='40' class='blank' maxlength="35"><br><br>
+        <input type='text' size='30' class='blank' maxlength="35"><br><br>
         <p><b> THERE NO ARE CLOUDS THE IN SKY. </b></p>
-        <input type='text' size='40' class='blank' maxlength="31"><br><br>
+        <input type='text' size='30' class='blank' maxlength="31"><br><br>
         <p><b> RESTAURANT IS A NEARBY THERE? </b></p>
-        <input type='text' size='40' class='blank' maxlength="29"><br><br>
+        <input type='text' size='30' class='blank' maxlength="29"><br><br>
         <p><b> THERE ARE CHILDREN NEIGHBORHOOD THIS IN MANY? </b></p>
-        <input type='text' size='40' class='blank' maxlength="45"><br><br>
+        <input type='text' size='30' class='blank' maxlength="45"><br><br>
         <p><b> IS THERE A BEAUTIFUL TREES BEHIND THE WATERFALL. </b></p>
-        <input type='text' size='40' class='blank' maxlength="48"><br><br>
+        <input type='text' size='30' class='blank' maxlength="48"><br><br>
         <button type='button' onclick='checkAnswers()' class="btn btn-primary">CHECK</button>
     </div>
     <br><p><b>Exercise 2</b></p>
