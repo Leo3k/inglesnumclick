@@ -39,12 +39,16 @@ span {
   <div class="card-body">
     <h5 id="question">Question</h5><br>
   <button type='submit' onclick="randomQuestion()" name='submit' class='btn btn-danger'>GENERATE QUESTION</button>
+  <button style='display:none;margin:auto;' type='submit' onclick="nextQuestion()" name='submit' class='btn btn-danger'>NEXT QUESTION</button>
   <br><br><span class="timer">
     <span id="counter"></span>
   </span>     
 </div>
   <script>    
         function randomQuestion() {
+        document.getElementsByClassName('btn')[0].style.display = 'none';
+        document.getElementsByClassName('btn')[1].style.display = 'block';
+        var seconds = 60;
         let question;
         let number = Math.floor(Math.random() * 12);
         switch (number) {
@@ -87,7 +91,6 @@ span {
         }
         document.getElementById('question').innerHTML = question;
         function countdown() {
-        var seconds = 60;
         function tick() {
           var counter = document.getElementById("counter");
           seconds--;
@@ -101,5 +104,7 @@ span {
       }
       countdown();
 }
-        
+    function nextQuestion() {
+        window.location.href = 's1.php';
+       } 
   </script>

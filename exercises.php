@@ -25,7 +25,9 @@
 switch ($skill) {
   case "grammar":
     if ($level == "BEGINNER") {
-      echo "<p>&#128214;&nbsp;Grammar 1:&nbsp;<a href='g1.php'>To BE</a> &#11088;</p>";
+      echo "
+      <p>&#128214;&nbsp;Grammar 1:&nbsp;<a href='g1.php'>To BE</a> &#11088;</p><br>
+      <p>&#128214;&nbsp;Grammar 2:&nbsp;<a href='g3.php'>SIMPLE PRESENT (AFFIRMATIVE SENTENCES)</a> &#11088;&#11088;</p>";
     } else if (($level == "INTERMEDIATE")) {
       echo "<p>&#128214;&nbsp;Grammar 1:&nbsp;<a href='g2.php'>Comparative Adjectives</a> &#11088;&#11088;&#11088;</p>";
     } else {
@@ -38,7 +40,9 @@ switch ($skill) {
     } else if (($level == "INTERMEDIATE")) {
       echo "<p>&#127911;&nbsp;Listening 1:&nbsp;<a href='l3.php'>Restaurant</a> &#11088;&#11088;&#11088;</p>";
     } else {
-      echo "<p>&#127909;&nbsp;Movie Scene:&nbsp;<a href='l1.php'>She Is Out Of My League</a> &#11088;&#11088;&#11088;&#11088;</p>";
+      echo "
+      <p>&#127909;&nbsp;Movie Scene:&nbsp;<a href='l1.php'>She Is Out Of My League</a> &#11088;&#11088;&#11088;&#11088;</p><br>
+      <p>&#127909;&nbsp;Short Clip:&nbsp;<a href='l4.php'>Friends</a> &#11088;&#11088;&#11088;</p>";
     }
     break;
   case "reading":
