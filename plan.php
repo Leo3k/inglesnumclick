@@ -60,7 +60,7 @@ echo "<script> window.location.href = 'student.php?id=$username'; </script>";
           <input type='text' name='activity3' class='form-control' id='inputEmail4'>
         </div>
         <div class='col-md-6'>
-          <label for='inputEmail4' class='form-label'>Activity 4</label>
+          <label for='inputEmail4' class='form-label'>Slides</label>
           <input type='text' name='activity4' class='form-control' id='inputEmail4'>
         </div>
         <div class='col-md-6'>

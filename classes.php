@@ -21,7 +21,7 @@ if(isset($_GET["id"])){
         <p class='card-text'><b>Activity 1:</b> <a href='".$row['activity1'].".php'>".$row['activity1']."</a></p>
         <p class='card-text'><b>Activity 2:</b> <a href='".$row['activity2'].".php'>".$row['activity2']."</a></p>
         <p class='card-text'><b>Activity 3:</b> <a href='".$row['activity3'].".php'>".$row['activity3']."</a></p>
-        <p class='card-text'><b>Activity 4:</b> <a href='".$row['activity4'].".php'>".$row['activity4']."</a></p>
+        <p class='card-text'><b>Activity 4:</b> <a href='".$row['activity4']."'>"."Slides"."</a></p>
         <p class='card-text'><b>Status:</b> ".$row['status']."</p>
         <p class='card-text'><b>Feedback:</b> ".$row['feedback']."</p>   
         ";

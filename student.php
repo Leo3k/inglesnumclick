@@ -68,7 +68,7 @@ echo "<h1>".strtoupper($_GET['id'])."</h1>";
           <a href='$a1.php'>&#9989;</a>&nbsp;
           <a href='$a2.php'>&#9989;</a>&nbsp;
           <a href='$a3.php'>&#9989;</a>&nbsp;
-          <a href='$a4.php'>&#9989;</a>
+          <a href='$a4'>&#9989;</a>
       </td>
       <td style='width:100px;margin:2px;margin-left:13px;' class='btn btn-success'>".$row['student']."</td>
       </tr>";
