@@ -62,7 +62,7 @@
       </details>
       <details class='detail'>
         <summary>main course <a class="myButton" type="submit" value="Ouvir" onclick="english(`main course`)"><img class="sound" src="https://img.icons8.com/fluency/48/000000/room-sound.png"/></a></summary>
-        <p><b>the main of the meal</b>
+        <p><b>the main part of the meal</b>
         <li><i>I had lasagna for my main course.</i></li></p>
       </details>
       <details class='detail'>
