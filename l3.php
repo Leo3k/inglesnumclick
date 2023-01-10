@@ -78,7 +78,7 @@
       </details>
   </div><br>
   <p style="text-align:left;"><b>Waiter:</b> <input type='text' size='2' class='blank' maxlength="12">! <input type='text' size='2' class='blank' maxlength="22">?<br>
-<b>Woman 1:</b> Well first, call you tell me please what is today's soup?<br>
+<b>Woman 1:</b> Well first, can you tell me please what is today's soup?<br>
 <b>Waiter:</b> It's bean soup. It's <input type='text' size='2' class='blank' maxlength="9">.<br>
 <b>Woman 1:</b> Okay, I'd like soup <input type='text' size='2' class='blank' maxlength="12"> and then could I have Veal Scallop <input type='text' size='2' class='blank' maxlength="18">?<br>
 <b>Waiter:</b> Is that with salad?<br>

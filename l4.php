@@ -79,7 +79,7 @@ span {
     <p><i>What does the word 'judgemental' mean?</i></p>
     <p><i>What do they mean by saying that the trees are fulfilling their destiny?</i></p>
     <p><i>Where do they put the old trees?</i></p>
-    <p><i>What happen to them when they are not sold?</i></p><br>
+    <p><i>What happens to them when they are not sold?</i></p><br>
   </div>
   <script>
   function checkAnswers() {

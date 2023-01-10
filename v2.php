@@ -72,6 +72,24 @@
     <button type='button' onclick='checkAnswers()' class="btn btn-primary">CHECK</button>
     <button style='display:none' id='ans' type='button' onclick='seeAnswers()' class="btn btn-danger">ANSWERS</button>
     <br><span id='spn'></span>
+    <br>
+    <p><b>Quiz 1</b></p>
+    <p><i>Select the correct alternatives to complete the quiz below.</i></p>
+    <div class="embed-responsive embed-responsive-1by1" id="sticky">
+        <iframe class="embed-responsive-item" src="https://take.quiz-maker.com/QU52VTO14"></iframe>
+    </div>
+    <br>
+    <p><b>Quiz 2</b></p>
+    <p><i>Select the correct alternatives to complete the quiz below.</i></p>
+    <div class="embed-responsive embed-responsive-1by1" id="sticky">
+        <iframe class="embed-responsive-item" src="https://take.quiz-maker.com/QHUQOIBEX"></iframe>
+    </div>
+    <br>
+    <p><b>Quiz 3</b></p>
+    <p><i>Select the correct alternatives to complete the quiz below.</i></p>
+    <div class="embed-responsive embed-responsive-1by1" id="sticky">
+        <iframe class="embed-responsive-item" src="https://take.quiz-maker.com/QV1VFWOMJ"></iframe>
+    </div>
 </div>
 <script>
   function checkAnswers() {
