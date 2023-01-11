@@ -44,7 +44,7 @@ switch ($skill) {
       <p>&#127909;&nbsp;Movie Scene:&nbsp;<a href='l1.php'>She Is Out Of My League</a> &#11088;&#11088;&#11088;&#11088;</p><br>
       <p>&#127909;&nbsp;Short Clip:&nbsp;<a href='l4.php'>Friends</a> &#11088;&#11088;&#11088;</p>";
     }
-    break;
+    break; //comment
   case "reading":
     if ($level == "BEGINNER") {
       echo "<p>&#128214;&nbsp;Reading 1&nbsp;<a href='r1.php'>Rooms and Furniture (WILL)</a> &#11088;&#11088;&#11088;</p>";
