@@ -47,7 +47,7 @@ switch ($skill) {
     break;
   case "reading":
     if ($level == "BEGINNER") {
-      echo "<p>&#127911;&nbsp;Reading 1&nbsp;<a href='r1.php'>Rooms and Furniture (WILL)</a> &#11088;&#11088;&#11088;</p>";
+      echo "<p>&#128214;&nbsp;Reading 1&nbsp;<a href='r1.php'>Rooms and Furniture (WILL)</a> &#11088;&#11088;&#11088;</p>";
     } else if (($level == "INTERMEDIATE")) {
       echo "<p>&#127758;&nbsp;Reading 1&nbsp;<a href='r2.php'>The Solar System</a> &#11088;&#11088;&#11088;&#11088;</p>";
     } else {
