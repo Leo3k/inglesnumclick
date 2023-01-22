@@ -45,7 +45,7 @@ if(isset($_POST["submit"])){
     $wa9 = mysqli_real_escape_string($conn, $_POST['wa9']);
     $wa10 = mysqli_real_escape_string($conn, $_POST['wa10']);
 
-    $query = "INSERT INTO `site`.`quizzes` (`title`, `instructions`, `q1`, `img1`, `ca1`, `wa1`, `q2`, `img2`, `ca2`, `wa2`, `q3`, `img3`, `ca3`, `wa3`, `q4`, `img4`, `ca4`, `wa4`, `q5`, `img5`, `ca5`, `wa5`, `q6`, `img6`, `ca6`, `wa6`, `q7`, `img7`, `ca7`, `wa7`, `q8`, `img8`, `ca8`, `wa8`, `q9`, `img9`, `ca9`, `wa9`, `q10`, `img10`, `ca10`, `wa10`) VALUES ('$title', '$instructions', '$q1', '$img1', '$ca1', '$wa1', '$q2', '$img2', '$ca2', '$wa2', '$q3', '$img3', '$ca3', '$wa3', '$q4', '$img4', '$ca4', '$wa4', '$q5', '$img5', '$ca5', '$wa5', '$q6', '$img6', '$ca6', '$wa6', '$q7', '$img7', '$ca7', '$wa7', '$q8', '$img8', '$ca8', '$wa8', '$q9', '$img9', '$ca9', '$wa9', '$q10', '$img10', '$ca10', '$wa10')";
+    $query = "INSERT INTO `quizzes` (`title`, `instructions`, `q1`, `img1`, `ca1`, `wa1`, `q2`, `img2`, `ca2`, `wa2`, `q3`, `img3`, `ca3`, `wa3`, `q4`, `img4`, `ca4`, `wa4`, `q5`, `img5`, `ca5`, `wa5`, `q6`, `img6`, `ca6`, `wa6`, `q7`, `img7`, `ca7`, `wa7`, `q8`, `img8`, `ca8`, `wa8`, `q9`, `img9`, `ca9`, `wa9`, `q10`, `img10`, `ca10`, `wa10`) VALUES ('$title', '$instructions', '$q1', '$img1', '$ca1', '$wa1', '$q2', '$img2', '$ca2', '$wa2', '$q3', '$img3', '$ca3', '$wa3', '$q4', '$img4', '$ca4', '$wa4', '$q5', '$img5', '$ca5', '$wa5', '$q6', '$img6', '$ca6', '$wa6', '$q7', '$img7', '$ca7', '$wa7', '$q8', '$img8', '$ca8', '$wa8', '$q9', '$img9', '$ca9', '$wa9', '$q10', '$img10', '$ca10', '$wa10')";
     mysqli_query($conn, $query);
     echo "<script> window.location.href = 'viewQuiz.php'; </script>";
 }
