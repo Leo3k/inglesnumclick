@@ -6,7 +6,7 @@ $username = strtoupper($_GET['p']);
 
 if(isset($_POST["submit"])){
     $id = $_POST["id"];
-    $feedback = $_POST["feedback"];
+    $feedback = mysqli_real_escape_string($conn, $_POST['feedback']);
 
 $query = "UPDATE `classes` SET `status` = 'finished', `feedback` = '$feedback' WHERE `classes`.`id` = '$id'";
 mysqli_query($conn, $query);
