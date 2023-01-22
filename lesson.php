@@ -94,19 +94,23 @@ require 'connection.php';
                 <td>".$row['ca4']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['ca4']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
                 <td>".$row['ca3']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['ca3']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
                 <td>".$row['ca1']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['ca1']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
-                <td>".$row['ca5']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['ca5']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
-                <td>".$row['ca2']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['ca2']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
                 </tr>
                 <tr>
+                <td>".$row['ca5']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['ca5']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
+                <td>".$row['ca2']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['ca2']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
                 <td>".$row['ca8']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['ca8']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
+                </tr>
+                <tr>
                 <td>".$row['ca6']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['ca6']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
                 <td>".$row['ca9']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['ca9']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
                 <td>".$row['ca7']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['ca7']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
-                <td>".$row['ca10']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['ca10']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
                 </tr>
                 <tr>
+                <td>".$row['ca10']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['ca10']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
                 <td>".$row['wa10']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['wa10']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
                 <td>".$row['wa9']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['wa9']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
+                </tr>
+                <tr>
                 <td>".$row['wa8']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['wa8']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
                 <td>".$row['wa7']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['wa7']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
                 <td>".$row['wa1']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['wa1']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
@@ -115,6 +119,8 @@ require 'connection.php';
                 <td>".$row['wa2']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['wa2']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
                 <td>".$row['wa3']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['wa3']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
                 <td>".$row['wa4']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['wa4']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
+                </tr>
+                <tr>
                 <td>".$row['wa5']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['wa5']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
                 <td>".$row['wa6']."<a class='myButton' type='submit' value='Ouvir' onclick='english(`".$row['wa6']."`)'><img class='sound' src='https://img.icons8.com/fluency/48/000000/room-sound.png'/></a></td>
                 </tr>
