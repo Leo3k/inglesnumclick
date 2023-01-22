@@ -99,8 +99,16 @@ form div:hover{
                 <input name='title' type="text" class="form-control">
             </div>
             <div class="form-group">
-                <label>MAIN IMAGE</label>
-                <input name='mainimg' type="text" class="form-control">
+                <label>MAIN IMAGE 1</label>
+                <input name='mainimg1' type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>MAIN IMAGE 2</label>
+                <input name='mainimg2' type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>MAIN IMAGE 3</label>
+                <input name='mainimg3' type="text" class="form-control">
             </div>
             <div class="form-group">
                 <label>INSTRUCTIONS</label>
