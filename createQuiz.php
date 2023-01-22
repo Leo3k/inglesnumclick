@@ -14,7 +14,9 @@ if(isset($_POST["submit"])){
     $q8 = mysqli_real_escape_string($conn, $_POST['q8']);
     $q9 = mysqli_real_escape_string($conn, $_POST['q9']);
     $q10 = mysqli_real_escape_string($conn, $_POST['q10']);
-    $mainimg = $_POST["mainimg"];
+    $mainimg1 = $_POST["mainimg1"];
+    $mainimg2 = $_POST["mainimg2"];
+    $mainimg3 = $_POST["mainimg3"];
     $img1 = $_POST["img1"];
     $img2 = $_POST["img2"];
     $img3 = $_POST["img3"];
@@ -46,7 +48,7 @@ if(isset($_POST["submit"])){
     $wa9 = mysqli_real_escape_string($conn, $_POST['wa9']);
     $wa10 = mysqli_real_escape_string($conn, $_POST['wa10']);
 
-    $query = "INSERT INTO `quizzes` (`title`, `mainimg`, `instructions`, `q1`, `img1`, `ca1`, `wa1`, `q2`, `img2`, `ca2`, `wa2`, `q3`, `img3`, `ca3`, `wa3`, `q4`, `img4`, `ca4`, `wa4`, `q5`, `img5`, `ca5`, `wa5`, `q6`, `img6`, `ca6`, `wa6`, `q7`, `img7`, `ca7`, `wa7`, `q8`, `img8`, `ca8`, `wa8`, `q9`, `img9`, `ca9`, `wa9`, `q10`, `img10`, `ca10`, `wa10`) VALUES ('$title', '$mainimg', '$instructions', '$q1', '$img1', '$ca1', '$wa1', '$q2', '$img2', '$ca2', '$wa2', '$q3', '$img3', '$ca3', '$wa3', '$q4', '$img4', '$ca4', '$wa4', '$q5', '$img5', '$ca5', '$wa5', '$q6', '$img6', '$ca6', '$wa6', '$q7', '$img7', '$ca7', '$wa7', '$q8', '$img8', '$ca8', '$wa8', '$q9', '$img9', '$ca9', '$wa9', '$q10', '$img10', '$ca10', '$wa10')";
+    $query = "INSERT INTO `quizzes` (`title`, `mainimg1`, `mainimg2`, `mainimg3`, `instructions`, `q1`, `img1`, `ca1`, `wa1`, `q2`, `img2`, `ca2`, `wa2`, `q3`, `img3`, `ca3`, `wa3`, `q4`, `img4`, `ca4`, `wa4`, `q5`, `img5`, `ca5`, `wa5`, `q6`, `img6`, `ca6`, `wa6`, `q7`, `img7`, `ca7`, `wa7`, `q8`, `img8`, `ca8`, `wa8`, `q9`, `img9`, `ca9`, `wa9`, `q10`, `img10`, `ca10`, `wa10`) VALUES ('$title', '$mainimg1', '$mainimg2', '$mainimg3', '$instructions', '$q1', '$img1', '$ca1', '$wa1', '$q2', '$img2', '$ca2', '$wa2', '$q3', '$img3', '$ca3', '$wa3', '$q4', '$img4', '$ca4', '$wa4', '$q5', '$img5', '$ca5', '$wa5', '$q6', '$img6', '$ca6', '$wa6', '$q7', '$img7', '$ca7', '$wa7', '$q8', '$img8', '$ca8', '$wa8', '$q9', '$img9', '$ca9', '$wa9', '$q10', '$img10', '$ca10', '$wa10')";
     mysqli_query($conn, $query);
     echo "<script> window.location.href = 'viewQuiz.php'; </script>";
 }
@@ -97,7 +99,7 @@ form div:hover{
                 <input name='title' type="text" class="form-control">
             </div>
             <div class="form-group">
-                <label>TITLE</label>
+                <label>MAIN IMAGE</label>
                 <input name='mainimg' type="text" class="form-control">
             </div>
             <div class="form-group">

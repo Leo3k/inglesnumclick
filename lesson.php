@@ -69,11 +69,25 @@ require 'connection.php';
             echo "
             <img
                     id='picture'
-                    src='imgs/quiz/".$row['mainimg'].".png' 
+                    src='imgs/quiz/".$row['mainimg1'].".png' 
                     draggable='false'
                     height='280'
                     style='margin:5px'
-                /> <!-- insert via database -->
+                /> 
+            <img
+                    id='picture'
+                    src='imgs/quiz/".$row['mainimg2'].".png' 
+                    draggable='false'
+                    height='280'
+                    style='margin:5px'
+                />
+            <img
+                    id='picture'
+                    src='imgs/quiz/".$row['mainimg3'].".png' 
+                    draggable='false'
+                    height='280'
+                    style='margin:5px'
+            />
             <table class='table table-light table-hover'>
             <tbody>
                 <tr>
@@ -259,7 +273,7 @@ require 'connection.php';
 </div>
 <script>
     function english(msg){
-     responsiveVoice.speak(msg, `US English Female` , {rate:1.0, volume: 1, pitch:0.9});
+     responsiveVoice.speak(msg, `US English Female` , {rate:0.8, volume: 1, pitch:0.9});
 }
     let score = 0;
     let question = 1;
