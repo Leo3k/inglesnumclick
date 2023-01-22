@@ -97,8 +97,8 @@ echo "<h1>".strtoupper($_GET['id'])."</h1>";
       <a href='plan.php?id=$username' class='btn btn-primary'>PLAN CLASS</a>
       <a href='feedback.php?p=$username' class='btn btn-primary'>FEEDBACK</a>
       <a href='delete.php?id=$username' class='btn btn-danger'>DELETE CLASS</a><br>
-      <a href='viewQUIZ.php' class='btn btn-info'>VIEW QUIZ</a>
-      <a href='createQUIZ.php' class='btn btn-success'>CREATE QUIZ</a>
+      <a href='viewQuiz.php' class='btn btn-info'>VIEW QUIZ</a>
+      <a href='createQuiz.php' class='btn btn-success'>CREATE QUIZ</a>
       "; 
     } 
   ?> <br><br>
