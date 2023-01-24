@@ -67,7 +67,7 @@ echo "<h1>".strtoupper($_GET['id'])."</h1>";
       <td>
           <a href='$a1'>&#9989; Lesson</a>
       </td>
-      <td style='width:120px;margin:auto;' class='btn btn-success'>".$row['student']."</td>
+      <td><button class='btn btn-success'>".$row['student']."</button></td>
       </tr>";
     }
      else {
@@ -77,7 +77,7 @@ echo "<h1>".strtoupper($_GET['id'])."</h1>";
         <td>
             <a href='$a1'>&#9989; Lesson</a>
         </td>
-        <td style='width:120px;margin:auto;' class='btn btn-success'>".$row['teacher']."</td>
+        <td><button class='btn btn-success'>".$row['teacher']."</button></td>
         </tr>";
     }
   }
