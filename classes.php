@@ -19,9 +19,6 @@ if(isset($_GET["id"])){
         <p class='card-text'><b>Student's name:</b> ".$row['student']."</p>
         <p class='card-text'><b>Teacher's name:</b> ".$row['teacher']."</p>
         <p class='card-text'><b>Activity 1:</b> <a href='".$row['activity1']."'>".$row['activity1']."</a></p>
-        <p class='card-text'><b>Activity 2:</b> <a href='".$row['activity2']."'>".$row['activity2']."</a></p>
-        <p class='card-text'><b>Activity 3:</b> <a href='".$row['activity3']."'>".$row['activity3']."</a></p>
-        <p class='card-text'><b>Activity 4:</b> <a href='".$row['activity4']."'>"."Slides"."</a></p>
         <p class='card-text'><b>Status:</b> ".$row['status']."</p>
         <p class='card-text'><b>Feedback:</b> ".$row['feedback']."</p>   
         ";
