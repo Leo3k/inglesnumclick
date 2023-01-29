@@ -66,7 +66,10 @@ switch ($skill) {
   case "vocabulary":
     if ($level == "BEGINNER") {
       echo "<p>&#128552;&nbsp;Vocab 1:&nbsp;<a href='v1.php'>Feelings & Emotions</a> &#11088;</p>
-      <br><p>&#128197;&nbsp;Vocab 2:&nbsp;<a href='v3.php'>Days of The Week</a> &#11088;</p>";
+      <br><p>&#128197;&nbsp;Vocab 2:&nbsp;<a href='v3.php'>Days of The Week</a> &#11088;</p>
+      <br><p>&#129409;&nbsp;Vocab 3:&nbsp;<a href='lesson.php?id=7'>Animals 1</a> &#11088;</p>
+      <br><p>&#128047;&nbsp;Vocab 4:&nbsp;<a href='lesson.php?id=8'>Animals 2</a> &#11088;</p>
+      ";
     } else if (($level == "INTERMEDIATE")) {
       echo "<p>&#128188;&nbsp;Vocab 1:&nbsp;<a href='v2.php'>Occupations</a> &#11088;&#11088;</p>";
     } else {
