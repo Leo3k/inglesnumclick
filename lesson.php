@@ -81,13 +81,6 @@ require 'connection.php';
                     height='280'
                     style='margin:5px'
                 />
-            <img
-                    id='picture'
-                    src='imgs/quiz/".$row['mainimg3'].".png' 
-                    draggable='false'
-                    height='280'
-                    style='margin:5px'
-            />
             <table class='table table-light table-hover'>
             <tbody>
                 <tr>
