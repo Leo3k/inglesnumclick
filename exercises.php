@@ -38,7 +38,8 @@ switch ($skill) {
     if ($level == "BEGINNER") {
       echo "<p>&#127911;&nbsp;Listening 1&nbsp;<a href='l2.php'>This, That, These, and Those</a> &#11088;&#11088;</p>";
     } else if (($level == "INTERMEDIATE")) {
-      echo "<p>&#127911;&nbsp;Listening 1:&nbsp;<a href='l3.php'>Restaurant</a> &#11088;&#11088;&#11088;</p>";
+      echo "<p>&#127911;&nbsp;Listening 1:&nbsp;<a href='l3.php'>Restaurant</a> &#11088;&#11088;&#11088;</p>
+      <br><p>&#127911;&nbsp;Listening 2:&nbsp;<a href='l5.php'>Caught In Providence</a> &#11088;&#11088;&#11088;&#11088;</p>";
     } else {
       echo "
       <p>&#127909;&nbsp;Movie Scene:&nbsp;<a href='l1.php'>She Is Out Of My League</a> &#11088;&#11088;&#11088;&#11088;</p><br>
