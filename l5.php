@@ -46,7 +46,7 @@ div#sticky {
 <b>Judge:</b> Alright, tell me about this little <input type='text' size='2' class='blank' maxlength="3">
 . What's his <input type='text' size='2' class='blank' maxlength="4">
 ?<br>
-<b>Mom:</b> This little guy is d..  You wanna tell him your name?<br>
+<b>Mom:</b> This little guy is d..  You wanna tell them your name?<br>
 <b>Boy:</b> Okay.<br>
 <b>Mom:</b> 'Cause he's <input type='text' size='2' class='blank' maxlength="5">
  to talk.<br>
@@ -67,11 +67,11 @@ div#sticky {
 <b>Judge:</b> Good? You wanna help <input type='text' size='2' class='blank' maxlength="2">
  out?<br>
 <b>Boy:</b> *nods*<br>
-<b>Judge:</b> Your mother is changed with <input type='text' size='2' class='blank' maxlength="7">
+<b>Judge:</b> Your mother is charged with <input type='text' size='2' class='blank' maxlength="7">
  at a meter that <input type='text' size='2' class='blank' maxlength="7">
 . 
 Do you understand that?<br>
-<b>Boy:</b> *nods*
+<b>Boy:</b> *nods*<br>
 <b>Judge:</b> Okay. Is she guilty or not guilty?<br>
 <b>Boy:</b> Not guilty.<br>
 <b>Judge:</b> Not guilty? This <input type='text' size='2' class='blank' maxlength="3">
