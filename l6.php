@@ -92,7 +92,7 @@ I like you, Martha. I like like you. Like I am fully into you.<br>
 
 <b>Martha:</b> I know. I have never. Like I have never kissed anyone.<br>
 
-<b>Spencer:</b> you have n…?<br>
+<b>Spencer:</b> You have n…?<br>
 
 <b>Martha:</b> Never. That was the <input type='text' size='2' class='blank' maxlength="5"> time.<br>
 
@@ -108,8 +108,7 @@ I like you, Martha. I like like you. Like I am fully into you.<br>
 
 <b>Fridge:</b> Oh <input type='text' size='2' class='blank' maxlength="4"> on. Hey, I don't want to <input type='text' size='2' class='blank' maxlength="3"> that. I don't. Not <input type='text' size='2' class='blank' maxlength="5">. While you are <input type='text' size='2' class='blank' maxlength="4"> here professing your <input type='text' size='2' class='blank' maxlength="4"> for one another, I <input type='text' size='2' class='blank' maxlength="5"> the jaguar. Let's <input type='text' size='2' class='blank' maxlength="2">! God!<br>
 
-<br>
-<br><br><button type='button' onclick='checkAnswers()' class="btn btn-primary">CHECK</button>
+<br><button type='button' onclick='checkAnswers()' class="btn btn-primary">CHECK</button>
 
 </p>
   </div>
