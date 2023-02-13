@@ -358,7 +358,7 @@ I like you, Martha. I like like you. Like I am fully into you.<br>
     Swal.fire({
       title: "SCORE",
       icon: 'success',
-      text: "You got " + point + " out of 31 points.",
+      text: "You got " + point + " out of 30 points.",
       type: "error",
       confirmButtonText: "OK" 
     })
