@@ -80,7 +80,7 @@ div#sticky {
 
 <b>Sheldon:</b> William Shatner.<br>
 
-b>Leonard:</b> I don't think it's Shatner.<br>
+<b>Leonard:</b> I don't think it's Shatner.<br>
 
 <b>Sheldon:</b> Then it's gotta be Patrick Stewart.<br>
 
