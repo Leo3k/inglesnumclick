@@ -44,7 +44,8 @@ switch ($skill) {
     } else {
       echo "
       <p>&#127909;&nbsp;Movie Scene:&nbsp;<a href='l1.php'>She Is Out Of My League</a> &#11088;&#11088;&#11088;&#11088;</p><br>
-      <p>&#127909;&nbsp;Short Clip:&nbsp;<a href='l4.php'>Friends</a> &#11088;&#11088;&#11088;</p>";
+      <p>&#127909;&nbsp;Short Clip:&nbsp;<a href='l4.php'>Friends</a> &#11088;&#11088;&#11088;</p>
+      <p>&#127909;&nbsp;Short Clip 2:&nbsp;<a href='l7.php'>The Big Bang Theory</a> &#11088;&#11088;</p>";
     }
     break; //comment
   case "reading":

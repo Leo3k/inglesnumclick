@@ -49,7 +49,7 @@ div#sticky {
 
 <b>Martha:</b> What are you doing?<br>
 
-<b>Spencer:</b> I am just filling these up.<br>
+<b>Spencer:</b> I was just filling these up.<br>
 
 <b>Martha:</b> <input type='text' size='2' class='blank' maxlength="4">
 .<br>
