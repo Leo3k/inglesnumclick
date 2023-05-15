@@ -31,60 +31,60 @@ div#sticky {
   <div class="card-header">
   <figure class="text-center mt-3">
     <blockquote class="blockquote">
-        <h4 style="color:BLACK">THE BIG BANG THEORY<h4>
+        <h4 style="color:BLACK">MY WIFE AND KIDS<h4>
     </blockquote>
     <figcaption style="color:black" class="blockquote-footer">
-        Watch the video and fill in the blanks.<br><cite><b>l7</b></cite>
+        Watch the video and fill in the blanks.<br><cite><b>l8</b></cite>
     </figcaption> 
     </figure>
   </div>
   <div class="card-body">
   <div class="embed-responsive embed-responsive-16by9" id="sticky"> <!-- Download videos or record screen-->
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8eD-DcdjRi4"></iframe>
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EYrUMmyFNqU"></iframe>
   </div><br>
 <p style='text-align:left'>
 
-<b>Jay:</b> This feels so wrong!<br>
-<b>Michael:</b> I know, but it was great, wasn't it?<br>
-<b>Jay:</b> Oh, yeah baby. I had a <input type='text' size='2' class='blank' maxlength="8"> time tonight.<br>
-<b>Michael:</b> All three of us did.<br>
-<b>Jay:</b> Three?<br>
-<b>Michael:</b> Yeah. You, me and the cop that made us leave. <br>
-<b>Jay:</b> Wait, I know why you did this.<br>
-<b>Michael:</b> Why's that?<br>
-<b>Jay:</b> To take my mind off the what-ifs.<br>
-<b>Michael:</b> Yes, you <input type='text' size='2' class='blank' maxlength="4"> a bad <input type='text' size='2' class='blank' maxlength="4"> of the what-ifs.<br>
-<b>Jay:</b> I know. I can't help it, I am a <input type='text' size='2' class='blank' maxlength="5">. Anyway, <input type='text' size='2' class='blank' maxlength="5"> you! <br>
-<b>Michael:</b> It was my pleasure … <input type='text' size='2' class='blank' maxlength="4"> times. <br>
-<b>Jay:</b> Hahaha. Come on. Let's try to sneak into this <input type='text' size='2' class='blank' maxlength="5"> without waking anybody up. <br>
-<b>Michael:</b> Shhh … quiet. I don't wanna get caught and then get punished<br>
-<b>Jay:</b> I'll punish you, all right?<br>
-<b>Michael:</b> Oh yeah, you <input type='text' size='2' class='blank' maxlength="7">? <br>
-<b>Jay:</b> Oh yeah. <br>
-<b>Michael:</b> You'll be the school teacher, and I'll be the bad ‘widdle' <input type='text' size='2' class='blank' maxlength="3">. <br>
-<b>Jay:</b> Hihihi. <br>
-<b>Michael:</b> Hey! Why is the <input type='text' size='2' class='blank' maxlength="7"> light on? … Hey, what are you two guys doing up?<br>
-<b>Jay:</b> Yeah, what are you doing here? It's five o'clock in the <input type='text' size='2' class='blank' maxlength="7">. <br>
-<b>Junior:</b> We were too wide to <input type='text' size='2' class='blank' maxlength="5">, with the <input type='text' size='2' class='blank' maxlength="10">, talking about the trip to Japan and a bunch of other stuff.<br>
-<b>Vanessa:</b> So, here we are.<br>
-<b>Michael:</b> Look, I know Junior's told you about his graduation present, and I want to give you my <input type='text' size='2' class='blank' maxlength="7">. I think that if he turns down this trip to Japan, he's making a great <input type='text' size='2' class='blank' maxlength="7">.<br>
-<b>Jay:</b> I do too. I think it's an <input type='text' size='2' class='blank' maxlength="11"> of a lifetime, Vanessa.<br>
-<b>Michael:</b> That's right! And you know what? A little separation is <input type='text' size='2' class='blank' maxlength="7"> for a relationship.<br>
-<b>Jay:</b> That's right! <br>
-<b>Michael:</b> You know? It's good to get away.<br>
-<b>Jay:</b> Right! <br>
-<b>Michael:</b> That's why I have a job. So I don't have to be around her all the time.<br>
-<b>Jay:</b> All right! <br>
-<b>Michael:</b> Sometimes, she gets on my nerves, I'd rather be in books, in traffic…<br>
-<b>Jay:</b> All right! All right! ALL RIGHT! <br>
-<b>Michael:</b> I mean, what I am saying is if you wanna have a great homecoming, you got to leave <input type='text' size='2' class='blank' maxlength="4"> sometimes. <br>
-<b>Jay:</b> Absence does make the heart grow fonder. <br>
-<b>Michael:</b> Yeah. And the more you could be away, the better…<br>
-<b>Jay:</b> ALL… <br>
-<b>Junior:</b> Look, mom, dad… we've been sitting here and talking for a couple of <input type='text' size='2' class='blank' maxlength="5"> and I don't think I am gonna go to <input type='text' size='2' class='blank' maxlength="5">.<br>
-<b>Jay:</b> You know what? That makes us very <input type='text' size='2' class='blank' maxlength="3">, Junior. This is very disappointing. <br>
-<b>Michael:</b> Look. Okay. Can you at least give us an explanation why? <br>
-<b>Junior:</b> She's <input type='text' size='2' class='blank' maxlength="8">.<br>
+<b>Jay:</b> This feels so wrong!<br><br>
+<b>Michael:</b> I know, but it was great, wasn't it?<br><br>
+<b>Jay:</b> Oh, yeah baby. I had a <input type='text' size='2' class='blank' maxlength="8"> time tonight.<br><br>
+<b>Michael:</b> All three of us did.<br><br>
+<b>Jay:</b> Three?<br><br>
+<b>Michael:</b> Yeah. You, me and the cop that made us leave. <br><br>
+<b>Jay:</b> Wait, I know why you did this.<br><br>
+<b>Michael:</b> Why's that?<br><br>
+<b>Jay:</b> To take my mind off the what-ifs.<br><br>
+<b>Michael:</b> Yes, you <input type='text' size='2' class='blank' maxlength="4"> a bad <input type='text' size='2' class='blank' maxlength="4"> of the what-ifs.<br><br>
+<b>Jay:</b> I know. I can't help it, I am a <input type='text' size='2' class='blank' maxlength="6">. Anyway, <input type='text' size='2' class='blank' maxlength="5"> you! <br><br>
+<b>Michael:</b> It was my pleasure … <input type='text' size='2' class='blank' maxlength="4"> times. <br><br>
+<b>Jay:</b> Hahaha. Come on. Let's try to sneak into this <input type='text' size='2' class='blank' maxlength="5"> without waking anybody up. <br><br>
+<b>Michael:</b> Shhh … quiet. I don't wanna get caught and then get punished<br><br>
+<b>Jay:</b> I'll punish you, all right?<br><br>
+<b>Michael:</b> Oh yeah, you <input type='text' size='2' class='blank' maxlength="7">? <br><br>
+<b>Jay:</b> Oh yeah. <br><br>
+<b>Michael:</b> You'll be the school teacher, and I'll be the bad 'widdle' <input type='text' size='2' class='blank' maxlength="3">. <br><br>
+<b>Jay:</b> Hihihi. <br><br>
+<b>Michael:</b> Hey! Why is the <input type='text' size='2' class='blank' maxlength="7"> light on? … Hey, what are you two guys doing up?<br><br>
+<b>Jay:</b> Yeah, what are you doing here? It's five o'clock in the <input type='text' size='2' class='blank' maxlength="7">. <br><br>
+<b>Junior:</b> We were too wide to <input type='text' size='2' class='blank' maxlength="5">, with the <input type='text' size='2' class='blank' maxlength="10">, talking about the trip to Japan and a bunch of other stuff.<br><br>
+<b>Vanessa:</b> So, here we are.<br><br>
+<b>Michael:</b> Look, I know Junior's told you about his graduation present, and I want to give you my <input type='text' size='2' class='blank' maxlength="7">. I think that if he turns down this trip to Japan, he's making a great <input type='text' size='2' class='blank' maxlength="7">.<br><br>
+<b>Jay:</b> I do too. I think it's an <input type='text' size='2' class='blank' maxlength="11"> of a lifetime, Vanessa.<br><br>
+<b>Michael:</b> That's right! And you know what? A little separation is <input type='text' size='2' class='blank' maxlength="7"> for a relationship.<br><br>
+<b>Jay:</b> That's right! <br><br>
+<b>Michael:</b> You know? It's good to get away.<br><br>
+<b>Jay:</b> Right! <br><br>
+<b>Michael:</b> That's why I have a job. So I don't have to be around her all the time.<br><br>
+<b>Jay:</b> All right! <br><br>
+<b>Michael:</b> Sometimes, she gets on my nerves, I'd rather be in books, in traffic…<br><br>
+<b>Jay:</b> All right! All right! ALL RIGHT! <br><br>
+<b>Michael:</b> I mean, what I am saying is if you wanna have a great homecoming, you got to leave <input type='text' size='2' class='blank' maxlength="4"> sometimes. <br><br>
+<b>Jay:</b> Absence does make the heart grow fonder. <br><br>
+<b>Michael:</b> Yeah. And the more you could be away, the better…<br><br>
+<b>Jay:</b> ALL… <br><br>
+<b>Junior:</b> Look, mom, dad… we've been sitting here and talking for a couple of <input type='text' size='2' class='blank' maxlength="5"> and I don't think I am gonna go to <input type='text' size='2' class='blank' maxlength="5">.<br><br>
+<b>Jay:</b> You know what? That makes us very <input type='text' size='2' class='blank' maxlength="3">, Junior. This is very disappointing. <br><br>
+<b>Michael:</b> Look. Okay. Can you at least give us an explanation why? <br><br>
+<b>Junior:</b> She's <input type='text' size='2' class='blank' maxlength="8">.<br><br>
 
 <br><button type='button' onclick='checkAnswers()' class="btn btn-primary">CHECK</button>
 
