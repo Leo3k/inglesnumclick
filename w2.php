@@ -34,21 +34,21 @@ span {
     </figure>
   </div>
   <div class="card-body" style='text-align:left;padding-left:10px;'>
-    person (man/woman/girl...): <input type='text'><br><br>
-    adjective used to descibe a place: <input type='text'><br><br>
-    place (house/apartment...): <input type='text'><br><br>
-    food: <input type='text'><br><br>
-    body part: <input type='text'><br><br>
-    kitchen utensil: <input type='text'><br><br>
-    adjective used to describe a cut/wound: <input type='text'><br><br>
-    health care professional (doctor, nurse, vet...): <input type='text'><br><br>
-    adverb used to describe how someone works: <input type='text'><br><br>
-    adjective used to describe a person's behavior: <input type='text'><br><br>
-    adjective used to describe your personal hygiene: <input type='text'><br><br>
-    object we use for protection: <input type='text'><br><br>
-    number: <input type='text'><br><br>
-    adjective used to describe an athlete <input type='text'><br><br>
-    adjective used to describe how someone feels <input type='text'><br><br>
+    person (man/woman/girl...): <input type='text' size='2'><br><br>
+    adjective used to descibe a place: <input type='text' size='2'><br><br>
+    place (house/apartment...): <input type='text' size='2'><br><br>
+    food: <input type='text' size='2'><br><br>
+    body part: <input type='text' size='2'><br><br>
+    kitchen utensil: <input type='text' size='2'><br><br>
+    adjective used to describe a cut/wound: <input type='text' size='2'><br><br>
+    health care professional (doctor, nurse, vet...): <input type='text' size='2'><br><br>
+    adverb used to describe how someone works: <input type='text' size='2'><br><br>
+    adjective used to describe a person's behavior: <input type='text' size='2'><br><br>
+    adjective used to describe your personal hygiene: <input type='text' size='2'><br><br>
+    object we use for protection: <input type='text' size='2'><br><br>
+    number: <input type='text' size='2'><br><br>
+    adjective used to describe an athlete <input type='text' size='2'><br><br>
+    adjective used to describe how someone feels <input type='text' size='2'><br><br>
 
     <button onclick='reveal()'>Reveal</button><br>
 <br><br>
