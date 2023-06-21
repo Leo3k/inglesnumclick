@@ -26,14 +26,14 @@ span {
   <div class="card-header">
   <figure class="text-center mt-3">
     <blockquote class="blockquote">
-        <h4 style="color:BLACK">MAD LIB</p>
+        <h4 style="color:BLACK">MAD LIBS</p>
     </blockquote>
     <figcaption style="color:black" class="blockquote-footer">
         Fill in the blanks below.<br><cite><b>w2</b></cite>
     </figcaption> 
     </figure>
   </div>
-  <div class="card-body">
+  <div class="card-body" style='text-align:left;padding-left:10px;'>
     person (man/woman/girl...): <input type='text'><br><br>
     adjective used to descibe a place: <input type='text'><br><br>
     place (house/apartment...): <input type='text'><br><br>
@@ -51,7 +51,7 @@ span {
     adjective used to describe how someone feels <input type='text'><br><br>
 
     <button onclick='reveal()'>Reveal</button><br>
-
+<br><br>
 <p id='p234'></p>
 </div>
 <script>

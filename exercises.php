@@ -62,7 +62,8 @@ switch ($skill) {
     if ($level == "BEGINNER") {
       
     } else if (($level == "INTERMEDIATE")) {
-      echo "<p>&#x270d;&nbsp;Writing 1:&nbsp;<a href='w1.php'>There is - There are</a> &#11088;&#11088;&#11088;</p>";
+      echo "<p>&#x270d;&nbsp;Writing 1:&nbsp;<a href='w1.php'>There is - There are</a> &#11088;&#11088;&#11088;</p>
+      <p>&#x270d;&nbsp;Writing 2:&nbsp;<a href='w2.php'>MAD LIBS</a> &#11088;&#11088;&#11088;</p>";
     } else {
       
     }
